@@ -1,0 +1,47 @@
+Type,ID's,English,Polish
+Location,460000,Seaside Arena,Arena Nad Wybrzerzem
+Location,460100,Forgotten Colosseum,Zapomniane koloseum
+Location,460200,Observatory,Obserwatorium
+Location,460300,Dueling Square,Plac Pojedynków
+Location,460400,Snowy Outpost,Zaśnieżony Posterunek
+Location,460500,Crumbling Island,Rozpadająca się wyspa
+Location,460600,Crystal Lake,Kryształowa Rzeka
+Location,460700,Eternal City Courtyard,Dziedziniec Wiecznego Miasta
+Location,460800,Forest Ruins,Ruiny  w lesie
+Location,460900,Grand Library,Biblioteka
+Location,470000,Seaside Arena (2v2),Arena nad wybrzeżem (2v2)
+Location,470100,Lava Bridge (2v2),Pomost nad lawą (2v2)
+Location,470200,Observatory (2v2),Obserwatorium (2v2)
+Location,470300,Dueling Square (2v2),Plac Pojedynków (2v2)
+Location,470400,Snowy Outpost (2v2),Zaśnieżony Posterunek (2v2)
+Location,470500,Crumbling Island (2v2),Rozpadająca się wyspa (2v2)
+Location,470600,Crystal Lake (2v2),Kryształowa Rzeka (2v2)
+Location,470700,Eternal City Courtyard (2v2),Dziedziniec Wiecznego Miasta (2v2)
+Location,470800,Forest Ruins (2v2),Ruiny  w lesie (2v2)
+Location,470900,Grand Library (2v2),Biblioteka (2v2)
+Location,471000,Forgotten Colosseum (2v2),Zapomniane koloseum (2v2)
+Goods Name,4600000,Braid of Marika,Warkocz Mariki
+Goods Info,4600000,"Revives on death, fully restores character",Odradza w momencie śmierci
+Goods Description,4600000,"Item for online duelist play. Enchanted by incantations of the Golden Order Fundamentalists. Used to bring back a duelist from the brink of death upon their defeat, and restore them to their natural state.
+On death, fully heals HP, FP, restores poise, removes all ailments and dispels all special effects.","Przedmiot do gry online. Zaczarowany przez Fundamentalistów z grupy Złotego Porządku.
+Używany przez pojedynkujących się zawodników by tuż przed śmiercią
+przywrócić pokonanego do stanu pełnego zdrowia "
+Goods Name,4600100,Regressive Grease,Smar Regresyjny
+Goods Info,4600100,Fully restores character,Natychmiastowo uzdrawia postać
+Goods Description,4600100,"Item for online duelist play. Enchanted by incantations of the Golden Order Fundamentalists. Used to quickly restore duelists to their natural state before a battle. Fully heals HP, FP, restores poise, removes all ailments and dispels all special effects.","Przedmiot do gry online. Zaczarowany przez Fundamentalistów z grupy Złotego Porządku.
+Używany przez pojedynkujących się zawodników by przygotować swoje ciała do walki
+tuż przed pojedynkiem"
+Goods Name,4600200,O'Jar of Plenty,Słoik obfitości
+Goods Info,4600200,Grants an infinite supply of any currently held good,"Sprawia, że Twoje zapasy nigdy się nie skończą"
+Goods Description,4600200,Item for online duelist play. Used to store and retain an infinite supply of goods. Any items used will retain their current quantity. A peculiar bottomless jar. Its origins are unknown. Some deride it as a symbol of unbridled avarice.,"Przedmiot do gry online. Używany do odblokowania nieskończonej ilości zasobów.
+Specyficzny słój bez dna. Jego pochodzenie jest nieznane.
+Niektórzy mawiają, że jest to symbol niepohamowanej ludzkiem chciwości"
+Menu Text,469900,DEN Maps,Mapy DEN
+Menu Text,479900,DEN 2v2 Maps,Mapy DEN 2v2
+ActionButtonText,90010,Fire starting arrow,Wystrzel znak startu
+ActionButtonText,90011,Warp to starting location,Teleportuj do lokacji początkowej
+??,??,Begin 2v2 Match,Rozpocznij mecz 2v2
+??,??,Time Remaining,Pozostały Czas
+??,??,Blue Team Wins,Drużyna Niebieska Zwycięża
+??,??,Red Team Wins,Drużyna Czerwona Zwycięża
+EventTextForMap,470000,30 seconds remaining,

@@ -1,0 +1,42 @@
+Type,ID's,English,French
+Location,460000,Seaside Arena,Arène du Bord de Mer
+Location,460100,Forgotten Colosseum,Colisée Perdu
+Location,460200,Observatory,Observatoire
+Location,460300,Dueling Square,Carré de Duel
+Location,460400,Snowy Outpost,Avant-Poste Enneigé
+Location,460500,Crumbling Island,Île Croulante
+Location,460600,Crystal Lake,Lac Cristallin
+Location,460700,Eternal City Courtyard,Cour de la Cité Eternelle
+Location,460800,Forest Ruins,Ruines Forestières
+Location,460900,Grand Library,Grande Bibliothèque
+Location,470000,Seaside Arena (2v2),Arène du Bord de Mer
+Location,470100,Lava Bridge (2v2),Pont de Lave (2c2)
+Location,470200,Observatory (2v2),Observatoire (2c2)
+Location,470300,Dueling Square (2v2),Carré de Duel (2c2)
+Location,470400,Snowy Outpost (2v2),Avant-poste Enneigé (2c2)
+Location,470500,Crumbling Island (2v2),Île Croulante (2c2)
+Location,470600,Crystal Lake (2v2),Lac Cristallin (2c2)
+Location,470700,Eternal City Courtyard (2v2),Cour de la Cité Eternelle (2c2)
+Location,470800,Forest Ruins (2v2),Ruines Forestières (2c2)
+Location,470900,Grand Library (2v2),Grande Bibliothèque (2c2)
+Location,471000,Forgotten Colosseum (2v2),Colisée Perdu (2c2)
+Goods Name,4600000,Braid of Marika,Ruban de Marika
+Goods Info,4600000,"Revives on death, fully restores character","Ressuscite après la mort, restaure le personnage totalement"
+Goods Description,4600000,"Item for online duelist play. Enchanted by incantations of the Golden Order Fundamentalists. Used to bring back a duelist from the brink of death upon their defeat, and restore them to their natural state.
+On death, fully heals HP, FP, restores poise, removes all ailments and dispels all special effects.","Objet destiné à la pratique du jeu en ligne pour le duel. Enchanté par les incantations des Fondamentalistes de l'Ordre Doré. Utilisé dans le but de ramener à la vie un duelliste déchu, en le rétablissant entièrement. Sur le point de mourir, soigne complètement les PV, les MP, restaure l'équilibre, retire toute affliction et dissipe tout effet indésirable."
+Goods Name,4600100,Regressive Grease,Graisse Régressive
+Goods Info,4600100,Fully restores character,Restaure totalement le personnage
+Goods Description,4600100,"Item for online duelist play. Enchanted by incantations of the Golden Order Fundamentalists. Used to quickly restore duelists to their natural state before a battle. Fully heals HP, FP, restores poise, removes all ailments and dispels all special effects.","Objet destiné à la pratique du jeu en ligne pour le duel. Enchanté par les incantations des Fondamentalistes de l'Ordre Doré. Utilisé dans le but de restaurer entièrement le duelliste avant la bataille. Soigne complètement les PV, les MP, restaure l'équilibre, retire toute affliction et dissipe tout effet indésirable."
+Goods Name,4600200,O'Jar of Plenty,Pot d'Abondance
+Goods Info,4600200,Grants an infinite supply of any currently held good,Confère un stock illimité de tout objet possédé
+Goods Description,4600200,Item for online duelist play. Used to store and retain an infinite supply of goods. Any items used will retain their current quantity. A peculiar bottomless jar. Its origins are unknown. Some deride it as a symbol of unbridled avarice.,Objet destiné à la pratique du jeu en ligne pour le duel. Utilisé pour stocker et maintenir une infinité d'objets. Tout objet utlisé gardera sa quantité actuelle. Un pot sans fond peu ordinaire. Ses origines demeurent inconnues. Certains s'amusent à en faire le symbole d'une avarice éffrénée.
+Menu Text,469900,DEN Maps,Cartes DEN
+Menu Text,479900,DEN 2v2 Maps,Cartes DEN (2c2)
+ActionButtonText,90010,Fire starting arrow,Signal de Départ
+ActionButtonText,90011,Warp to starting location,Teleportation vers la Position de Départ
+??,??,Begin 2v2 Match,Commencer une Bataille 2c2
+??,??,Time Remaining,Temps Restant
+??,??,Blue Team Wins,"
+Vainqueur: Équipe Bleue"
+??,??,Red Team Wins,Vainqueur: Équipe Rouge
+EventTextForMap,470000,30 seconds remaining,

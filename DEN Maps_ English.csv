@@ -1,0 +1,42 @@
+Type,ID's,English,English
+Location,460000,Seaside Arena,Seaside Arena
+Location,460100,Forgotten Colosseum,Forgotten Colosseum
+Location,460200,Observatory,Observatory
+Location,460300,Dueling Square,Dueling Square
+Location,460400,Snowy Outpost,Snowy Outpost
+Location,460500,Crumbling Island,Crumbling Island
+Location,460600,Crystal Lake,Crystal Lake
+Location,460700,Eternal City Courtyard,Eternal City Courtyard
+Location,460800,Forest Ruins,Forest Ruins
+Location,460900,Grand Library,Grand Library
+Location,470000,Seaside Arena (2v2),Seaside Arena (2v2)
+Location,470100,Lava Bridge (2v2),Lava Bridge (2v2)
+Location,470200,Observatory (2v2),Observatory (2v2)
+Location,470300,Dueling Square (2v2),Dueling Square (2v2)
+Location,470400,Snowy Outpost (2v2),Snowy Outpost (2v2)
+Location,470500,Crumbling Island (2v2),Crumbling Island (2v2)
+Location,470600,Crystal Lake (2v2),Crystal Lake (2v2)
+Location,470700,Eternal City Courtyard (2v2),Eternal City Courtyard (2v2)
+Location,470800,Forest Ruins (2v2),Forest Ruins (2v2)
+Location,470900,Grand Library (2v2),Grand Library (2v2)
+Location,471000,Forgotten Colosseum (2v2),Forgotten Colosseum (2v2)
+Goods Name,4600000,Braid of Marika,Braid of Marika
+Goods Info,4600000,"Revives on death, fully restores character","Revives on death, fully restores character"
+Goods Description,4600000,"Item for online duelist play. Enchanted by incantations of the Golden Order Fundamentalists. Used to bring back a duelist from the brink of death upon their defeat, and restore them to their natural state.
+On death, fully heals HP, FP, restores poise, removes all ailments and dispels all special effects.","Item for online duelist play. Enchanted by incantations of the Golden Order Fundamentalists. Used to bring back a duelist from the brink of death upon their defeat, and restore them to their natural state.
+On death, fully heals HP, FP, restores poise, removes all ailments and dispels all special effects."
+Goods Name,4600100,Regressive Grease,Regressive Grease
+Goods Info,4600100,Fully restores character,Fully restores character
+Goods Description,4600100,"Item for online duelist play. Enchanted by incantations of the Golden Order Fundamentalists. Used to quickly restore duelists to their natural state before a battle. Fully heals HP, FP, restores poise, removes all ailments and dispels all special effects.","Item for online duelist play. Enchanted by incantations of the Golden Order Fundamentalists. Used to quickly restore duelists to their natural state before a battle. Fully heals HP, FP, restores poise, removes all ailments and dispels all special effects."
+Goods Name,4600200,O'Jar of Plenty,O'Jar of Plenty
+Goods Info,4600200,Grants an infinite supply of any currently held good,Grants an infinite supply of any currently held good
+Goods Description,4600200,Item for online duelist play. Used to store and retain an infinite supply of goods. Any items used will retain their current quantity. A peculiar bottomless jar. Its origins are unknown. Some deride it as a symbol of unbridled avarice.,Item for online duelist play. Used to store and retain an infinite supply of goods. Any items used will retain their current quantity. A peculiar bottomless jar. Its origins are unknown. Some deride it as a symbol of unbridled avarice.
+Menu Text,469900,DEN Maps,DEN Maps
+Menu Text,479900,DEN 2v2 Maps,DEN 2v2 Maps
+ActionButtonText,90010,Fire starting arrow,Fire starting arrow
+ActionButtonText,90011,Warp to starting location,Warp to starting location
+??,??,Begin 2v2 Match,Begin 2v2 Match
+??,??,Time Remaining,Time Remaining
+??,??,Blue Team Wins,Blue Team Wins
+??,??,Red Team Wins,Red Team Wins
+EventTextForMap,470000,30 seconds remaining,30 seconds remaining

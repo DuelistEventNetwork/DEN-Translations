@@ -1,0 +1,41 @@
+Type,ID's,English,German
+Location,460000,Seaside Arena,Strandarena
+Location,460100,Forgotten Colosseum,Das vergessene Kolosseum
+Location,460200,Observatory,Observatorium
+Location,460300,Dueling Square,Duellplatz
+Location,460400,Snowy Outpost,Verschneiter Außenposten
+Location,460500,Crumbling Island,Zerbröckelnde Insel
+Location,460600,Crystal Lake,Kristallsee
+Location,460700,Eternal City Courtyard,Hof der ewigen Stadt
+Location,460800,Forest Ruins,Waldruinen
+Location,460900,Grand Library,Die große Bibliothek
+Location,470000,Seaside Arena (2v2),Strandarena (2v2)
+Location,470100,Lava Bridge (2v2),Lavabrücke (2v2)
+Location,470200,Observatory (2v2),Observatoirum (2v2)
+Location,470300,Dueling Square (2v2),Duellplatz (2v2)
+Location,470400,Snowy Outpost (2v2),Verschneiter Außenposten (2v2)
+Location,470500,Crumbling Island (2v2),Zerbröckelnde Insel (2v2)
+Location,470600,Crystal Lake (2v2),Kristallsee (2v2)
+Location,470700,Eternal City Courtyard (2v2),Hof der ewigen Stadt (2v2)
+Location,470800,Forest Ruins (2v2),Waldruinen (2v2)
+Location,470900,Grand Library (2v2),Die große Bibliothek (2v2)
+Location,471000,Forgotten Colosseum (2v2),Das vergessene Kolosseum (2v2)
+Goods Name,4600000,Braid of Marika,Marikas geflochtener Zopf
+Goods Info,4600000,"Revives on death, fully restores character","Belebt bei Tod wieder, stellt den Charakter vollständig wieder her"
+Goods Description,4600000,"Item for online duelist play. Enchanted by incantations of the Golden Order Fundamentalists. Used to bring back a duelist from the brink of death upon their defeat, and restore them to their natural state.
+On death, fully heals HP, FP, restores poise, removes all ailments and dispels all special effects.","Gegenstand für Duellanten. Verzaubert von den Anrufungen der Fundamentalisten der goldenen Ordnung. Wenn der Duellant stirbt und dieser Gegenstand aktiviert ist bringt er den Duellanten sofort zurück ins Leben und stellt ihn vollständig wieder her. Beim Tod werden somit die Gesundheit, Fokuspunkte und Gleichgewicht wiederhergestellt. Außerdem werden alle Leiden und Spezialeffekte entfernt."
+Goods Name,4600100,Regressive Grease,Fett der Wiederherstellung
+Goods Info,4600100,Fully restores character,Stellt den Charakter vollständig wieder her.
+Goods Description,4600100,"Item for online duelist play. Enchanted by incantations of the Golden Order Fundamentalists. Used to quickly restore duelists to their natural state before a battle. Fully heals HP, FP, restores poise, removes all ailments and dispels all special effects.","Gegenstand für Duellanten. Verzaubert von den Anrufungen der Fundamentalisten der goldenen Ordnung. Wird genutzt um den Duellanten schnell wieder in Topform zu versetzen. Heilt vollständig die Gesundheit, Fokuspunkte und das Gleichgewicht. Außerdem werden alle Leiden und Spezialeffekte entfernt."
+Goods Name,4600200,O'Jar of Plenty,O'Gefäß der Fülle
+Goods Info,4600200,Grants an infinite supply of any currently held good,"Bewirkt, dass Verbrauchsgegenstände beim Einsatz nicht mehr verbraucht werden."
+Goods Description,4600200,Item for online duelist play. Used to store and retain an infinite supply of goods. Any items used will retain their current quantity. A peculiar bottomless jar. Its origins are unknown. Some deride it as a symbol of unbridled avarice.,"Gegenstand für Duellanten. Wird genutzt um einen unendlichen Vorrat an Verbrauchsgegenständen zu erhalten. Jeder Gegenstand der benutzt wird, wird nicht verbraucht. Ein merkwürdiges bodenloses Gefäß. Seine Herkunft ist unbekannt. Manche verspotten es als Symbol ungezügelter Gier."
+Menu Text,469900,DEN Maps,DEN Karten
+Menu Text,479900,DEN 2v2 Maps,DEN 2v2 Karten
+ActionButtonText,90010,Fire starting arrow,Startpfeil abfeuern
+ActionButtonText,90011,Warp to starting location,Zur Startposition teleportieren
+??,??,Begin 2v2 Match,Beginne 2v2 Begegnung
+??,??,Time Remaining,Verbleibende Zeit
+??,??,Blue Team Wins,Das blaue Team gewinnt
+??,??,Red Team Wins,Das rote Team gewinnt
+EventTextForMap,470000,30 seconds remaining,30 Sekunden verbleibend

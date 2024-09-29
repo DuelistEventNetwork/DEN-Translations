@@ -1,0 +1,41 @@
+Type,ID's,English,Italian
+Location,460000,Seaside Arena,Arena in riva al mare
+Location,460100,Forgotten Colosseum,Colosseo dimenticato
+Location,460200,Observatory,Osservatorio
+Location,460300,Dueling Square,Piazza dei duelli
+Location,460400,Snowy Outpost,Accampamento innevato
+Location,460500,Crumbling Island,Isole fluttuanti in rovina
+Location,460600,Crystal Lake,Lago cristiallino
+Location,460700,Eternal City Courtyard,Cortile della Città Eterna
+Location,460800,Forest Ruins,Rovine forestali
+Location,460900,Grand Library,Libreria antica
+Location,470000,Seaside Arena (2v2),Arena in riva al mare (2v2)
+Location,470100,Lava Bridge (2v2),Ponte lavico (2v2)
+Location,470200,Observatory (2v2),Osservatorio (2v2)
+Location,470300,Dueling Square (2v2),Piazza dei duelli (2v2)
+Location,470400,Snowy Outpost (2v2),Accampamento innevato (2v2)
+Location,470500,Crumbling Island (2v2),Isole fluttuanti in rovina (2v2)
+Location,470600,Crystal Lake (2v2),Lago cristallino (2v2)
+Location,470700,Eternal City Courtyard (2v2),Cortile della Città Eterna (2v2)
+Location,470800,Forest Ruins (2v2),Rovine forestali (2v2)
+Location,470900,Grand Library (2v2),Libreria antica (2v2)
+Location,471000,Forgotten Colosseum (2v2),Colosseo dimenticato (2v2)
+Goods Name,4600000,Braid of Marika,Treccia di Marika
+Goods Info,4600000,"Revives on death, fully restores character",Rianima dalla morte ripristinando completamente il personaggio.
+Goods Description,4600000,"Item for online duelist play. Enchanted by incantations of the Golden Order Fundamentalists. Used to bring back a duelist from the brink of death upon their defeat, and restore them to their natural state.
+On death, fully heals HP, FP, restores poise, removes all ailments and dispels all special effects.","Oggetto per Duellare Online. Incantato dalle preghiere dei Fondamentalisti della Legge Dorata. Usato per rinvigorire un duellante sconfitto. Subito dopo la sua morte, viene ripristinato al suo stato prima della battaglia. Cura completamente HP, FP, ripristina la Poise, rimuove tutti gli status alterati ed effetti speciali."
+Goods Name,4600100,Regressive Grease,Unguento Regressivo
+Goods Info,4600100,Fully restores character,Ripristina completamente il personaggio
+Goods Description,4600100,"Item for online duelist play. Enchanted by incantations of the Golden Order Fundamentalists. Used to quickly restore duelists to their natural state before a battle. Fully heals HP, FP, restores poise, removes all ailments and dispels all special effects.","Oggetto per Duellare Online. Incantato dalle preghiere dei Fondamentalisti della Legge Dorata. Usato per ripristinare rapidamente i duellanti al loro stato prima della battaglia. Cura completamente HP, FP, ripristina la Poise, rimuove tutti gli status alterati ed effetti speciali"
+Goods Name,4600200,O'Jar of Plenty,O'vas Turgido
+Goods Info,4600200,Grants an infinite supply of any currently held good,Garantisce un ammontare infinito di qualsiasi oggetto in possesso
+Goods Description,4600200,Item for online duelist play. Used to store and retain an infinite supply of goods. Any items used will retain their current quantity. A peculiar bottomless jar. Its origins are unknown. Some deride it as a symbol of unbridled avarice.,Oggetto per Duellare Online. Usato per immagazzinare e possedere quantità infinite di consumabili. Ogni oggetto utilizzato manterrà la sua quantità attuale. Un vaso senza fondo peculiare a dir poco. Le sue origini sono sconosciute. Alcuni lo deridono come simbolo di un' avarizia senza briglie
+Menu Text,469900,DEN Maps,DEN Maps
+Menu Text,479900,DEN 2v2 Maps,DEN Maps 2v2
+ActionButtonText,90010,Fire starting arrow,Segnale di partenza
+ActionButtonText,90011,Warp to starting location,Teletrasporto verso il punto di partenza
+??,??,Begin 2v2 Match,Avvia l'incontro 2v2
+??,??,Time Remaining,Tempo rimanente
+??,??,Blue Team Wins,Vince la Squadra Blu
+??,??,Red Team Wins,Vince la Squadra Rossa
+EventTextForMap,470000,30 seconds remaining,

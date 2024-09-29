@@ -1,0 +1,41 @@
+Type,ID's,English,Korean
+Location,460000,Seaside Arena,해안가 투기장
+Location,460100,Forgotten Colosseum,
+Location,460200,Observatory,천문대
+Location,460300,Dueling Square,사각 투기장
+Location,460400,Snowy Outpost,눈내린 요새
+Location,460500,Crumbling Island,무너지는 섬
+Location,460600,Crystal Lake,결정 호수
+Location,460700,Eternal City Courtyard,영원한 도읍 안뜰
+Location,460800,Forest Ruins,
+Location,460900,Grand Library,
+Location,470000,Seaside Arena (2v2),
+Location,470100,Lava Bridge (2v2),
+Location,470200,Observatory (2v2),
+Location,470300,Dueling Square (2v2),
+Location,470400,Snowy Outpost (2v2),
+Location,470500,Crumbling Island (2v2),
+Location,470600,Crystal Lake (2v2),
+Location,470700,Eternal City Courtyard (2v2),
+Location,470800,Forest Ruins (2v2),
+Location,470900,Grand Library (2v2),
+Location,471000,Forgotten Colosseum (2v2),
+Goods Name,4600000,Braid of Marika,마리카의 머리카락
+Goods Info,4600000,"Revives on death, fully restores character","사망 시, 부활하며 HP, FP, 강인도를 회복한다."
+Goods Description,4600000,"Item for online duelist play. Enchanted by incantations of the Golden Order Fundamentalists. Used to bring back a duelist from the brink of death upon their defeat, and restore them to their natural state.
+On death, fully heals HP, FP, restores poise, removes all ailments and dispels all special effects.","온라인 결투용 아이템. 황금률 원리주의의 기도가 깃들어있다. 그것은 결투에 패해 죽음에 다다른 빛바랜 자를 되살렸다고 전해진다. 사망 시, HP, FP, 강인도를 모두 회복하고, 모든 이로운 효과와 상태이상을 해제한다."
+Goods Name,4600100,Regressive Grease,회귀성 기름
+Goods Info,4600100,Fully restores character,"사용 시, HP, FP, 강인도를 회복한다."
+Goods Description,4600100,"Item for online duelist play. Enchanted by incantations of the Golden Order Fundamentalists. Used to quickly restore duelists to their natural state before a battle. Fully heals HP, FP, restores poise, removes all ailments and dispels all special effects.","온라인 결투용 아이템. 황금률 원리주의의 기도가 깃들어있다. 투사라 불린 빛바랜 자들은 이를 결투 전에 사용하여 회복하였다고 한다 . 빛바랜 자가 사용하면 HP, FP, 강인도를 모두 회복하고, 모든 이로운 효과와 상태이상을 해제한다."
+Goods Name,4600200,O'Jar of Plenty,풍요 항아리
+Goods Info,4600200,Grants an infinite supply of any currently held good,"사용 시, 보유 중인 모든 소모품을 무한히 공급한다."
+Goods Description,4600200,Item for online duelist play. Used to store and retain an infinite supply of goods. Any items used will retain their current quantity. A peculiar bottomless jar. Its origins are unknown. Some deride it as a symbol of unbridled avarice.,"온라인 결투용 아이템. 소모품을 무한히 저장하여 공급하기 위해 사용된다. 사용 시, 사용한 모든 소모품이 소모되지 않는다. 바닥이 없는 독특한 항아리. 그 기원은 알 수 없으나, 누군가는 이를 탐욕의 상징이라 비웃으리라."
+Menu Text,469900,DEN Maps,
+Menu Text,479900,DEN 2v2 Maps,
+ActionButtonText,90010,Fire starting arrow,
+ActionButtonText,90011,Warp to starting location,
+??,??,Begin 2v2 Match,
+??,??,Time Remaining,
+??,??,Blue Team Wins,
+??,??,Red Team Wins,
+EventTextForMap,470000,30 seconds remaining,

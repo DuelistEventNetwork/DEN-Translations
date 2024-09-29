@@ -1,0 +1,42 @@
+Type,ID's,English,Thai
+Location,460000,Seaside Arena,สังเวียนริมทะเล
+Location,460100,Forgotten Colosseum,โคลีเซียมที่ถูกลืม
+Location,460200,Observatory,หอดูดาว
+Location,460300,Dueling Square,ลานประลอง
+Location,460400,Snowy Outpost,ด่านหน้าหิมะ
+Location,460500,Crumbling Island,เกาะพังทลาย
+Location,460600,Crystal Lake,ทะเลสาบคริสตัล
+Location,460700,Eternal City Courtyard,สนามแห่งนครนิรันดร์
+Location,460800,Forest Ruins,ซากปรักหักพังแห่งป่าไม้
+Location,460900,Grand Library,หอสมุดที่ยิ่งใหญ่
+Location,470000,Seaside Arena (2v2),สังเวียนริมทะเล (2v2)
+Location,470100,Lava Bridge (2v2),สะพานลาวา (2v2)
+Location,470200,Observatory (2v2),หอดูดาว (2v2)
+Location,470300,Dueling Square (2v2),ลานประลอง (2v2)
+Location,470400,Snowy Outpost (2v2),ด่านหน้าหิมะ (2v2)
+Location,470500,Crumbling Island (2v2),เกาะที่พังทลาย (2v2)
+Location,470600,Crystal Lake (2v2),ทะเลสาบคริสตัล (2v2)
+Location,470700,Eternal City Courtyard (2v2),สนามแห่งนครนิรันดร์ (2v2)
+Location,470800,Forest Ruins (2v2),ซากปรักหักพังแห่งป่าไม้ (2v2)
+Location,470900,Grand Library (2v2),หอสมุดที่ยิ่งใหญ่ (2v2)
+Location,471000,Forgotten Colosseum (2v2),โคลีเซียมที่ถูกลืม (2v2)
+Goods Name,4600000,Braid of Marika,ถักเปียของมาริกา
+Goods Info,4600000,"Revives on death, fully restores character",คืนชีพเมื่อสูญสิ้น ฟื้นฟูตัวละครอย่างเต็มตัว
+Goods Description,4600000,"Item for online duelist play. Enchanted by incantations of the Golden Order Fundamentalists. Used to bring back a duelist from the brink of death upon their defeat, and restore them to their natural state.
+On death, fully heals HP, FP, restores poise, removes all ailments and dispels all special effects.","ไอเทมสำหรับนักดวลออนไลน์ ร่ายมนตร์ด้วยคาถาของบัญญัติทองสายดั้งเดิม ใช้เรียกนักดวลที่ใกล้จะตายเมื่อพ่ายแพ้กลับมา และฟื้นฟูพวกเขาให้กลับสู่สภาพเดิม ฟื้นฟู HP, FP ระดับความมั่นคง, ขจัดเอฟเฟคด้านลบและลบล้างเอฟเฟกต์พิเศษทั้งหมด"
+Goods Name,4600100,Regressive Grease,"
+ไขมันแห่งการย้อนกลับ"
+Goods Info,4600100,Fully restores character,ฟื้นฟูตัวละครอย่างเต็มตัว
+Goods Description,4600100,"Item for online duelist play. Enchanted by incantations of the Golden Order Fundamentalists. Used to quickly restore duelists to their natural state before a battle. Fully heals HP, FP, restores poise, removes all ailments and dispels all special effects.","ไอเทมสำหรับนักดวลออนไลน์ ร่ายมนตร์ด้วยคาถาของบัญญัติทองสายดั้งเดิม ช้เพื่อฟื้นฟูนักดวลให้กลับสู่สภาพเดิมอย่างรวดเร็วก่อนการต่อสู้ ฟื้นฟู HP, FP ระดับความมั่นคง, ขจัดเอฟเฟคด้านลบและลบล้างเอฟเฟกต์พิเศษทั้งหมด"
+Goods Name,4600200,O'Jar of Plenty,โอ'ไหแห่งความมากมาย
+Goods Info,4600200,Grants an infinite supply of any currently held good,ให้ของที่มีอยู่อย่างไม่มีที่สิ้นสุด
+Goods Description,4600200,Item for online duelist play. Used to store and retain an infinite supply of goods. Any items used will retain their current quantity. A peculiar bottomless jar. Its origins are unknown. Some deride it as a symbol of unbridled avarice.,ไอเทมสำหรับนักดวลออนไลน์ ช้เพื่อจัดเก็บและรักษาของที่มีอยู่อย่างไม่มีที่สิ้นสุด รายการใด ๆที่ใช้จะคงปริมาณปัจจุบันไว้ ไหไร้ก้นที่แปลกประหลาด ไม่ทราบที่มาของมัน บางคนเยาะเย้ยมันว่าเป็นสัญลักษณ์ของความโลภดวยไม่มีความยั้งใจ
+Menu Text,469900,DEN Maps,เดนแมพส์
+Menu Text,479900,DEN 2v2 Maps,เดน 2v2 แมพส์
+ActionButtonText,90010,Fire starting arrow,ยิงลูกสอนเพื่อเริ่ม
+ActionButtonText,90011,Warp to starting location,กลับไปจุดเริ่มต้น
+??,??,Begin 2v2 Match,เริ่มประลอง 2v2
+??,??,Time Remaining,เวลาที่เเหลือ
+??,??,Blue Team Wins,ทีมน้ำเงินชนะ
+??,??,Red Team Wins,ทีมแดงชนะ
+EventTextForMap,470000,30 seconds remaining,เหลือเวลาอีก 30 วินาที
