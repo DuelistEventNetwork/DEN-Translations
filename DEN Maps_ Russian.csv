@@ -35,8 +35,7 @@ Goods Description,4600200,Item for online duelist play. Used to store and retain
 Странный бездонный кувшин, его происхождение неизвестно. Некоторые высмеивают его как символ необузданной алчности."
 Goods Name,4600300,Phantom Calling Bell,Phantom Calling Bell
 Goods Info,4600300,Calls phantoms who left their red sign to join your world,Calls phantoms who left their red sign to join your world
-Goods Description,4600300,Item for online duelist play. Enchanted by incantations of the Golden Order Fundamentalists. Used to call phantoms who left their red sign to join your world. Requires for at least one phantom to be present in the world already.,"Item for online duelist play. Enchanted by incantations of the Golden Order Fundamentalists. Used to call phantoms who left their red sign to join your world.
-Requires for at least one phantom to be present in the world already."
+Goods Description,4600300,Item for online duelist play. Enchanted by incantations of the Golden Order Fundamentalists. Used to call phantoms who left their red sign to join your world. Requires for at least one phantom to be present in the world already.,"Item for online duelist play. Enchanted by incantations of the Golden Order Fundamentalists. Used to call phantoms who left their red sign to join your world."
 Menu Text,469900,DEN Maps,DEN карты
 Menu Text,479900,DEN 2v2 Maps,DEN карты 2v2
 ActionButtonText,90010,Fire starting arrow,Огненная сигнальная стрела

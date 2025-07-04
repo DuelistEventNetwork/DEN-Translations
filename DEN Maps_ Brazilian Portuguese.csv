@@ -34,8 +34,7 @@ Goods Info,4600200,Grants an infinite supply of any currently held good,Concede 
 Goods Description,4600200,Item for online duelist play. Used to store and retain an infinite supply of goods. Any items used will retain their current quantity. A peculiar bottomless jar. Its origins are unknown. Some deride it as a symbol of unbridled avarice.,Item para duelos online. Usado para manter um suprimento infinito de itens. Quaisquer itens usados manterão sua quantidade atual. Um peculiar jarro sem-fundo. Suas origens são desconhecidas. Alguns ridicularizam-no como símbolo de avareza sem medida.
 Goods Name,4600300,Phantom Calling Bell,Phantom Calling Bell
 Goods Info,4600300,Calls phantoms who left their red sign to join your world,Calls phantoms who left their red sign to join your world
-Goods Description,4600300,Item for online duelist play. Enchanted by incantations of the Golden Order Fundamentalists. Used to call phantoms who left their red sign to join your world. Requires for at least one phantom to be present in the world already.,"Item for online duelist play. Enchanted by incantations of the Golden Order Fundamentalists. Used to call phantoms who left their red sign to join your world.
-Requires for at least one phantom to be present in the world already."
+Goods Description,4600300,Item for online duelist play. Enchanted by incantations of the Golden Order Fundamentalists. Used to call phantoms who left their red sign to join your world. Requires for at least one phantom to be present in the world already.,"Item for online duelist play. Enchanted by incantations of the Golden Order Fundamentalists. Used to call phantoms who left their red sign to join your world."
 Menu Text,469900,DEN Maps,DEN Maps
 Menu Text,479900,DEN 2v2 Maps,DEN 2v2 Maps
 ActionButtonText,90010,Fire starting arrow,Disparar Flecha
