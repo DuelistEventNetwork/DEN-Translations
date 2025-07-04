@@ -30,6 +30,10 @@ Goods Description,4600100,"Item for online duelist play. Enchanted by incantatio
 Goods Name,4600200,O'Jar of Plenty,Pot d'Abondance
 Goods Info,4600200,Grants an infinite supply of any currently held good,Confère un stock illimité de tout objet possédé
 Goods Description,4600200,Item for online duelist play. Used to store and retain an infinite supply of goods. Any items used will retain their current quantity. A peculiar bottomless jar. Its origins are unknown. Some deride it as a symbol of unbridled avarice.,Objet destiné à la pratique du jeu en ligne pour le duel. Utilisé pour stocker et maintenir une infinité d'objets. Tout objet utlisé gardera sa quantité actuelle. Un pot sans fond peu ordinaire. Ses origines demeurent inconnues. Certains s'amusent à en faire le symbole d'une avarice éffrénée.
+Goods Name,4600300,Phantom Calling Bell,Phantom Calling Bell
+Goods Info,4600300,Calls phantoms who left their red sign to join your world,Calls phantoms who left their red sign to join your world
+Goods Description,4600300,Item for online duelist play. Enchanted by incantations of the Golden Order Fundamentalists. Used to call phantoms who left their red sign to join your world. Requires for at least one phantom to be present in the world already.,"Item for online duelist play. Enchanted by incantations of the Golden Order Fundamentalists. Used to call phantoms who left their red sign to join your world.
+Requires for at least one phantom to be present in the world already."
 Menu Text,469900,DEN Maps,Cartes DEN
 Menu Text,479900,DEN 2v2 Maps,Cartes DEN (2c2)
 ActionButtonText,90010,Fire starting arrow,Signal de Départ

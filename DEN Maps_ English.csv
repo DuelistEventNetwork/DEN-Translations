@@ -27,10 +27,19 @@ On death, fully heals HP, FP, restores poise, removes all ailments and dispels a
 On death, fully heals HP, FP, restores poise, removes all ailments and dispels all special effects."
 Goods Name,4600100,Regressive Grease,Regressive Grease
 Goods Info,4600100,Fully restores character,Fully restores character
-Goods Description,4600100,"Item for online duelist play. Enchanted by incantations of the Golden Order Fundamentalists. Used to quickly restore duelists to their natural state before a battle. Fully heals HP, FP, restores poise, removes all ailments and dispels all special effects.","Item for online duelist play. Enchanted by incantations of the Golden Order Fundamentalists. Used to quickly restore duelists to their natural state before a battle. Fully heals HP, FP, restores poise, removes all ailments and dispels all special effects."
+Goods Description,4600100,"Item for online duelist play. Enchanted by incantations of the Golden Order Fundamentalists. Used to quickly restore duelists to their natural state before a battle. Fully heals HP, FP, restores poise, removes all ailments and dispels all special effects.","Item for online duelist play.
+Enchanted by incantations of the Golden Order Fundamentalists.
+Used to quickly restore duelists to their natural state before a battle. Fully heals HP, FP, restores poise, removes all ailments and dispels all special effects."
 Goods Name,4600200,O'Jar of Plenty,O'Jar of Plenty
 Goods Info,4600200,Grants an infinite supply of any currently held good,Grants an infinite supply of any currently held good
-Goods Description,4600200,Item for online duelist play. Used to store and retain an infinite supply of goods. Any items used will retain their current quantity. A peculiar bottomless jar. Its origins are unknown. Some deride it as a symbol of unbridled avarice.,Item for online duelist play. Used to store and retain an infinite supply of goods. Any items used will retain their current quantity. A peculiar bottomless jar. Its origins are unknown. Some deride it as a symbol of unbridled avarice.
+Goods Description,4600200,Item for online duelist play. Used to store and retain an infinite supply of goods. Any items used will retain their current quantity. A peculiar bottomless jar. Its origins are unknown. Some deride it as a symbol of unbridled avarice.,"Item for online duelist play.
+Used to store and retain an infinite supply of goods.
+Any items used will retain their current quantity.
+A peculiar bottomless jar. Its origins are unknown. Some deride it as a symbol of unbridled avarice."
+Goods Name,4600300,Phantom Calling Bell,Phantom Calling Bell
+Goods Info,4600300,Calls phantoms who left their red sign to join your world,Calls phantoms who left their red sign to join your world
+Goods Description,4600300,Item for online duelist play. Enchanted by incantations of the Golden Order Fundamentalists. Used to call phantoms who left their red sign to join your world. Requires for at least one phantom to be present in the world already.,"Item for online duelist play. Enchanted by incantations of the Golden Order Fundamentalists. Used to call phantoms who left their red sign to join your world.
+Requires for at least one phantom to be present in the world already."
 Menu Text,469900,DEN Maps,DEN Maps
 Menu Text,479900,DEN 2v2 Maps,DEN 2v2 Maps
 ActionButtonText,90010,Fire starting arrow,Fire starting arrow

@@ -30,6 +30,10 @@ Goods Description,4600100,"Item for online duelist play. Enchanted by incantatio
 Goods Name,4600200,O'Jar of Plenty,底なしの壺
 Goods Info,4600200,Grants an infinite supply of any currently held good,現在保持しているあらゆるアイテムを無限に供給する
 Goods Description,4600200,Item for online duelist play. Used to store and retain an infinite supply of goods. Any items used will retain their current quantity. A peculiar bottomless jar. Its origins are unknown. Some deride it as a symbol of unbridled avarice.,オンライン決闘者専用アイテム。無限に供給されるアイテムを保管し、保持するために使用される。使用されたアイテムは、現在の量を保持する。奇妙な底なしの壺。その紀元は不明。抑えられない欲望の象徴として嘲笑する人もいる。
+Goods Name,4600300,Phantom Calling Bell,Phantom Calling Bell
+Goods Info,4600300,Calls phantoms who left their red sign to join your world,Calls phantoms who left their red sign to join your world
+Goods Description,4600300,Item for online duelist play. Enchanted by incantations of the Golden Order Fundamentalists. Used to call phantoms who left their red sign to join your world. Requires for at least one phantom to be present in the world already.,"Item for online duelist play. Enchanted by incantations of the Golden Order Fundamentalists. Used to call phantoms who left their red sign to join your world.
+Requires for at least one phantom to be present in the world already."
 Menu Text,469900,DEN Maps,DENマップ
 Menu Text,479900,DEN 2v2 Maps,DENマップ 2vs2
 ActionButtonText,90010,Fire starting arrow,始まりの火矢

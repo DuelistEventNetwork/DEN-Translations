@@ -30,6 +30,10 @@ Goods Description,4600100,"Item for online duelist play. Enchanted by incantatio
 Goods Name,4600200,O'Jar of Plenty,O'Gefäß der Fülle
 Goods Info,4600200,Grants an infinite supply of any currently held good,"Bewirkt, dass Verbrauchsgegenstände beim Einsatz nicht mehr verbraucht werden."
 Goods Description,4600200,Item for online duelist play. Used to store and retain an infinite supply of goods. Any items used will retain their current quantity. A peculiar bottomless jar. Its origins are unknown. Some deride it as a symbol of unbridled avarice.,"Gegenstand für Duellanten. Wird genutzt um einen unendlichen Vorrat an Verbrauchsgegenständen zu erhalten. Jeder Gegenstand der benutzt wird, wird nicht verbraucht. Ein merkwürdiges bodenloses Gefäß. Seine Herkunft ist unbekannt. Manche verspotten es als Symbol ungezügelter Gier."
+Goods Name,4600300,Phantom Calling Bell,Phantom Calling Bell
+Goods Info,4600300,Calls phantoms who left their red sign to join your world,Calls phantoms who left their red sign to join your world
+Goods Description,4600300,Item for online duelist play. Enchanted by incantations of the Golden Order Fundamentalists. Used to call phantoms who left their red sign to join your world. Requires for at least one phantom to be present in the world already.,"Item for online duelist play. Enchanted by incantations of the Golden Order Fundamentalists. Used to call phantoms who left their red sign to join your world.
+Requires for at least one phantom to be present in the world already."
 Menu Text,469900,DEN Maps,DEN Karten
 Menu Text,479900,DEN 2v2 Maps,DEN 2v2 Karten
 ActionButtonText,90010,Fire starting arrow,Startpfeil abfeuern

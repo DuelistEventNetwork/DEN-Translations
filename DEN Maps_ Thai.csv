@@ -31,6 +31,10 @@ Goods Description,4600100,"Item for online duelist play. Enchanted by incantatio
 Goods Name,4600200,O'Jar of Plenty,โอ'ไหแห่งความมากมาย
 Goods Info,4600200,Grants an infinite supply of any currently held good,ให้ของที่มีอยู่อย่างไม่มีที่สิ้นสุด
 Goods Description,4600200,Item for online duelist play. Used to store and retain an infinite supply of goods. Any items used will retain their current quantity. A peculiar bottomless jar. Its origins are unknown. Some deride it as a symbol of unbridled avarice.,ไอเทมสำหรับนักดวลออนไลน์ ช้เพื่อจัดเก็บและรักษาของที่มีอยู่อย่างไม่มีที่สิ้นสุด รายการใด ๆที่ใช้จะคงปริมาณปัจจุบันไว้ ไหไร้ก้นที่แปลกประหลาด ไม่ทราบที่มาของมัน บางคนเยาะเย้ยมันว่าเป็นสัญลักษณ์ของความโลภดวยไม่มีความยั้งใจ
+Goods Name,4600300,Phantom Calling Bell,Phantom Calling Bell
+Goods Info,4600300,Calls phantoms who left their red sign to join your world,Calls phantoms who left their red sign to join your world
+Goods Description,4600300,Item for online duelist play. Enchanted by incantations of the Golden Order Fundamentalists. Used to call phantoms who left their red sign to join your world. Requires for at least one phantom to be present in the world already.,"Item for online duelist play. Enchanted by incantations of the Golden Order Fundamentalists. Used to call phantoms who left their red sign to join your world.
+Requires for at least one phantom to be present in the world already."
 Menu Text,469900,DEN Maps,เดนแมพส์
 Menu Text,479900,DEN 2v2 Maps,เดน 2v2 แมพส์
 ActionButtonText,90010,Fire starting arrow,ยิงลูกสอนเพื่อเริ่ม

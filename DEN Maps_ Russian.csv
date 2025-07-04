@@ -22,17 +22,21 @@ Location,470900,Grand Library (2v2),Великая библиотека (2v2)
 Location,471000,Forgotten Colosseum (2v2),Забытый колезей (2v2)
 Goods Name,4600000,Braid of Marika,Коса Марики
 Goods Info,4600000,"Revives on death, fully restores character","Возрождает после смерти, полностью восстанавливает персонажа"
-Goods Description,4600000,"Item for online duelist play. Enchanted by incantations of the Golden Order Fundamentalists. Used to bring back a duelist from the brink of death upon their defeat, and restore them to their natural state. 
-On death, fully heals HP, FP, restores poise, removes all ailments and dispels all special effects.","Предмет для дуэли по сети. Зачарован заклинаниями фундаменталистов Золотого Порядка. Используется, чтобы возродить дуэлянтов при смерти после поражения и вернуть их к исходному состоянию. 
+Goods Description,4600000,"Item for online duelist play. Enchanted by incantations of the Golden Order Fundamentalists. Used to bring back a duelist from the brink of death upon their defeat, and restore them to their natural state.
+On death, fully heals HP, FP, restores poise, removes all ailments and dispels all special effects.","Предмет для дуэли по сети. Зачарован заклинаниями фундаменталистов Золотого Порядка. Используется, чтобы возродить дуэлянтов при смерти после поражения и вернуть их к исходному состоянию.
 После смерти полностью восстанавливает ОЗ, ОК, баланс, излечивает все недуги и устраняет особые эффекты."
 Goods Name,4600100,Regressive Grease,Регрессивная смазка
 Goods Info,4600100,Fully restores character,Полностью восстанавливает персонажа
-Goods Description,4600100,"Item for online duelist play. Enchanted by incantations of the Golden Order Fundamentalists. Used to quickly restore duelists to their natural state before a battle. Fully heals HP, FP, restores poise, removes all ailments and dispels all special effects.","Предмет для дуэли по сети. Зачарован заклинаниями фундаменталистов Золотого Порядка. Используется для быстрого восстановления дуэлянтов к их исходному состоянию до боя. 
+Goods Description,4600100,"Item for online duelist play. Enchanted by incantations of the Golden Order Fundamentalists. Used to quickly restore duelists to their natural state before a battle. Fully heals HP, FP, restores poise, removes all ailments and dispels all special effects.","Предмет для дуэли по сети. Зачарован заклинаниями фундаменталистов Золотого Порядка. Используется для быстрого восстановления дуэлянтов к их исходному состоянию до боя.
 Полностью восстанавливает ОЗ, ОК, баланс, излечивает все недуги и устраняет особые эффекты."
 Goods Name,4600200,O'Jar of Plenty,Кувшин изобилия
 Goods Info,4600200,Grants an infinite supply of any currently held good,Даёт неограниченное количество имеющихся в наличии расходных предметов
-Goods Description,4600200,Item for online duelist play. Used to store and retain an infinite supply of goods. Any items used will retain their current quantity. A peculiar bottomless jar. Its origins are unknown. Some deride it as a symbol of unbridled avarice.,"Предмет для дуэли по сети. Используется для получения неограниченного количества расходных предметов. Любой используемый предмет будет сохранять своё текущее количество. 
+Goods Description,4600200,Item for online duelist play. Used to store and retain an infinite supply of goods. Any items used will retain their current quantity. A peculiar bottomless jar. Its origins are unknown. Some deride it as a symbol of unbridled avarice.,"Предмет для дуэли по сети. Используется для получения неограниченного количества расходных предметов. Любой используемый предмет будет сохранять своё текущее количество.
 Странный бездонный кувшин, его происхождение неизвестно. Некоторые высмеивают его как символ необузданной алчности."
+Goods Name,4600300,Phantom Calling Bell,Phantom Calling Bell
+Goods Info,4600300,Calls phantoms who left their red sign to join your world,Calls phantoms who left their red sign to join your world
+Goods Description,4600300,Item for online duelist play. Enchanted by incantations of the Golden Order Fundamentalists. Used to call phantoms who left their red sign to join your world. Requires for at least one phantom to be present in the world already.,"Item for online duelist play. Enchanted by incantations of the Golden Order Fundamentalists. Used to call phantoms who left their red sign to join your world.
+Requires for at least one phantom to be present in the world already."
 Menu Text,469900,DEN Maps,DEN карты
 Menu Text,479900,DEN 2v2 Maps,DEN карты 2v2
 ActionButtonText,90010,Fire starting arrow,Огненная сигнальная стрела
