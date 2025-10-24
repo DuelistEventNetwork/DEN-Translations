@@ -39,7 +39,7 @@ description = """\
 Przedmiot do gry online. \
 Zaczarowany przez Fundamentalistów z grupy Złotego Porządku. \
 Używany przez pojedynkujących się zawodników by tuż przed śmiercią przywrócić pokonanego do stanu pełnego zdrowia.
-Po śmierci przywraca HP, FP, poise, usuwa wszystkie dolegliwości i dysipuje wszystkie efekty specjalne.\
+Po śmierci przywraca HP, FP, poise, usuwa wszystkie dolegliwości oraz efekty specjalne.\
 """
 
 [[goods.entries]]
@@ -50,7 +50,7 @@ description = """\
 Przedmiot do gry online. \
 Zaczarowany przez Fundamentalistów z grupy Złotego Porządku. \
 Używany przez pojedynkujących się zawodników by przygotować swoje ciała do walki tuż przed pojedynkiem.
-Przywraca HP, FP, poise, usuwa wszystkie dolegliwości i dysipuje wszystkie efekty specjalne.\
+Przywraca HP, FP, poise, usuwa wszystkie dolegliwości oraz efekty specjalne.\
 """
 
 [[goods.entries]]
@@ -66,12 +66,12 @@ Niektórzy mawiają, że jest to symbol niepohamowanej chciwości.\
 
 [[goods.entries]]
 id = 4600300
-name = "Phantom Calling Bell"
-info = "Calls phantoms who left their red sign"
+name = "Dzwon wzywający duchy"
+info = "Wzywa duchy, które zostawiły swój czerwony znak"
 description = """\
-Item for online duelist play. \
-Enchanted by incantations of the Golden Order Fundamentalists.
-A powerful bell used to summon those who seek a battle. Summons all available red signs.\
+Przedmiot do gry online. \
+Zaczarowany przez Fundamentalistów z grupy Złotego Porządku.
+Potężny dzwon, używany do wzywania tych, którzy poszukują bitwy. Przywołuje wszystkie dostępne czerwone znaki.\
 """
 
 [menu]
@@ -87,10 +87,10 @@ entries = [
 ]
 
 [event_text]
-entries = [{ id = 470000, text = "30 seconds remaining" }]
+entries = [{ id = 470000, text = "Pozostało 30 sekund" }]
 
 [system]
 entries = [
-    { id = 103000, text = "Latency Overlay" },
-    { id = 3001, text = "Choose whether to display the latency overlay above the players' names" },
+    { id = 103000, text = "Nakładka opóźnienia" },
+    { id = 3001, text = "Wybierz, czy wyświetlać nakładkę z informacją o opóźnieniu nad nazwami graczy" },
 ]
