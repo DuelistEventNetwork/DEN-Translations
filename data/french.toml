@@ -9,7 +9,7 @@
 [location]
 entries = [
     { id = 460000, text = "Arène du Bord de Mer" },
-    { id = 460100, text = "Colisée Perdu" },
+    { id = 460100, text = "Colisée Oublié" },
     { id = 460200, text = "Observatoire" },
     { id = 460300, text = "Carré de Duel" },
     { id = 460400, text = "Avant-Poste Enneigé" },
@@ -18,7 +18,7 @@ entries = [
     { id = 460700, text = "Cour de la Cité Eternelle" },
     { id = 460800, text = "Ruines Forestières" },
     { id = 460900, text = "Grande Bibliothèque" },
-    { id = 470000, text = "Arène du Bord de Mer" },
+    { id = 470000, text = "Arène du Bord de Mer (2c2)" },
     { id = 470100, text = "Pont de Lave (2c2)" },
     { id = 470200, text = "Observatoire (2c2)" },
     { id = 470300, text = "Carré de Duel (2c2)" },
@@ -28,18 +28,18 @@ entries = [
     { id = 470700, text = "Cour de la Cité Eternelle (2c2)" },
     { id = 470800, text = "Ruines Forestières (2c2)" },
     { id = 470900, text = "Grande Bibliothèque (2c2)" },
-    { id = 471000, text = "Colisée Perdu (2c2)" },
+    { id = 471000, text = "Colisée Oublié (2c2)" },
 ]
 
 [[goods.entries]]
 id = 4600000
-name = "Ruban de Marika"
-info = "Ressuscite après la mort, restaure le personnage totalement"
+name = "Tresse de Marika"
+info = "Ressuscite à la mort, restaure totalement le personnage"
 description = """\
-Objet destiné à la pratique du jeu en ligne pour le duel. \
+Objet pour les duels en ligne. \
 Enchanté par les incantations des Fondamentalistes de l'Ordre Doré. \
-Utilisé dans le but de ramener à la vie un duelliste déchu, en le rétablissant entièrement.
-Sur le point de mourir, soigne complètement les PV, les MP, restaure l'équilibre, retire toute affliction et dissipe tout effet indésirable.\
+Utilisé pour ramener à la vie un duelliste défait, en le rétablissant entièrement.
+À la mort, soigne complètement les PV, les MP, restaure l'équilibre, retire toute affliction et dissipe tout effet spécial.\
 """
 
 [[goods.entries]]
@@ -47,10 +47,10 @@ id = 4600100
 name = "Graisse Régressive"
 info = "Restaure totalement le personnage"
 description = """\
-Objet destiné à la pratique du jeu en ligne pour le duel. \
+Objet pour les duels en ligne. \
 Enchanté par les incantations des Fondamentalistes de l'Ordre Doré. \
-Utilisé dans le but de restaurer entièrement le duelliste avant la bataille.
-Soigne complètement les PV, les MP, restaure l'équilibre, retire toute affliction et dissipe tout effet indésirable.\
+Utilisé pour restaurer rapidement un duelliste à son état naturel avant une bataille.
+Soigne complètement les PV, les MP, restaure l'équilibre, retire toute affliction et dissipe tout effet spécial.\
 """
 
 [[goods.entries]]
@@ -58,21 +58,21 @@ id = 4600200
 name = "Pot d'Abondance"
 info = "Confère un stock illimité de tout objet possédé"
 description = """\
-Objet destiné à la pratique du jeu en ligne pour le duel. \
+Objet pour les duels en ligne. \
 Enchanté par les incantations des Fondamentalistes de l'Ordre Doré. \
-Utilisé pour stocker et maintenir une infinité d'objets. \
-Tout objet utlisé gardera sa quantité actuelle.
-Un pot sans fond peu ordinaire. Ses origines demeurent inconnues. Certains s'amusent à en faire le symbole d'une avarice éffrénée.\
+Utilisé pour stocker et conserver une infinité d'objets. \
+Tout objet utlisé conservera sa quantité actuelle.
+Un pot sans fond singulier. Ses origines demeurent inconnues. Certains s'amusent à en faire le symbole d'une avarice sans limites.\
 """
 
 [[goods.entries]]
 id = 4600300
-name = "Phantom Calling Bell"
-info = "Calls phantoms who left their red sign"
+name = "Clochette d'invocation spectrale"
+info = "Appelle les fantômes qui ont laissé leur marque d'invocation rouge."
 description = """\
-Item for online duelist play. \
-Enchanted by incantations of the Golden Order Fundamentalists.
-A powerful bell used to summon those who seek a battle. Summons all available red signs.\
+Objet pour les duels en ligne. \
+Enchanté par les incantations des Fondamentalistes de l'Ordre Doré.
+Une clochette puissante permettant d'invoquer ceux qui recherchent le combat. Invoque tous les signes d'invocation rouge disponibles.\
 """
 
 [menu]
@@ -88,10 +88,10 @@ entries = [
 ]
 
 [event_text]
-entries = [{ id = 470000, text = "30 seconds remaining" }]
+entries = [{ id = 470000, text = "30 secondes restantes" }]
 
 [system]
 entries = [
-    { id = 103000, text = "Latency Overlay" },
-    { id = 3001, text = "Choose whether to display the latency overlay above the players' names" },
+    { id = 103000, text = "Indicateur de latence" },
+    { id = 3001, text = "Afficher un indicateur de latance au dessus du nom des joueurs ?" },
 ]
