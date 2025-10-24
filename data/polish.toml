@@ -1,0 +1,96 @@
+# Polish translation for Den Maps
+# Note: Keep the formatting identical to the original file.
+# Use \ at the end of lines to break long descriptions into multiple lines.
+# E.g. description = """\
+# This is a long description that \
+# spans multiple lines.\
+# """
+# Will be processed as: "This is a long description that spans multiple lines."
+[location]
+entries = [
+    { id = 460000, text = "Arena Nad Wybrzerzem" },
+    { id = 460100, text = "Zapomniane koloseum" },
+    { id = 460200, text = "Obserwatorium" },
+    { id = 460300, text = "Plac Pojedynków" },
+    { id = 460400, text = "Zaśnieżony Posterunek" },
+    { id = 460500, text = "Rozpadająca się wyspa" },
+    { id = 460600, text = "Kryształowa Rzeka" },
+    { id = 460700, text = "Dziedziniec Wiecznego Miasta" },
+    { id = 460800, text = "Ruiny  w lesie" },
+    { id = 460900, text = "Biblioteka" },
+    { id = 470000, text = "Arena nad wybrzeżem (2v2)" },
+    { id = 470100, text = "Pomost nad lawą (2v2)" },
+    { id = 470200, text = "Obserwatorium (2v2)" },
+    { id = 470300, text = "Plac Pojedynków (2v2)" },
+    { id = 470400, text = "Zaśnieżony Posterunek (2v2)" },
+    { id = 470500, text = "Rozpadająca się wyspa (2v2)" },
+    { id = 470600, text = "Kryształowa Rzeka (2v2)" },
+    { id = 470700, text = "Dziedziniec Wiecznego Miasta (2v2)" },
+    { id = 470800, text = "Ruiny  w lesie (2v2)" },
+    { id = 470900, text = "Biblioteka (2v2)" },
+    { id = 471000, text = "Zapomniane koloseum (2v2)" },
+]
+
+[[goods.entries]]
+id = 4600000
+name = "Warkocz Mariki"
+info = "Odradza w momencie śmierci"
+description = """\
+Przedmiot do gry online. \
+Zaczarowany przez Fundamentalistów z grupy Złotego Porządku. \
+Używany przez pojedynkujących się zawodników by tuż przed śmiercią przywrócić pokonanego do stanu pełnego zdrowia.
+Po śmierci przywraca HP, FP, poise, usuwa wszystkie dolegliwości i dysipuje wszystkie efekty specjalne.\
+"""
+
+[[goods.entries]]
+id = 4600100
+name = "Smar Regresyjny"
+info = "Natychmiastowo uzdrawia postać"
+description = """\
+Przedmiot do gry online. \
+Zaczarowany przez Fundamentalistów z grupy Złotego Porządku. \
+Używany przez pojedynkujących się zawodników by przygotować swoje ciała do walki tuż przed pojedynkiem.
+Przywraca HP, FP, poise, usuwa wszystkie dolegliwości i dysipuje wszystkie efekty specjalne.\
+"""
+
+[[goods.entries]]
+id = 4600200
+name = "Słoik obfitości"
+info = "Sprawia, że Twoje zapasy nigdy się nie skończą"
+description = """\
+Przedmiot do gry online. \
+Używany do odblokowania nieskończonej ilości zasobów. \
+Specyficzny słój bez dna. Jego pochodzenie jest nieznane.
+Niektórzy mawiają, że jest to symbol niepohamowanej chciwości.\
+"""
+
+[[goods.entries]]
+id = 4600300
+name = "Phantom Calling Bell"
+info = "Calls phantoms who left their red sign"
+description = """\
+Item for online duelist play. \
+Enchanted by incantations of the Golden Order Fundamentalists.
+A powerful bell used to summon those who seek a battle. Summons all available red signs.\
+"""
+
+[menu]
+entries = [
+    { id = 469900, text = "Mapy DEN" },
+    { id = 479900, text = "Mapy DEN 2v2" },
+]
+
+[action_buttons]
+entries = [
+    { id = 90010, text = "Wystrzel znak startu" },
+    { id = 90011, text = "Teleportuj do lokacji początkowej" },
+]
+
+[event_text]
+entries = [{ id = 470000, text = "30 seconds remaining" }]
+
+[system]
+entries = [
+    { id = 103000, text = "Latency Overlay" },
+    { id = 3001, text = "Choose whether to display the latency overlay above the players' names" },
+]

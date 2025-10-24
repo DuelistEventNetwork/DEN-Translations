@@ -1,0 +1,97 @@
+# English translation for Den Maps
+# Note: Keep the formatting identical to the original file.
+# Use \ at the end of lines to break long descriptions into multiple lines.
+# E.g. description = """\
+# This is a long description that \
+# spans multiple lines.\
+# """
+# Will be processed as: "This is a long description that spans multiple lines."
+[location]
+entries = [
+    { id = 460000, text = "Seaside Arena" },
+    { id = 460100, text = "Forgotten Colosseum" },
+    { id = 460200, text = "Observatory" },
+    { id = 460300, text = "Dueling Square" },
+    { id = 460400, text = "Snowy Outpost" },
+    { id = 460500, text = "Crumbling Island" },
+    { id = 460600, text = "Crystal Lake" },
+    { id = 460700, text = "Eternal City Courtyard" },
+    { id = 460800, text = "Forest Ruins" },
+    { id = 460900, text = "Grand Library" },
+    { id = 470000, text = "Seaside Arena (2v2)" },
+    { id = 470100, text = "Lava Bridge (2v2)" },
+    { id = 470200, text = "Observatory (2v2)" },
+    { id = 470300, text = "Dueling Square (2v2)" },
+    { id = 470400, text = "Snowy Outpost (2v2)" },
+    { id = 470500, text = "Crumbling Island (2v2)" },
+    { id = 470600, text = "Crystal Lake (2v2)" },
+    { id = 470700, text = "Eternal City Courtyard (2v2)" },
+    { id = 470800, text = "Forest Ruins (2v2)" },
+    { id = 470900, text = "Grand Library (2v2)" },
+    { id = 471000, text = "Forgotten Colosseum (2v2)" },
+]
+
+[[goods.entries]]
+id = 4600000
+name = "Braid of Marika"
+info = "Revives on death, fully restores character"
+description = """\
+Item for online duelist play. \
+Enchanted by incantations of the Golden Order Fundamentalists. \
+Used to bring back a duelist from the brink of death upon their defeat, and restore them to their natural state.
+On death, fully heals HP, FP, restores poise, removes all ailments and dispels all special effects.\
+"""
+
+[[goods.entries]]
+id = 4600100
+name = "Regressive Grease"
+info = "Fully restores character"
+description = """\
+Item for online duelist play. \
+Enchanted by incantations of the Golden Order Fundamentalists. \
+Used to quickly restore duelists to their natural state before a battle.
+Fully heals HP, FP, restores poise, removes all ailments and dispels all special effects.\
+"""
+
+[[goods.entries]]
+id = 4600200
+name = "O'Jar of Plenty"
+info = "Grants an infinite supply of any currently held good"
+description = """\
+Item for online duelist play. \
+Enchanted by incantations of the Golden Order Fundamentalists. \
+Used to store and retain an infinite supply of goods. \
+Any items used will retain their current quantity.
+A peculiar bottomless jar. Its origins are unknown. Some deride it as a symbol of unbridled avarice.\
+"""
+
+[[goods.entries]]
+id = 4600300
+name = "Phantom Calling Bell"
+info = "Calls phantoms who left their red sign"
+description = """\
+Item for online duelist play. \
+Enchanted by incantations of the Golden Order Fundamentalists.
+A powerful bell used to summon those who seek a battle. Summons all available red signs.\
+"""
+
+[menu]
+entries = [
+    { id = 469900, text = "DEN Maps" },
+    { id = 479900, text = "DEN 2v2 Maps" },
+]
+
+[action_buttons]
+entries = [
+    { id = 90010, text = "Fire starting arrow" },
+    { id = 90011, text = "Warp to starting location" },
+]
+
+[event_text]
+entries = [{ id = 470000, text = "30 seconds remaining" }]
+
+[system]
+entries = [
+    { id = 103000, text = "Latency Overlay" },
+    { id = 3001, text = "Choose whether to display the latency overlay above the players' names" },
+]

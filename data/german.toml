@@ -1,0 +1,97 @@
+# German translation for Den Maps
+# Note: Keep the formatting identical to the original file.
+# Use \ at the end of lines to break long descriptions into multiple lines.
+# E.g. description = """\
+# This is a long description that \
+# spans multiple lines.\
+# """
+# Will be processed as: "This is a long description that spans multiple lines."
+[location]
+entries = [
+    { id = 460000, text = "Strandarena" },
+    { id = 460100, text = "Das vergessene Kolosseum" },
+    { id = 460200, text = "Observatorium" },
+    { id = 460300, text = "Duellplatz" },
+    { id = 460400, text = "Verschneiter Außenposten" },
+    { id = 460500, text = "Zerbröckelnde Insel" },
+    { id = 460600, text = "Kristallsee" },
+    { id = 460700, text = "Hof der ewigen Stadt" },
+    { id = 460800, text = "Waldruinen" },
+    { id = 460900, text = "Die große Bibliothek" },
+    { id = 470000, text = "Strandarena (2v2)" },
+    { id = 470100, text = "Lavabrücke (2v2)" },
+    { id = 470200, text = "Observatoirum (2v2)" },
+    { id = 470300, text = "Duellplatz (2v2)" },
+    { id = 470400, text = "Verschneiter Außenposten (2v2)" },
+    { id = 470500, text = "Zerbröckelnde Insel (2v2)" },
+    { id = 470600, text = "Kristallsee (2v2)" },
+    { id = 470700, text = "Hof der ewigen Stadt (2v2)" },
+    { id = 470800, text = "Waldruinen (2v2)" },
+    { id = 470900, text = "Die große Bibliothek (2v2)" },
+    { id = 471000, text = "Das vergessene Kolosseum (2v2)" },
+]
+
+[[goods.entries]]
+id = 4600000
+name = "Marikas geflochtener Zopf"
+info = "Belebt bei Tod wieder, stellt den Charakter vollständig wieder her"
+description = """\
+Gegenstand für Duellanten. \
+Verzaubert von den Anrufungen der Fundamentalisten der goldenen Ordnung. \
+Wenn der Duellant stirbt und dieser Gegenstand aktiviert ist bringt er den Duellanten sofort zurück ins Leben und stellt ihn vollständig wieder her. \
+Beim Tod werden somit die Gesundheit.\
+"""
+
+[[goods.entries]]
+id = 4600100
+name = "Fett der Wiederherstellung"
+info = "Stellt den Charakter vollständig wieder her."
+description = """\
+Gegenstand für Duellanten. \
+Verzaubert von den Anrufungen der Fundamentalisten der goldenen Ordnung. \
+Wird genutzt um den Duellanten schnell wieder in Topform zu versetzen.
+Heilt vollständig die Gesundheit, Fokuspunkte und das Gleichgewicht. Außerdem werden alle Leiden und Spezialeffekte entfernt.\
+"""
+
+[[goods.entries]]
+id = 4600200
+name = "O'Gefäß der Fülle"
+info = "Bewirkt, dass Verbrauchsgegenstände beim Einsatz nicht mehr verbraucht werden."
+description = """\
+Gegenstand für Duellanten. \
+Verzaubert von den Anrufungen der Fundamentalisten der goldenen Ordnung. \
+Wird genutzt um einen unendlichen Vorrat an Verbrauchsgegenständen zu erhalten. \
+Jeder Gegenstand der benutzt wird, wird nicht verbraucht.
+Ein merkwürdiges bodenloses Gefäß. Seine Herkunft ist unbekannt. Manche verspotten es als Symbol ungezügelter Gier.\
+"""
+
+[[goods.entries]]
+id = 4600300
+name = "Phantom Calling Bell"
+info = "Calls phantoms who left their red sign"
+description = """\
+Item for online duelist play. \
+Enchanted by incantations of the Golden Order Fundamentalists.
+A powerful bell used to summon those who seek a battle. Summons all available red signs.\
+"""
+
+[menu]
+entries = [
+    { id = 469900, text = "DEN Karten" },
+    { id = 479900, text = "DEN 2v2 Karten" },
+]
+
+[action_buttons]
+entries = [
+    { id = 90010, text = "Startpfeil abfeuern" },
+    { id = 90011, text = "Zur Startposition teleportieren" },
+]
+
+[event_text]
+entries = [{ id = 470000, text = "30 Sekunden verbleibend" }]
+
+[system]
+entries = [
+    { id = 103000, text = "Latency Overlay" },
+    { id = 3001, text = "Choose whether to display the latency overlay above the players' names" },
+]

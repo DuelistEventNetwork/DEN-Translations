@@ -1,0 +1,97 @@
+# Thai translation for Den Maps
+# Note: Keep the formatting identical to the original file.
+# Use \ at the end of lines to break long descriptions into multiple lines.
+# E.g. description = """\
+# This is a long description that \
+# spans multiple lines.\
+# """
+# Will be processed as: "This is a long description that spans multiple lines."
+[location]
+entries = [
+    { id = 460000, text = "สังเวียนริมทะเล" },
+    { id = 460100, text = "โคลีเซียมที่ถูกลืม" },
+    { id = 460200, text = "หอดูดาว" },
+    { id = 460300, text = "ลานประลอง" },
+    { id = 460400, text = "ด่านหน้าหิมะ" },
+    { id = 460500, text = "เกาะพังทลาย" },
+    { id = 460600, text = "ทะเลสาบคริสตัล" },
+    { id = 460700, text = "สนามแห่งนครนิรันดร์" },
+    { id = 460800, text = "ซากปรักหักพังแห่งป่าไม้" },
+    { id = 460900, text = "หอสมุดที่ยิ่งใหญ่" },
+    { id = 470000, text = "สังเวียนริมทะเล (2v2)" },
+    { id = 470100, text = "สะพานลาวา (2v2)" },
+    { id = 470200, text = "หอดูดาว (2v2)" },
+    { id = 470300, text = "ลานประลอง (2v2)" },
+    { id = 470400, text = "ด่านหน้าหิมะ (2v2)" },
+    { id = 470500, text = "เกาะที่พังทลาย (2v2)" },
+    { id = 470600, text = "ทะเลสาบคริสตัล (2v2)" },
+    { id = 470700, text = "สนามแห่งนครนิรันดร์ (2v2)" },
+    { id = 470800, text = "ซากปรักหักพังแห่งป่าไม้ (2v2)" },
+    { id = 470900, text = "หอสมุดที่ยิ่งใหญ่ (2v2)" },
+    { id = 471000, text = "โคลีเซียมที่ถูกลืม (2v2)" },
+]
+
+[[goods.entries]]
+id = 4600000
+name = "ถักเปียของมาริกา"
+info = "คืนชีพเมื่อสูญสิ้น ฟื้นฟูตัวละครอย่างเต็มตัว"
+description = """\
+ไอเทมสำหรับนักดวลออนไลน์. \
+ร่ายมนตร์ด้วยคาถาของผู้เคร่งครัดแห่งบัญญัติทอง. \
+ใช้เรียกนักดวลที่ใกล้สิ้นลมหายใจกลับมาและคืนสภาพตามปกติของตนเอง.
+เมื่อผู้ใช้ตาย จะฟื้นฟู HP, FP คืนความมั่นคง ขจัดสภาวะผิดปกติทั้งหมดและลบล้างเอฟเฟกต์พิเศษทั้งหมด. \
+"""
+
+[[goods.entries]]
+id = 4600100
+name = "ไขมันแห่งการย้อนกลับ"
+info = "ฟื้นฟูตัวละครอย่างเต็มตัว"
+description = """\
+ไอเทมสำหรับนักดวลออนไลน์. \
+ร่ายมนตร์ด้วยคาถาของผู้เคร่งครัดแห่งบัญญัติทอง. \
+ใช้เพื่อฟื้นฟูนักดวลให้กลับสู่สภาพปกติก่อนการต่อสู้อย่างรวดเร็ว.
+ฟื้นฟู HP, FP คืนความมั่นคง ขจัดสภาวะผิดปกติทั้งหมดและลบล้างเอฟเฟกต์พิเศษทั้งหมด.\
+"""
+
+[[goods.entries]]
+id = 4600200
+name = "โอ'ไหแห่งความมากมาย"
+info = "ให้ของที่มีอยู่อย่างไม่มีที่สิ้นสุด"
+description = """\
+ไอเทมสำหรับนักดวลออนไลน์. \
+ร่ายมนตร์ด้วยคาถาของผู้เคร่งครัดแห่งบัญญัติทอง. \
+ใช้เพื่อเก็บรักษาและให้ปริมาณของใช้ที่ไม่มีที่สิ้นสุด.
+ไอเทมที่ใช้จะคงจำนวนในปัจจุบันไว้.
+ไหไร้ก้นลักษณะพิสดาร ต้นกำเนิดไม่เป็นที่รู้จัก บางคนเยาะเย้ยมันว่าเป็นสัญลักษณ์ของความโลภที่ไร้ขอบเขต. \
+"""
+
+[[goods.entries]]
+id = 4600300
+name = "Phantom Calling Bell"
+info = "Calls phantoms who left their red sign"
+description = """\
+Item for online duelist play. \
+Enchanted by incantations of the Golden Order Fundamentalists.
+A powerful bell used to summon those who seek a battle. Summons all available red signs.\
+"""
+
+[menu]
+entries = [
+    { id = 469900, text = "เดนแมพส์" },
+    { id = 479900, text = "เดน 2v2 แมพส์" },
+]
+
+[action_buttons]
+entries = [
+    { id = 90010, text = "ยิงลูกสอนเพื่อเริ่ม" },
+    { id = 90011, text = "กลับไปจุดเริ่มต้น" },
+]
+
+[event_text]
+entries = [{ id = 470000, text = "เหลือเวลาอีก 30 วินาที" }]
+
+[system]
+entries = [
+    { id = 103000, text = "Latency Overlay" },
+    { id = 3001, text = "Choose whether to display the latency overlay above the players' names" },
+]

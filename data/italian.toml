@@ -1,0 +1,99 @@
+# Italian translation for Den Maps
+# Note: Keep the formatting identical to the original file.
+# Use \ at the end of lines to break long descriptions into multiple lines.
+# E.g. description = """\
+# This is a long description that \
+# spans multiple lines.\
+# """
+# Will be processed as: "This is a long description that spans multiple lines."
+[location]
+entries = [
+    { id = 460000, text = "Arena in riva al mare" },
+    { id = 460100, text = "Colosseo dimenticato" },
+    { id = 460200, text = "Osservatorio" },
+    { id = 460300, text = "Piazza dei duelli" },
+    { id = 460400, text = "Accampamento innevato" },
+    { id = 460500, text = "Isole fluttuanti in rovina" },
+    { id = 460600, text = "Lago cristiallino" },
+    { id = 460700, text = "Cortile della Città Eterna" },
+    { id = 460800, text = "Rovine forestali" },
+    { id = 460900, text = "Libreria antica" },
+    { id = 470000, text = "Arena in riva al mare (2v2)" },
+    { id = 470100, text = "Ponte lavico (2v2)" },
+    { id = 470200, text = "Osservatorio (2v2)" },
+    { id = 470300, text = "Piazza dei duelli (2v2)" },
+    { id = 470400, text = "Accampamento innevato (2v2)" },
+    { id = 470500, text = "Isole fluttuanti in rovina (2v2)" },
+    { id = 470600, text = "Lago cristiallino (2v2)" },
+    { id = 470700, text = "Cortile della Città Eterna (2v2)" },
+    { id = 470800, text = "Rovine forestali (2v2)" },
+    { id = 470900, text = "Libreria antica (2v2)" },
+    { id = 471000, text = "Colosseo dimenticato (2v2)" },
+]
+
+[[goods.entries]]
+id = 4600000
+name = "Treccia di Marika"
+info = "Rianima dalla morte ripristinando completamente il personaggio."
+description = """\
+Oggetto per Duellare Online. \
+Incantato dalle preghiere dei Fondamentalisti della Legge Dorata. \
+Usato per rinvigorire un duellante sconfitto. Subito dopo la sua morte, viene ripristinato al suo stato prima della battaglia.
+Cura completamente HP, FP, ripristina la Poise, rimuove tutti gli status alterati ed effetti speciali.\
+"""
+
+[[goods.entries]]
+id = 4600100
+name = "Unguento Regressivo"
+info = "Ripristina completamente il personaggio"
+description = """\
+Oggetto per Duellare Online. \
+Incantato dalle preghiere dei Fondamentalisti della Legge Dorata. \
+Usato per ripristinare rapidamente i duellanti al loro stato prima della battaglia.
+Cura completamente HP, FP, ripristina la Poise, rimuove tutti gli status alterati ed effetti speciali.\
+"""
+
+[[goods.entries]]
+id = 4600200
+name = "O'vas Turgido"
+info = "Garantisce un ammontare infinito di qualsiasi oggetto in possesso"
+description = """\
+Oggetto per Duellare Online. \
+Incantato dalle preghiere dei Fondamentalisti della Legge Dorata. \
+Usato per immagazzinare e possedere quantità infinite di consumabili. \
+Ogni oggetto utilizzato manterrà la sua quantità attuale.
+Un vaso senza fondo peculiare a dir poco. Le sue origini sono sconosciute. Alcuni lo deridono come simbolo di un' avarizia senza briglie.\
+"""
+
+[[goods.entries]]
+id = 4600300
+name = "Phantom Calling Bell"
+info = "Calls phantoms who left their red sign"
+description = """\
+Item for online duelist play. \
+Enchanted by incantations of the Golden Order Fundamentalists.
+A powerful bell used to summon those who seek a battle. Summons all available red signs.\
+"""
+
+[menu]
+entries = [
+    { id = 469900, text = "DEN Maps" },
+    { id = 479900, text = "DEN Maps 2v2" },
+]
+
+[action_buttons]
+entries = [
+    { id = 90010, text = "Segnale di partenza" },
+    { id = 90011, text = "Teletrasporto verso il punto di partenza" },
+]
+
+[event_text]
+entries = [
+    { id = 470000, text = "30 seconds remaining" },
+]
+
+[system]
+entries = [
+    { id = 103000, text = "Latency Overlay" },
+    { id = 3001, text = "Choose whether to display the latency overlay above the players' names" },
+]

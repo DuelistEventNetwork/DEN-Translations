@@ -1,0 +1,92 @@
+# Chinese Simplified translation for Den Maps
+# Note: Keep the formatting identical to the original file.
+# Use \ at the end of lines to break long descriptions into multiple lines.
+# E.g. description = """\
+# This is a long description that \
+# spans multiple lines.\
+# """
+# Will be processed as: "This is a long description that spans multiple lines."
+[location]
+entries = [
+    { id = 460000, text = "海滨斗场" },
+    { id = 460100, text = "被遗忘的角斗场" },
+    { id = 460200, text = "观星台" },
+    { id = 460300, text = "演武厅" },
+    { id = 460400, text = "雪中哨站" },
+    { id = 460500, text = "崩毁之岛" },
+    { id = 460600, text = "结晶湖" },
+    { id = 460700, text = "永恒之城庭院" },
+    { id = 460800, text = "绿林墟域" },
+    { id = 460900, text = "大书库" },
+    { id = 470000, text = "海滨斗场 (2v2)" },
+    { id = 470100, text = "熔岩桥 (2v2)" },
+    { id = 470200, text = "观星台 (2v2)" },
+    { id = 470300, text = "演武厅 (2v2)" },
+    { id = 470400, text = "雪中哨站 (2v2)" },
+    { id = 470500, text = "崩毁之岛 (2v2)" },
+    { id = 470600, text = "结晶湖 (2v2)" },
+    { id = 470700, text = "永恒之城庭院 (2v2)" },
+    { id = 470800, text = "绿林废墟 (2v2)" },
+    { id = 470900, text = "大书库 (2v2)" },
+    { id = 471000, text = "被遗忘的角斗场 (2v2)" },
+]
+
+[[goods.entries]]
+id = 4600000
+name = "玛莉卡的发辫"
+info = "使角色死而复生，完好如初"
+description = """\
+联机决斗的道具。\
+被赋予黄金律法基本主义的祷告，使战败而亡的斗士起死回生，恢复至原来状态。 \
+于死亡之际，完全恢复HP、FP及强韧度，彻底治愈后遗症，并解除所有特殊状态。\
+"""
+
+[[goods.entries]]
+id = 4600100
+name = "逆溯油脂"
+info = "使角色完好如初"
+description = """\
+联机决斗的道具。被赋予黄金律法基本主义的祷告，使斗士于作战前瞬间恢复至原来状态。 \
+完全恢复HP、FP及强韧度，彻底治愈后遗症，并解除所有特殊状态。\
+"""
+
+[[goods.entries]]
+id = 4600200
+name = "盈满之壶"
+info = "提供无限所持有的道具"
+description = """\
+联机决斗的道具。\
+蕴藏着无穷无尽的内容物，让所有使用过的道具数量不变。 \
+来历不详，是奇特的无底之壶。 一些人视之为贪婪恣肆的象征。\
+"""
+
+[[goods.entries]]
+id = 4600300
+name = "Phantom Calling Bell"
+info = "Calls phantoms who left their red sign"
+description = """\
+Item for online duelist play. \
+Enchanted by incantations of the Golden Order Fundamentalists.
+A powerful bell used to summon those who seek a battle. Summons all available red signs.\
+"""
+
+[menu]
+entries = [
+    { id = 469900, text = "DEN 赛场模组" },
+    { id = 479900, text = "DEN 2v2 赛场模组" },
+]
+
+[action_buttons]
+entries = [
+    { id = 90010, text = "响起号角" },
+    { id = 90011, text = "瞬移至起点" },
+]
+
+[event_text]
+entries = [{ id = 470000, text = "尚余 30 秒" }]
+
+[system]
+entries = [
+    { id = 103000, text = "Latency Overlay" },
+    { id = 3001, text = "Choose whether to display the latency overlay above the players' names" },
+]

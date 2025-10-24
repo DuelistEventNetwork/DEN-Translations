@@ -1,0 +1,97 @@
+# French translation for Den Maps
+# Note: Keep the formatting identical to the original file.
+# Use \ at the end of lines to break long descriptions into multiple lines.
+# E.g. description = """\
+# This is a long description that \
+# spans multiple lines.\
+# """
+# Will be processed as: "This is a long description that spans multiple lines."
+[location]
+entries = [
+    { id = 460000, text = "Arène du Bord de Mer" },
+    { id = 460100, text = "Colisée Perdu" },
+    { id = 460200, text = "Observatoire" },
+    { id = 460300, text = "Carré de Duel" },
+    { id = 460400, text = "Avant-Poste Enneigé" },
+    { id = 460500, text = "Île Croulante" },
+    { id = 460600, text = "Lac Cristallin" },
+    { id = 460700, text = "Cour de la Cité Eternelle" },
+    { id = 460800, text = "Ruines Forestières" },
+    { id = 460900, text = "Grande Bibliothèque" },
+    { id = 470000, text = "Arène du Bord de Mer" },
+    { id = 470100, text = "Pont de Lave (2c2)" },
+    { id = 470200, text = "Observatoire (2c2)" },
+    { id = 470300, text = "Carré de Duel (2c2)" },
+    { id = 470400, text = "Avant-poste Enneigé (2c2)" },
+    { id = 470500, text = "Île Croulante (2c2)" },
+    { id = 470600, text = "Lac Cristallin (2c2)" },
+    { id = 470700, text = "Cour de la Cité Eternelle (2c2)" },
+    { id = 470800, text = "Ruines Forestières (2c2)" },
+    { id = 470900, text = "Grande Bibliothèque (2c2)" },
+    { id = 471000, text = "Colisée Perdu (2c2)" },
+]
+
+[[goods.entries]]
+id = 4600000
+name = "Ruban de Marika"
+info = "Ressuscite après la mort, restaure le personnage totalement"
+description = """\
+Objet destiné à la pratique du jeu en ligne pour le duel. \
+Enchanté par les incantations des Fondamentalistes de l'Ordre Doré. \
+Utilisé dans le but de ramener à la vie un duelliste déchu, en le rétablissant entièrement.
+Sur le point de mourir, soigne complètement les PV, les MP, restaure l'équilibre, retire toute affliction et dissipe tout effet indésirable.\
+"""
+
+[[goods.entries]]
+id = 4600100
+name = "Graisse Régressive"
+info = "Restaure totalement le personnage"
+description = """\
+Objet destiné à la pratique du jeu en ligne pour le duel. \
+Enchanté par les incantations des Fondamentalistes de l'Ordre Doré. \
+Utilisé dans le but de restaurer entièrement le duelliste avant la bataille.
+Soigne complètement les PV, les MP, restaure l'équilibre, retire toute affliction et dissipe tout effet indésirable.\
+"""
+
+[[goods.entries]]
+id = 4600200
+name = "Pot d'Abondance"
+info = "Confère un stock illimité de tout objet possédé"
+description = """\
+Objet destiné à la pratique du jeu en ligne pour le duel. \
+Enchanté par les incantations des Fondamentalistes de l'Ordre Doré. \
+Utilisé pour stocker et maintenir une infinité d'objets. \
+Tout objet utlisé gardera sa quantité actuelle.
+Un pot sans fond peu ordinaire. Ses origines demeurent inconnues. Certains s'amusent à en faire le symbole d'une avarice éffrénée.\
+"""
+
+[[goods.entries]]
+id = 4600300
+name = "Phantom Calling Bell"
+info = "Calls phantoms who left their red sign"
+description = """\
+Item for online duelist play. \
+Enchanted by incantations of the Golden Order Fundamentalists.
+A powerful bell used to summon those who seek a battle. Summons all available red signs.\
+"""
+
+[menu]
+entries = [
+    { id = 469900, text = "Cartes DEN" },
+    { id = 479900, text = "Cartes DEN (2c2)" },
+]
+
+[action_buttons]
+entries = [
+    { id = 90010, text = "Signal de Départ" },
+    { id = 90011, text = "Teleportation vers la Position de Départ" },
+]
+
+[event_text]
+entries = [{ id = 470000, text = "30 seconds remaining" }]
+
+[system]
+entries = [
+    { id = 103000, text = "Latency Overlay" },
+    { id = 3001, text = "Choose whether to display the latency overlay above the players' names" },
+]

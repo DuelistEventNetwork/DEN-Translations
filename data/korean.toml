@@ -1,0 +1,93 @@
+# Korean translation for Den Maps
+# Note: Keep the formatting identical to the original file.
+# Use \ at the end of lines to break long descriptions into multiple lines.
+# E.g. description = """\
+# This is a long description that \
+# spans multiple lines.\
+# """
+# Will be processed as: "This is a long description that spans multiple lines."
+[location]
+entries = [
+    { id = 460000, text = "해안가 투기장" },
+    { id = 460100, text = "Forgotten Colosseum" },
+    { id = 460200, text = "천문대" },
+    { id = 460300, text = "사각 투기장" },
+    { id = 460400, text = "눈내린 요새" },
+    { id = 460500, text = "무너지는 섬" },
+    { id = 460600, text = "결정 호수" },
+    { id = 460700, text = "영원한 도읍 안뜰" },
+    { id = 460800, text = "Forest Ruins" },
+    { id = 460900, text = "Grand Library" },
+    { id = 470000, text = "Seaside Arena (2v2)" },
+    { id = 470100, text = "Lava Bridge (2v2)" },
+    { id = 470200, text = "Observatory (2v2)" },
+    { id = 470300, text = "Dueling Square (2v2)" },
+    { id = 470400, text = "Snowy Outpost (2v2)" },
+    { id = 470500, text = "Crumbling Island (2v2)" },
+    { id = 470600, text = "Crystal Lake (2v2)" },
+    { id = 470700, text = "Eternal City Courtyard (2v2)" },
+    { id = 470800, text = "Forest Ruins (2v2)" },
+    { id = 470900, text = "Grand Library (2v2)" },
+    { id = 471000, text = "Forgotten Colosseum (2v2)" },
+]
+
+[[goods.entries]]
+id = 4600000
+name = "마리카의 머리카락"
+info = "사망 시, 부활하며 HP, FP, 강인도를 회복한다."
+description = """\
+온라인 결투용 아이템. 황금률 원리주의의 기도가 깃들어있다. \
+그것은 결투에 패해 죽음에 다다른 빛바랜 자를 되살렸다고 전해진다. \
+사망 시, HP, FP, 강인도를 모두 회복하고, 모든 이로운 효과와 상태이상을 해제한다.\
+"""
+
+[[goods.entries]]
+id = 4600100
+name = "회귀성 기름"
+info = "사용 시, HP, FP, 강인도를 회복한다."
+description = """\
+온라인 결투용 아이템. 황금률 원리주의의 기도가 깃들어있다. \
+투사라 불린 빛바랜 자들은 이를 결투 전에 사용하여 회복하였다고 한다. \
+사용 시, HP, FP, 강인도를 모두 회복하고, 모든 이로운 효과와 상태이상을 해제한다.\
+"""
+
+[[goods.entries]]
+id = 4600200
+name = "풍요 항아리"
+info = "사용 시, 보유 중인 모든 소모품을 무한히 공급한다."
+description = """\
+온라인 결투용 아이템. 소모품을 무한히 저장하여 공급하기 위해 사용된다. \
+사용 시, 사용한 모든 소모품이 소모되지 않는다. \
+바닥이 없는 독특한 항아리. 그 기원은 알 수 없으나, 누군가는 이를 탐욕의 상징이라 비웃으리라.\
+"""
+
+[[goods.entries]]
+id = 4600300
+name = "Phantom Calling Bell"
+info = "Calls phantoms who left their red sign"
+description = """\
+Item for online duelist play. \
+Enchanted by incantations of the Golden Order Fundamentalists.
+A powerful bell used to summon those who seek a battle. Summons all available red signs.\
+"""
+
+[menu]
+entries = [
+    { id = 469900, text = "DEN Maps" },
+    { id = 479900, text = "DEN 2v2 Maps" },
+]
+
+[action_buttons]
+entries = [
+    { id = 90010, text = "Fire starting arrow" },
+    { id = 90011, text = "Warp to starting location" },
+]
+
+[event_text]
+entries = [{ id = 470000, text = "30 seconds remaining" }]
+
+[system]
+entries = [
+    { id = 103000, text = "Latency Overlay" },
+    { id = 3001, text = "Choose whether to display the latency overlay above the players' names" },
+]

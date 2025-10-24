@@ -1,0 +1,96 @@
+# Spanish Latin translation for Den Maps
+# Note: Keep the formatting identical to the original file.
+# Use \ at the end of lines to break long descriptions into multiple lines.
+# E.g. description = """\
+# This is a long description that \
+# spans multiple lines.\
+# """
+# Will be processed as: "This is a long description that spans multiple lines."
+[location]
+entries = [
+    { id = 460000, text = "Arena Costera" },
+    { id = 460100, text = "Coliseo Olvidado" },
+    { id = 460200, text = "Observatorio" },
+    { id = 460300, text = "Arena de Duelos" },
+    { id = 460400, text = "Puesto Nevado" },
+    { id = 460500, text = "Isla Desmoronada" },
+    { id = 460600, text = "Lago de Cristal" },
+    { id = 460700, text = "Patio de la Ciudad Eterna" },
+    { id = 460800, text = "Ruinas del Bosque" },
+    { id = 460900, text = "Gran Biblioteca" },
+    { id = 470000, text = "Arena de Duelos (2v2)" },
+    { id = 470100, text = "Puente de Lava (2v2)" },
+    { id = 470200, text = "Observatorio (2v2)" },
+    { id = 470300, text = "Arena de Duelos (2v2)" },
+    { id = 470400, text = "Puesto Nevado (2v2)" },
+    { id = 470500, text = "Isla Desmoronada (2v2)" },
+    { id = 470600, text = "Lago de Cristal (2v2)" },
+    { id = 470700, text = "Patio de la Ciudad Eterna (2v2)" },
+    { id = 470800, text = "Ruinas del Bosque (2v2)" },
+    { id = 470900, text = "Gran Biblioteca (2v2)" },
+    { id = 471000, text = "Coliseo Olvidado (2v2)" },
+]
+
+[[goods.entries]]
+id = 4600000
+name = "Trenza de Marika"
+info = "Revive al morir, restaura el personaje completamente"
+description = """\
+Objeto para juego de duelo en línea. \
+Encantado por los encantamientos de los fundamentalistas de la Orden Dorada. \
+Revivirá el personaje al morir, recuperándolo a su estado natural.
+Al morir, restaura completamente el PV, PC, recupera aplomo, cura todos los estados y disipa todos los efectos especiales.\
+"""
+
+[[goods.entries]]
+id = 4600100
+name = "Grasa Regresiva"
+info = "Restaura completamente el personaje"
+description = """\
+Objeto para juego de duelo en línea. \
+Encantado por los encantamientos de los fundamentalistas de la Orden Dorada. \
+Usado para recuperar rápidamente el personaje a su estado natural antes de una batalla.
+Restaura completamente el PV, PC, recupera aplomo, cura todos los estados y disipa todos los efectos especiales.\
+"""
+
+[[goods.entries]]
+id = 4600200
+name = "O'Jarra de Abundancia"
+info = "Otorga suministros infinitos de cualquier bien en posesión"
+description = """\
+Objeto para juego de duelo en línea. \
+Usado para guardar y retener un suministro infinito de bienes. \
+Cualquier objeto usado va a conservar su cantidad actual.
+Una jarra sin fondo peculiar. Sus orígenes son desconocidos. Algunos lo caricaturizan como un símbolo de avaricia desenfrenada.\
+"""
+
+[[goods.entries]]
+id = 4600300
+name = "Phantom Calling Bell"
+info = "Calls phantoms who left their red sign"
+description = """\
+Item for online duelist play. \
+Enchanted by incantations of the Golden Order Fundamentalists.
+A powerful bell used to summon those who seek a battle. Summons all available red signs.\
+"""
+
+[menu]
+entries = [
+    { id = 469900, text = "Mapas DEN" },
+    { id = 479900, text = "Mapas 2v2 DEN" },
+]
+
+[action_buttons]
+entries = [
+    { id = 90010, text = "Disparar flecha iniciadora" },
+    { id = 90011, text = "Teletransporte a Posicion Inicial" },
+]
+
+[event_text]
+entries = [{ id = 470000, text = "Quedan 30 segundos" }]
+
+[system]
+entries = [
+    { id = 103000, text = "Latency Overlay" },
+    { id = 3001, text = "Choose whether to display the latency overlay above the players' names" },
+]
