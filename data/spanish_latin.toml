@@ -18,7 +18,7 @@ entries = [
     { id = 460700, text = "Patio de la Ciudad Eterna" },
     { id = 460800, text = "Ruinas del Bosque" },
     { id = 460900, text = "Gran Biblioteca" },
-    { id = 470000, text = "Arena de Duelos (2v2)" },
+    { id = 470000, text = "Arena Costera (2v2)" },
     { id = 470100, text = "Puente de Lava (2v2)" },
     { id = 470200, text = "Observatorio (2v2)" },
     { id = 470300, text = "Arena de Duelos (2v2)" },
@@ -66,12 +66,12 @@ Una jarra sin fondo peculiar. Sus orígenes son desconocidos. Algunos lo caricat
 
 [[goods.entries]]
 id = 4600300
-name = "Phantom Calling Bell"
-info = "Calls phantoms who left their red sign"
+name = "Campana llamadora de fantasmas"
+info = "Llama a los fantasmas que dejaron su señal roja"
 description = """\
-Item for online duelist play. \
-Enchanted by incantations of the Golden Order Fundamentalists.
-A powerful bell used to summon those who seek a battle. Summons all available red signs.\
+Objeto para juego de duelo en línea. \
+Encantado por los encantamientos de los fundamentalistas de la Orden Dorada.
+Una campana poderosa que se usa para invocar a quienes buscan batalla. Invoca todas las señales rojas disponibles.\
 """
 
 [menu]
@@ -83,7 +83,7 @@ entries = [
 [action_buttons]
 entries = [
     { id = 90010, text = "Disparar flecha iniciadora" },
-    { id = 90011, text = "Teletransporte a Posicion Inicial" },
+    { id = 90011, text = "Teletransporte a Posición Inicial" },
 ]
 
 [event_text]
@@ -91,6 +91,6 @@ entries = [{ id = 470000, text = "Quedan 30 segundos" }]
 
 [system]
 entries = [
-    { id = 103000, text = "Latency Overlay" },
-    { id = 3001, text = "Choose whether to display the latency overlay above the players' names" },
+    { id = 103000, text = "Ver Latencia" },
+    { id = 3001, text = "Elija si desea ver la latencia sobre los nombres de los jugadores" },
 ]
