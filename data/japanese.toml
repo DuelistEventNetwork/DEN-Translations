@@ -18,17 +18,17 @@ entries = [
     { id = 460700, text = "永遠の都中庭" },
     { id = 460800, text = "森の廃墟" },
     { id = 460900, text = "大書庫" },
-    { id = 470000, text = "海岸闘技場 (2vs2)" },
-    { id = 470100, text = "溶岩橋 (2vs2)" },
-    { id = 470200, text = "天文台 (2vs2)" },
-    { id = 470300, text = "決闘広場 (2vs2)" },
-    { id = 470400, text = "雪に覆われた前哨基地 (2vs2)" },
-    { id = 470500, text = "崩れゆく島 (2vs2)" },
-    { id = 470600, text = "結晶湖 (2vs2)" },
-    { id = 470700, text = "永遠の都 中庭 (2vs2)" },
-    { id = 470800, text = "森の廃墟 (2vs2)" },
-    { id = 470900, text = "大書庫 (2vs2)" },
-    { id = 471000, text = "忘れられた闘技場 (2vs2)" },
+    { id = 470000, text = "海岸闘技場 (2v2)" },
+    { id = 470100, text = "溶岩橋 (2v2)" },
+    { id = 470200, text = "天文台 (2v2)" },
+    { id = 470300, text = "決闘広場 (2v2)" },
+    { id = 470400, text = "雪に覆われた前哨基地 (2v2)" },
+    { id = 470500, text = "崩れゆく島 (2v2)" },
+    { id = 470600, text = "結晶湖 (2v2)" },
+    { id = 470700, text = "永遠の都中庭 (2v2)" },
+    { id = 470800, text = "森の廃墟 (2v2)" },
+    { id = 470900, text = "大書庫 (2v2)" },
+    { id = 471000, text = "忘れられた闘技場 (2v2)" },
 ]
 
 [[goods.entries]]
@@ -47,7 +47,8 @@ id = 4600100
 name = "回帰脂"
 info = "キャラクターを完全に回復させる"
 description = """\
-オンライン決闘者専用アイテム。黄金律原理主義の祈祷を付与する。 \
+オンライン決闘者専用アイテム。 \
+黄金律原理主義の祈祷を付与する。 \
 決闘前に決闘者を素早く自然な状態に戻すために使用する。
 HPとFPを全回復し、強靭を回復し、あらゆる状態異常と、特殊な効果を消し去る。\
 """
@@ -57,19 +58,20 @@ id = 4600200
 name = "底なしの壺"
 info = "現在保持しているあらゆるアイテムを無限に供給する"
 description = """\
-オンライン決闘者専用アイテム。無限に供給されるアイテムを保管し、保持するために使用される。 \
+オンライン決闘者専用アイテム。
+無限に供給されるアイテムを保管し、保持するために使用される。 \
 使用されたアイテムは、現在の量を保持する。
 奇妙な底なしの壺。その紀元は不明。抑えられない欲望の象徴として嘲笑する人もいる。\
 """
 
 [[goods.entries]]
 id = 4600300
-name = "Phantom Calling Bell"
-info = "Calls phantoms who left their red sign"
+name = "霊呼びの鈴"
+info = "赤いサインを書いたファントムを呼ぶ"
 description = """\
-Item for online duelist play. \
-Enchanted by incantations of the Golden Order Fundamentalists.
-A powerful bell used to summon those who seek a battle. Summons all available red signs.\
+オンライン決闘者専用アイテム。 \
+黄金律原理主義の祈祷を付与する。
+強力な鈴は戦いを求める者達の召喚に使用される。全ての赤いサインを召喚する。\
 """
 
 [menu]
@@ -91,6 +93,6 @@ entries = [
 
 [system]
 entries = [
-    { id = 103000, text = "Latency Overlay" },
-    { id = 3001, text = "Choose whether to display the latency overlay above the players' names" },
+    { id = 103000, text = "レイテンシ　オーバーレイ" },
+    { id = 3001, text = "プレイヤー達の名前の上にレイテンシオーバーレイを表示するかどうかを選択する" },
 ]
