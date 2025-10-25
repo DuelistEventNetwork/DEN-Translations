@@ -77,8 +77,8 @@ description = """\
 
 [menu]
 entries = [
-    { id = 469900, text = "DEN карты" },
-    { id = 479900, text = "DEN карты 2v2" },
+    { id = 469900, text = "Карты DEN" },
+    { id = 479900, text = "Карты DEN 2v2" },
 ]
 
 [action_buttons]
@@ -92,6 +92,6 @@ entries = [{ id = 470000, text = "Осталось 30 секунд" }]
 
 [system]
 entries = [
-    { id = 103000, text = "Latency Overlay" },
-    { id = 3001, text = "Choose whether to display the latency overlay above the players' names" },
+    { id = 103000, text = "Отображение задержки сети" },
+    { id = 3001, text = "Показывать или скрывать отображение задержки сети над именами игроков" },
 ]
