@@ -9,6 +9,7 @@ edition = "2024"
 toml = "0.9.8"
 quote = "1.0.41"
 proc-macro2 = "1.0.103"
+prettyplease = "0.2.37"
 
 [build-dependencies.syn]
 version = "2.0.108"

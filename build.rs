@@ -1,9 +1,10 @@
+use proc_macro2::TokenStream;
 // Generates rust code using src/translation.rs types and data/*.toml files.
-use quote::{ToTokens, quote};
+use quote::quote;
 use serde::Deserialize;
 use std::fs;
 use std::path::Path;
-use syn::{Expr, LitStr};
+use syn::{Expr, LitInt};
 
 #[derive(Deserialize)]
 struct LocationEntry {
@@ -83,10 +84,10 @@ struct Translation {
     system: System,
 }
 
-fn escape_string(s: &str) -> String {
-    s.replace("\\", "\\\\")
-        .replace("\"", "\\\"")
-        .replace("\n", "\\n")
+fn generate_utf16_data(s: &str) -> Vec<LitInt> {
+    s.encode_utf16()
+        .map(|u| LitInt::new(&u.to_string(), proc_macro2::Span::call_site()))
+        .collect()
 }
 
 fn generate_location(location: &Location) -> Expr {
@@ -95,8 +96,8 @@ fn generate_location(location: &Location) -> Expr {
         .iter()
         .map(|entry| {
             let id = entry.id;
-            let text = LitStr::new(&escape_string(&entry.text), proc_macro2::Span::call_site());
-            quote! { LocationEntry { id: #id, text: #text } }
+            let utf16 = generate_utf16_data(&entry.text);
+            quote! { LocationEntry { id: #id, text: Utf16String { data: &[ #(#utf16),* ] } } }
         })
         .collect::<Vec<_>>();
     syn::parse2(quote! { Location { entries: &[ #(#entries),* ] } }).unwrap()
@@ -108,13 +109,10 @@ fn generate_goods(goods: &Goods) -> Expr {
         .iter()
         .map(|entry| {
             let id = entry.id;
-            let name = LitStr::new(&escape_string(&entry.name), proc_macro2::Span::call_site());
-            let info = LitStr::new(&escape_string(&entry.info), proc_macro2::Span::call_site());
-            let description = LitStr::new(
-                &escape_string(&entry.description),
-                proc_macro2::Span::call_site(),
-            );
-            quote! { GoodsEntry { id: #id, name: #name, info: #info, description: #description } }
+            let name_utf16 = generate_utf16_data(&entry.name);
+            let info_utf16 = generate_utf16_data(&entry.info);
+            let description_utf16 = generate_utf16_data(&entry.description);
+            quote! { GoodsEntry { id: #id, name: Utf16String { data: &[ #(#name_utf16),* ] }, info: Utf16String { data: &[ #(#info_utf16),* ] }, description: Utf16String { data: &[ #(#description_utf16),* ] } } }
         })
         .collect::<Vec<_>>();
     syn::parse2(quote! { Goods { entries: &[ #(#entries),* ] } }).unwrap()
@@ -126,8 +124,8 @@ fn generate_menu(menu: &Menu) -> Expr {
         .iter()
         .map(|entry| {
             let id = entry.id;
-            let text = LitStr::new(&escape_string(&entry.text), proc_macro2::Span::call_site());
-            quote! { MenuEntry { id: #id, text: #text } }
+            let utf16 = generate_utf16_data(&entry.text);
+            quote! { MenuEntry { id: #id, text: Utf16String { data: &[ #(#utf16),* ] } } }
         })
         .collect::<Vec<_>>();
     syn::parse2(quote! { Menu { entries: &[ #(#entries),* ] } }).unwrap()
@@ -139,8 +137,8 @@ fn generate_action_buttons(action_buttons: &ActionButtons) -> Expr {
         .iter()
         .map(|entry| {
             let id = entry.id;
-            let text = LitStr::new(&escape_string(&entry.text), proc_macro2::Span::call_site());
-            quote! { ActionButtonsEntry { id: #id, text: #text } }
+            let utf16 = generate_utf16_data(&entry.text);
+            quote! { ActionButtonsEntry { id: #id, text: Utf16String { data: &[ #(#utf16),* ] } } }
         })
         .collect::<Vec<_>>();
     syn::parse2(quote! { ActionButtons { entries: &[ #(#entries),* ] } }).unwrap()
@@ -152,8 +150,8 @@ fn generate_event_text(event_text: &EventText) -> Expr {
         .iter()
         .map(|entry| {
             let id = entry.id;
-            let text = LitStr::new(&escape_string(&entry.text), proc_macro2::Span::call_site());
-            quote! { EventTextEntry { id: #id, text: #text } }
+            let utf16 = generate_utf16_data(&entry.text);
+            quote! { EventTextEntry { id: #id, text: Utf16String { data: &[ #(#utf16),* ] } } }
         })
         .collect::<Vec<_>>();
     syn::parse2(quote! { EventText { entries: &[ #(#entries),* ] } }).unwrap()
@@ -165,8 +163,8 @@ fn generate_system(system: &System) -> Expr {
         .iter()
         .map(|entry| {
             let id = entry.id;
-            let text = LitStr::new(&escape_string(&entry.text), proc_macro2::Span::call_site());
-            quote! { SystemEntry { id: #id, text: #text } }
+            let utf16 = generate_utf16_data(&entry.text);
+            quote! { SystemEntry { id: #id, text: Utf16String { data: &[ #(#utf16),* ] } } }
         })
         .collect::<Vec<_>>();
     syn::parse2(quote! { System { entries: &[ #(#entries),* ] } }).unwrap()
@@ -192,10 +190,48 @@ fn generate_translation(trans: &Translation) -> Expr {
     .unwrap()
 }
 
+/// Attempt to format the tokens with prettyplease,
+/// first by parsing as a file, then as a block,
+/// otherwise just returns the tokens as a string.
+pub fn pretty_parse(tokens: TokenStream) -> String {
+    use syn::File;
+    match syn::parse2::<File>(tokens.clone()) {
+        Ok(file) => prettyplease::unparse(&file),
+        Err(_) => {
+            // ok its not a file, lets try again putting the tokens in a function
+            match syn::parse2::<File>(quote::quote! {
+              fn deleteme(){
+                  #tokens
+              }
+            }) {
+                Ok(file) => {
+                    let mut str = prettyplease::unparse(&file);
+                    // remove the outer function
+                    str = str.replace("fn deleteme() {\n", "");
+                    if let Some(pos) = str.rfind("\n}") {
+                        str.replace_range(pos..pos + 3, "");
+                    }
+                    // remove the function indent
+                    str = str
+                        .lines()
+                        .map(|line| if line.len() >= 4 { &line[4..] } else { line })
+                        .collect::<Vec<_>>()
+                        .join("\n");
+                    str
+                }
+                Err(_) =>
+                // still cant parse, just return the tokens as a string
+                {
+                    tokens.to_string()
+                }
+            }
+        }
+    }
+}
+
 fn main() {
     println!("cargo:rerun-if-changed=data/");
     let dest_path = Path::new("src").join("generated.rs");
-    let mut output = "use crate::translation::*;\n\n".to_string();
 
     let languages = vec![
         ("ENGLISH", "data/english.toml"),
@@ -213,14 +249,21 @@ fn main() {
         ("SPANISH_LATIN", "data/spanish_latin.toml"),
         ("THAI", "data/thai.toml"),
     ];
+    let mut output = TokenStream::new();
 
+    let header = quote! {
+        use crate::translation::*;
+    };
+    output.extend(header);
     for (name, file) in languages {
         let content = fs::read_to_string(file).unwrap();
         let trans: Translation = toml::from_str(&content).unwrap();
         let code = generate_translation(&trans);
-        let code_str = code.to_token_stream().to_string();
-        output.push_str(&format!("pub static {name}: Translation = {code_str};\n\n"));
+        let name_ident = syn::Ident::new(name, proc_macro2::Span::call_site());
+        let decl = quote! {
+            pub static #name_ident: Translation = #code;
+        };
+        output.extend(decl);
     }
-
-    fs::write(&dest_path, output).unwrap();
+    fs::write(&dest_path, pretty_parse(output)).unwrap();
 }
