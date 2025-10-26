@@ -1,21 +1,8 @@
-use static_toml::static_toml;
+mod generated;
+mod translation;
 
-static_toml! {
-    pub static ENGLISH = include_toml!("data/english.toml");
-    pub static BRAZILIAN_PORTUGUESE = include_toml!("data/brazilian_portuguese.toml");
-    pub static CHINESE_SIMPLIFIED = include_toml!("data/chinese_simplified.toml");
-    pub static CHINESE_TRADITIONAL = include_toml!("data/chinese_traditional.toml");
-    pub static FRENCH = include_toml!("data/french.toml");
-    pub static GERMAN = include_toml!("data/german.toml");
-    pub static ITALIAN = include_toml!("data/italian.toml");
-    pub static JAPANESE = include_toml!("data/japanese.toml");
-    pub static KOREAN = include_toml!("data/korean.toml");
-    pub static POLISH = include_toml!("data/polish.toml");
-    pub static RUSSIAN = include_toml!("data/russian.toml");
-    pub static SPANISH_EU = include_toml!("data/spanish_eu.toml");
-    pub static SPANISH_LATIN = include_toml!("data/spanish_latin.toml");
-    pub static THAI = include_toml!("data/thai.toml");
-}
+pub use generated::*;
+pub use translation::*;
 
 #[repr(u32)]
 pub enum LanguageId {
@@ -70,6 +57,27 @@ impl LanguageId {
             "vietnamese" => LanguageId::EngUS,
             "arabic" => LanguageId::AraAE,
             _ => LanguageId::EngUS,
+        }
+    }
+
+    pub fn to_translation_bank(&self) -> &'static Translation {
+        match self {
+            LanguageId::JpnJP => &generated::JAPANESE,
+            LanguageId::EngUS => &generated::ENGLISH,
+            LanguageId::FraFR => &generated::FRENCH,
+            LanguageId::SpaES => &generated::SPANISH_EU,
+            LanguageId::ItaIT => &generated::ITALIAN,
+            LanguageId::DeuDE => &generated::GERMAN,
+            LanguageId::KorKR => &generated::KOREAN,
+            LanguageId::ZhoTW => &generated::CHINESE_TRADITIONAL,
+            LanguageId::ZhoCN => &generated::CHINESE_SIMPLIFIED,
+            LanguageId::PolPL => &generated::POLISH,
+            LanguageId::RusRU => &generated::RUSSIAN,
+            LanguageId::PorBR => &generated::BRAZILIAN_PORTUGUESE,
+            LanguageId::SpaAR => &generated::SPANISH_LATIN,
+            LanguageId::ThaTH => &generated::THAI,
+            // No Arabic translation available yet
+            LanguageId::AraAE => &generated::ENGLISH,
         }
     }
 }
