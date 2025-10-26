@@ -36,9 +36,11 @@ id = 4600000
 name = "Warkocz Mariki"
 info = "Odradza w momencie śmierci, całkowicie przywraca postać"
 description = """\
-Przedmiot do gry online. \
-Zaczarowany przez Fundamentalistów z grupy Złotego Porządku. \
+Przedmiot do gry online.
+Zaczarowany przez Fundamentalistów z grupy Złotego Porządku.
+
 Używany przez pojedynkujących się zawodników by tuż przed śmiercią przywrócić pokonanego do stanu pełnego zdrowia.
+
 Po śmierci przywraca HP, FP, poise (równowagę), usuwa wszystkie dolegliwości efekty specjalne.\
 """
 
@@ -47,9 +49,11 @@ id = 4600100
 name = "Smar Regresyjny"
 info = "Natychmiastowo uzdrawia postać"
 description = """\
-Przedmiot do gry online. \
-Zaczarowany przez Fundamentalistów z grupy Złotego Porządku. \
+Przedmiot do gry online.
+Zaczarowany przez Fundamentalistów z grupy Złotego Porządku.
+
 Używany przez pojedynkujących się zawodników by przygotować swoje ciała do walki tuż przed pojedynkiem.
+
 Przywraca HP, FP, poise (równowagę), usuwa wszystkie dolegliwości i efekty specjalne.\
 """
 
@@ -58,9 +62,11 @@ id = 4600200
 name = "Słoik obfitości"
 info = "Sprawia, że twoje zapasy nigdy się nie skończą"
 description = """\
-Przedmiot do gry online. \
-Używany do przechowywania i utrzymania nieskończonej ilości zasobów. \
+Przedmiot do gry online.
+Używany do przechowywania i utrzymania nieskończonej ilości zasobów.
+
 Specyficzny słój bez dna. Jego pochodzenie jest nieznane.
+
 Niektórzy mawiają, że jest to symbol niepohamowanej chciwości.\
 """
 
@@ -69,10 +75,12 @@ id = 4600300
 name = "Dzwonek przyzywania duchów"
 info = "Wzywa duchy które zostawiły ich czerwony znak"
 description = """\
-Przedmiot do duelowej gry online. \
+Przedmiot do duelowej gry online.
 Zaklęte przez inkantacje Fundamentalistów Złotego Porządku.
-Potężny dzwonek używany do wzywania tych którzy poszukują walki.\
-Wzywa wszystkie dostępne czerwone znaki. \
+
+Potężny dzwonek używany do wzywania tych którzy poszukują walki.
+
+Wzywa wszystkie dostępne czerwone znaki.\
 """
 
 [menu]

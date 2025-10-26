@@ -36,9 +36,11 @@ id = 4600000
 name = "Treccia di Marika"
 info = "Rianima dalla morte ripristinando completamente il personaggio."
 description = """\
-Oggetto per Duellare Online. \
-Incantato dalle preghiere dei Fondamentalisti della Legge Dorata. \
+Oggetto per Duellare Online.
+Incantato dalle preghiere dei Fondamentalisti della Legge Dorata.
+
 Usato per rinvigorire un duellante sconfitto. Subito dopo la sua morte, viene ripristinato al suo stato prima della battaglia.
+
 Cura completamente HP, FP, ripristina la Poise, rimuove tutti gli status alterati ed effetti speciali.\
 """
 
@@ -47,9 +49,11 @@ id = 4600100
 name = "Unguento Regressivo"
 info = "Ripristina completamente il personaggio"
 description = """\
-Oggetto per Duellare Online. \
-Incantato dalle preghiere dei Fondamentalisti della Legge Dorata. \
+Oggetto per Duellare Online.
+Incantato dalle preghiere dei Fondamentalisti della Legge Dorata.
+
 Usato per ripristinare rapidamente i duellanti al loro stato prima della battaglia.
+
 Cura completamente HP, FP, ripristina la Poise, rimuove tutti gli status alterati ed effetti speciali.\
 """
 
@@ -58,10 +62,12 @@ id = 4600200
 name = "O'vas Turgido"
 info = "Garantisce un ammontare infinito di qualsiasi oggetto in possesso"
 description = """\
-Oggetto per Duellare Online. \
-Incantato dalle preghiere dei Fondamentalisti della Legge Dorata. \
-Usato per immagazzinare e possedere quantità infinite di consumabili. \
+Oggetto per Duellare Online.
+Incantato dalle preghiere dei Fondamentalisti della Legge Dorata.
+
+Usato per immagazzinare e possedere quantità infinite di consumabili.
 Ogni oggetto utilizzato manterrà la sua quantità attuale.
+
 Un vaso senza fondo peculiare a dir poco. Le sue origini sono sconosciute. Alcuni lo deridono come simbolo di un' avarizia senza briglie.\
 """
 
@@ -70,8 +76,9 @@ id = 4600300
 name = "Phantom Calling Bell"
 info = "Calls phantoms who left their red sign"
 description = """\
-Item for online duelist play. \
+Item for online duelist play.
 Enchanted by incantations of the Golden Order Fundamentalists.
+
 A powerful bell used to summon those who seek a battle. Summons all available red signs.\
 """
 
@@ -88,9 +95,7 @@ entries = [
 ]
 
 [event_text]
-entries = [
-    { id = 470000, text = "30 seconds remaining" },
-]
+entries = [{ id = 470000, text = "30 seconds remaining" }]
 
 [system]
 entries = [

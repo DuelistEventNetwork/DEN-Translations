@@ -36,9 +36,11 @@ id = 4600000
 name = "Trenza de Marika"
 info = "Revive al morir, restaura al personaje"
 description = """\
-Objeto para duelos en multijugador en línea. \
-Hechizado con encantaciones de Fundamentalistas del Orden Dorado. \
+Objeto para duelos en multijugador en línea.
+Hechizado con encantaciones de Fundamentalistas del Orden Dorado.
+
 Se usa para rescatar a un duelista de las puertas de la muerte al ser derrotado, y restaurarles a su estado normal.
+
 Al morir, cura los PV, PC, el equilibrio, elimina toda aflicción y efecto especial.\
 """
 
@@ -47,9 +49,11 @@ id = 4600100
 name = "Grasa Regresiva"
 info = "Restaura completamente al personaje"
 description = """\
-Objeto para duelos en multijugador en línea. \
-Hechizado con encantaciones de Fundamentalistas del Orden Dorado. \
+Objeto para duelos en multijugador en línea.
+Hechizado con encantaciones de Fundamentalistas del Orden Dorado.
+
 Se usa para restaurar a un duelista a su estado normal antes de la batalla.
+
 Cura los PV, PC, el equilibrio, elimina toda aflicción y efecto especial.\
 """
 
@@ -58,10 +62,12 @@ id = 4600200
 name = "Tarro de la Abundancia"
 info = "Otorga un suministro ilimitado de cualquier bien actualmente sujetado"
 description = """\
-Objeto para duelos en multijugador en línea. \
-Hechizado con encantaciones de Fundamentalistas del Orden Dorado. \
-Se usa para almacenar y retener un suministro infinito de bienes. \
+Objeto para duelos en multijugador en línea.
+Hechizado con encantaciones de Fundamentalistas del Orden Dorado.
+
+Se usa para almacenar y retener un suministro infinito de bienes.
 Cualquier objeto usado mantendrá su cantidad actual.
+
 Un peculiar tarro sin fondo. Sus orígenes son desconocidos. Algunos lo ridiculizan como un símbolo de avaricia sin límites.\
 """
 
@@ -70,8 +76,9 @@ id = 4600300
 name = "Phantom Calling Bell"
 info = "Calls phantoms who left their red sign"
 description = """\
-Item for online duelist play. \
+Item for online duelist play.
 Enchanted by incantations of the Golden Order Fundamentalists.
+
 A powerful bell used to summon those who seek a battle. Summons all available red signs.\
 """
 

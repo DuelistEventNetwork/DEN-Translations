@@ -19,16 +19,16 @@ entries = [
     { id = 460800, text = "Ruines Forestières" },
     { id = 460900, text = "Grande Bibliothèque" },
     { id = 470000, text = "Arène du Bord de Mer" },
-    { id = 470100, text = "Pont de Lave (2c2)" },
-    { id = 470200, text = "Observatoire (2c2)" },
-    { id = 470300, text = "Carré de Duel (2c2)" },
-    { id = 470400, text = "Avant-poste Enneigé (2c2)" },
-    { id = 470500, text = "Île Croulante (2c2)" },
-    { id = 470600, text = "Lac Cristallin (2c2)" },
-    { id = 470700, text = "Cour de la Cité Eternelle (2c2)" },
-    { id = 470800, text = "Ruines Forestières (2c2)" },
-    { id = 470900, text = "Grande Bibliothèque (2c2)" },
-    { id = 471000, text = "Colisée Perdu (2c2)" },
+    { id = 470100, text = "Pont de Lave (2v2)" },
+    { id = 470200, text = "Observatoire (2v2)" },
+    { id = 470300, text = "Carré de Duel (2v2)" },
+    { id = 470400, text = "Avant-poste Enneigé (2v2)" },
+    { id = 470500, text = "Île Croulante (2v2)" },
+    { id = 470600, text = "Lac Cristallin (2v2)" },
+    { id = 470700, text = "Cour de la Cité Eternelle (2v2)" },
+    { id = 470800, text = "Ruines Forestières (2v2)" },
+    { id = 470900, text = "Grande Bibliothèque (2v2)" },
+    { id = 471000, text = "Colisée Perdu (2v2)" },
 ]
 
 [[goods.entries]]
@@ -36,9 +36,11 @@ id = 4600000
 name = "Tresse de Marika"
 info = "Ressuscite après la mort, rétablis entièrement le personnage "
 description = """\
-Un objet destiné pour les duellistes. \
-Enchanté par les incantations des Fondamentalistes de l'Ordre d'Or. \
+Un objet destiné pour les duellistes.
+Enchanté par les incantations des Fondamentalistes de l'Ordre d'Or.
+
 Utilisé dans le but de ramener à la vie un duelliste déchu, en le rétablissant entièrement.
+
 Vous ramène à la vie après votre mort, soigne complètement les PV, les PC, rétablis l'équilibre, puis retire tous les effets positifs et négatifs du duelliste.\
 """
 
@@ -47,9 +49,11 @@ id = 4600100
 name = "Graisse Régressive"
 info = "Rétablis entièrement le personnage"
 description = """\
-Un objet destiné pour les duellistes. \
-Enchanté par les incantations des Fondamentalistes de l'Ordre d'Or. \
+Un objet destiné pour les duellistes.
+Enchanté par les incantations des Fondamentalistes de l'Ordre d'Or.
+
 Utilisé dans le but de rétablir entièrement le duelliste avant la bataille.
+
 Soigne complètement les PV, les PC, rétablis l'équilibre, puis retire tous les effets positifs et négatifs du duelliste.\
 """
 
@@ -58,10 +62,12 @@ id = 4600200
 name = "Pot d'Abondance"
 info = "Confère un stock illimité de tous les objets possédés"
 description = """\
-Un objet destiné pour les duellistes. \
-Enchanté par les incantations des Fondamentalistes de l'Ordre d'Or. \
-Utilisé pour stocker et maintenir une quantité d'objets illimitée. \
+Un objet destiné pour les duellistes.
+Enchanté par les incantations des Fondamentalistes de l'Ordre d'Or.
+
+Utilisé pour stocker et maintenir une quantité d'objets illimitée.
 Tous les objets utilisés conserveront leur quantité actuelle.
+
 Un pot sans fond peu ordinaire. Ses origines demeurent inconnues. Certains s'amusent à en faire le symbole d'une avarice éffrénée.\
 """
 
@@ -70,15 +76,16 @@ id = 4600300
 name = "Cloche d'appel des esprits"
 info = "Appelle les esprits ayant laissé leurs marques rouges"
 description = """\
-Un objet destiné pour les duellistes. \
+Un objet destiné pour les duellistes.
 Enchanté par les incantations des Fondamentalistes de l'Ordre d'Or.
+
 Une puissante cloche utilisée pour invoquer ceux en recherche d'un combat, invoque toutes les marques rouges disponibles.\
 """
 
 [menu]
 entries = [
     { id = 469900, text = "Cartes DEN" },
-    { id = 479900, text = "Cartes DEN (2c2)" },
+    { id = 479900, text = "Cartes DEN (2v2)" },
 ]
 
 [action_buttons]

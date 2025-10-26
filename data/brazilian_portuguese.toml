@@ -36,9 +36,11 @@ id = 4600000
 name = "Trança de Marika"
 info = "Revive na morte, restaurando completamente o personagem."
 description = """\
-Item para duelos online. \
-Encantado por encantamentos dos Fundamentalistas da Ordem Áurea. \
+Item para duelos online.
+Encantado por encantamentos dos Fundamentalistas da Ordem Áurea.
+
 Usado para trazer de volta um duelista à beira da morte após sua derrota e restaurá-lo ao seu estado natural.
+
 Na morte, cura totalmente PV, PF, equilíbrio, remove todas as doenças e dissipa todos os efeitos especiais.\
 """
 
@@ -47,9 +49,11 @@ id = 4600100
 name = "Sebo Regressivo"
 info = "Restaura o personagem completamente"
 description = """\
-Item para duelos online. \
-Encantado por encantamentos dos Fundamentalistas da Ordem Áurea. \
+Item para duelos online.
+Encantado por encantamentos dos Fundamentalistas da Ordem Áurea.
+
 Usado para restaurar rapidamente um duelista ao seu estado natural antes de uma batalha.
+
 Cura completamente PV, PF, equilíbrio, remove todas as doenças e dissipa todos os efeitos especiais.\
 """
 
@@ -58,9 +62,12 @@ id = 4600200
 name = "Ó Jarro Abundante"
 info = "Concede um suprimento infinito de quaisquer itens equipados."
 description = """\
-Item para duelos online. \
-Usado para manter um suprimento infinito de itens. \
+Item para duelos online.
+Encantado por encantamentos dos Fundamentalistas da Ordem Áurea.
+
+Usado para manter um suprimento infinito de itens.
 Quaisquer itens usados manterão sua quantidade atual.
+
 Um peculiar jarro sem-fundo. Suas origens são desconhecidas. Alguns ridicularizam-no como símbolo de avareza sem medida.\
 """
 
@@ -69,8 +76,9 @@ id = 4600300
 name = "Phantom Calling Bell"
 info = "Calls phantoms who left their red sign"
 description = """\
-Item for online duelist play. \
+Item for online duelist play.
 Enchanted by incantations of the Golden Order Fundamentalists.
+
 A powerful bell used to summon those who seek a battle. Summons all available red signs.\
 """
 

@@ -20,7 +20,7 @@ entries = [
     { id = 460900, text = "Die große Bibliothek" },
     { id = 470000, text = "Strandarena (2v2)" },
     { id = 470100, text = "Lavabrücke (2v2)" },
-    { id = 470200, text = "Observatoirum (2v2)" },
+    { id = 470200, text = "Observatorium (2v2)" },
     { id = 470300, text = "Duellplatz (2v2)" },
     { id = 470400, text = "Verschneiter Außenposten (2v2)" },
     { id = 470500, text = "Zerbröckelnde Insel (2v2)" },
@@ -36,10 +36,12 @@ id = 4600000
 name = "Marikas geflochtener Zopf"
 info = "Belebt bei Tod wieder, stellt den Charakter vollständig wieder her"
 description = """\
-Gegenstand für Duellanten. \
-Verzaubert von den Anrufungen der Fundamentalisten der goldenen Ordnung. \
-Wenn der Duellant stirbt und dieser Gegenstand aktiviert ist bringt er den Duellanten sofort zurück ins Leben und stellt ihn vollständig wieder her. \
-Beim Tod werden somit die Gesundheit.\
+Gegenstand für Duellanten.
+Verzaubert von den Anrufungen der Fundamentalisten der goldenen Ordnung.
+
+Wird verwendet, um einen Duellanten vom Rande des Todes zurückzubringen und ihn in seinen natürlichen Zustand zu versetzen.
+
+Beim Tod heilt es vollständig HP, FP, stellt das Gleichgewicht wieder her, entfernt alle Leiden und hebt alle Spezialeffekte auf.\
 """
 
 [[goods.entries]]
@@ -47,10 +49,12 @@ id = 4600100
 name = "Fett der Wiederherstellung"
 info = "Stellt den Charakter vollständig wieder her."
 description = """\
-Gegenstand für Duellanten. \
-Verzaubert von den Anrufungen der Fundamentalisten der goldenen Ordnung. \
-Wird genutzt um den Duellanten schnell wieder in Topform zu versetzen.
-Heilt vollständig die Gesundheit, Fokuspunkte und das Gleichgewicht. Außerdem werden alle Leiden und Spezialeffekte entfernt.\
+Gegenstand für Duellanten.
+Verzaubert von den Anrufungen der Fundamentalisten der goldenen Ordnung.
+
+Wird verwendet, um Duellanten schnell in ihren natürlichen Zustand vor einem Kampf zu versetzen.
+
+Heilt vollständig HP, FP, stellt das Gleichgewicht wieder her, entfernt alle Leiden und hebt alle Spezialeffekte auf.\
 """
 
 [[goods.entries]]
@@ -58,21 +62,24 @@ id = 4600200
 name = "O'Gefäß der Fülle"
 info = "Bewirkt, dass Verbrauchsgegenstände beim Einsatz nicht mehr verbraucht werden."
 description = """\
-Gegenstand für Duellanten. \
-Verzaubert von den Anrufungen der Fundamentalisten der goldenen Ordnung. \
-Wird genutzt um einen unendlichen Vorrat an Verbrauchsgegenständen zu erhalten. \
-Jeder Gegenstand der benutzt wird, wird nicht verbraucht.
+Gegenstand für Duellanten.
+Verzaubert von den Anrufungen der Fundamentalisten der goldenen Ordnung.
+
+Wird verwendet, um einen unendlichen Vorrat an Gegenständen zu speichern und zu erhalten.
+Alle verwendeten Gegenstände behalten ihre aktuelle Menge.
+
 Ein merkwürdiges bodenloses Gefäß. Seine Herkunft ist unbekannt. Manche verspotten es als Symbol ungezügelter Gier.\
 """
 
 [[goods.entries]]
 id = 4600300
 name = "Phantom Calling Bell"
-info = "Calls phantoms who left their red sign"
+info = "Ruft Phantome, die ihr rotes Zeichen hinterlassen haben"
 description = """\
-Item for online duelist play. \
-Enchanted by incantations of the Golden Order Fundamentalists.
-A powerful bell used to summon those who seek a battle. Summons all available red signs.\
+Gegenstand für Duellanten.
+Verzaubert von den Anrufungen der Fundamentalisten der goldenen Ordnung.
+
+Eine mächtige Glocke, die verwendet wird, um diejenigen herbeizurufen, die einen Kampf suchen. Ruft alle verfügbaren roten Zeichen.\
 """
 
 [menu]
@@ -92,6 +99,6 @@ entries = [{ id = 470000, text = "30 Sekunden verbleibend" }]
 
 [system]
 entries = [
-    { id = 103000, text = "Latency Overlay" },
-    { id = 3001, text = "Choose whether to display the latency overlay above the players' names" },
+    { id = 103000, text = "Latenz-Overlay" },
+    { id = 3001, text = "Wählen, ob die Latenz-Overlay über den Spielernamen angezeigt werden soll" },
 ]

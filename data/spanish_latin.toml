@@ -36,9 +36,11 @@ id = 4600000
 name = "Trenza de Marika"
 info = "Revive al morir, restaura el personaje completamente"
 description = """\
-Objeto para juego de duelo en línea. \
-Encantado por los encantamientos de los fundamentalistas de la Orden Dorada. \
+Objeto para juego de duelo en línea.
+Encantado por los encantamientos de los fundamentalistas de la Orden Dorada.
+
 Revivirá el personaje al morir, recuperándolo a su estado natural.
+
 Al morir, restaura completamente el PV, PC, recupera aplomo, cura todos los estados y disipa todos los efectos especiales.\
 """
 
@@ -47,9 +49,11 @@ id = 4600100
 name = "Grasa Regresiva"
 info = "Restaura completamente el personaje"
 description = """\
-Objeto para juego de duelo en línea. \
-Encantado por los encantamientos de los fundamentalistas de la Orden Dorada. \
+Objeto para juego de duelo en línea.
+Encantado por los encantamientos de los fundamentalistas de la Orden Dorada.
+
 Usado para recuperar rápidamente el personaje a su estado natural antes de una batalla.
+
 Restaura completamente el PV, PC, recupera aplomo, cura todos los estados y disipa todos los efectos especiales.\
 """
 
@@ -58,9 +62,12 @@ id = 4600200
 name = "O'Jarra de Abundancia"
 info = "Otorga suministros infinitos de cualquier bien en posesión"
 description = """\
-Objeto para juego de duelo en línea. \
-Usado para guardar y retener un suministro infinito de bienes. \
+Objeto para juego de duelo en línea.
+Encantado por los encantamientos de los fundamentalistas de la Orden Dorada.
+
+Usado para guardar y retener un suministro infinito de bienes.
 Cualquier objeto usado va a conservar su cantidad actual.
+
 Una jarra sin fondo peculiar. Sus orígenes son desconocidos. Algunos lo caricaturizan como un símbolo de avaricia desenfrenada.\
 """
 
@@ -69,8 +76,9 @@ id = 4600300
 name = "Campana llamadora de fantasmas"
 info = "Llama a los fantasmas que dejaron su señal roja"
 description = """\
-Objeto para juego de duelo en línea. \
+Objeto para juego de duelo en línea.
 Encantado por los encantamientos de los fundamentalistas de la Orden Dorada.
+
 Una campana poderosa que se usa para invocar a quienes buscan batalla. Invoca todas las señales rojas disponibles.\
 """
 

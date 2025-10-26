@@ -36,9 +36,11 @@ id = 4600000
 name = "Braid of Marika"
 info = "Revives on death, fully restores character"
 description = """\
-Item for online duelist play. \
-Enchanted by incantations of the Golden Order Fundamentalists. \
+Item for online duelist play.
+Enchanted by incantations of the Golden Order Fundamentalists.
+
 Used to bring back a duelist from the brink of death upon their defeat, and restore them to their natural state.
+
 On death, fully heals HP, FP, restores poise, removes all ailments and dispels all special effects.\
 """
 
@@ -47,9 +49,11 @@ id = 4600100
 name = "Regressive Grease"
 info = "Fully restores character"
 description = """\
-Item for online duelist play. \
-Enchanted by incantations of the Golden Order Fundamentalists. \
+Item for online duelist play.
+Enchanted by incantations of the Golden Order Fundamentalists.
+
 Used to quickly restore duelists to their natural state before a battle.
+
 Fully heals HP, FP, restores poise, removes all ailments and dispels all special effects.\
 """
 
@@ -58,10 +62,12 @@ id = 4600200
 name = "O'Jar of Plenty"
 info = "Grants an infinite supply of any currently held good"
 description = """\
-Item for online duelist play. \
-Enchanted by incantations of the Golden Order Fundamentalists. \
-Used to store and retain an infinite supply of goods. \
+Item for online duelist play.
+Enchanted by incantations of the Golden Order Fundamentalists.
+
+Used to store and retain an infinite supply of goods.
 Any items used will retain their current quantity.
+
 A peculiar bottomless jar. Its origins are unknown. Some deride it as a symbol of unbridled avarice.\
 """
 
@@ -70,8 +76,9 @@ id = 4600300
 name = "Phantom Calling Bell"
 info = "Calls phantoms who left their red sign"
 description = """\
-Item for online duelist play. \
+Item for online duelist play.
 Enchanted by incantations of the Golden Order Fundamentalists.
+
 A powerful bell used to summon those who seek a battle. Summons all available red signs.\
 """
 

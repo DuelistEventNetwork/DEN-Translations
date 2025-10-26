@@ -36,8 +36,10 @@ id = 4600000
 name = "마리카의 머리카락"
 info = "사망 시, 부활하며 HP, FP, 강인도를 회복한다."
 description = """\
-온라인 결투용 아이템. 황금률 원리주의의 기도가 깃들어있다. \
-그것은 결투에 패해 죽음에 다다른 빛바랜 자를 되살렸다고 전해진다. \
+온라인 결투용 아이템. 황금률 원리주의의 기도가 깃들어있다.
+
+그것은 결투에 패해 죽음에 다다른 빛바랜 자를 되살렸다고 전해진다.
+
 사망 시, HP, FP, 강인도를 모두 회복하고, 모든 이로운 효과와 상태이상을 해제한다.\
 """
 
@@ -46,8 +48,10 @@ id = 4600100
 name = "회귀성 기름"
 info = "사용 시, HP, FP, 강인도를 회복한다."
 description = """\
-온라인 결투용 아이템. 황금률 원리주의의 기도가 깃들어있다. \
-투사라 불린 빛바랜 자들은 이를 결투 전에 사용하여 회복하였다고 한다. \
+온라인 결투용 아이템. 황금률 원리주의의 기도가 깃들어있다.
+
+투사라 불린 빛바랜 자들은 이를 결투 전에 사용하여 회복하였다고 한다.
+
 사용 시, HP, FP, 강인도를 모두 회복하고, 모든 이로운 효과와 상태이상을 해제한다.\
 """
 
@@ -56,8 +60,10 @@ id = 4600200
 name = "풍요 항아리"
 info = "사용 시, 보유 중인 모든 소모품을 무한히 공급한다."
 description = """\
-온라인 결투용 아이템. 소모품을 무한히 저장하여 공급하기 위해 사용된다. \
-사용 시, 사용한 모든 소모품이 소모되지 않는다. \
+온라인 결투용 아이템. 소모품을 무한히 저장하여 공급하기 위해 사용된다.
+
+사용 시, 사용한 모든 소모품이 소모되지 않는다.
+
 바닥이 없는 독특한 항아리. 그 기원은 알 수 없으나, 누군가는 이를 탐욕의 상징이라 비웃으리라.\
 """
 
@@ -66,8 +72,9 @@ id = 4600300
 name = "Phantom Calling Bell"
 info = "Calls phantoms who left their red sign"
 description = """\
-Item for online duelist play. \
+Item for online duelist play.
 Enchanted by incantations of the Golden Order Fundamentalists.
+
 A powerful bell used to summon those who seek a battle. Summons all available red signs.\
 """
 
