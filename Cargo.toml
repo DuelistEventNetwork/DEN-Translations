@@ -18,14 +18,3 @@ features = ["full"]
 [build-dependencies.serde]
 version = "1.0.228"
 features = ["derive"]
-
-[lib]
-crate-type = ["cdylib"]
-
-[profile.release]
-codegen-units = 1
-debug = true
-lto = true
-opt-level = 3
-panic = "abort"
-strip = true
