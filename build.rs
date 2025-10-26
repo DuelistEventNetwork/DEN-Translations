@@ -1,5 +1,5 @@
-use proc_macro2::TokenStream;
 // Generates rust code using src/translation.rs types and data/*.toml files.
+use proc_macro2::TokenStream;
 use quote::quote;
 use serde::Deserialize;
 use std::fs;
@@ -87,6 +87,10 @@ struct Translation {
 fn generate_utf16_data(s: &str) -> Vec<LitInt> {
     s.encode_utf16()
         .map(|u| LitInt::new(&u.to_string(), proc_macro2::Span::call_site()))
+        .chain(std::iter::once(LitInt::new(
+            "0",
+            proc_macro2::Span::call_site(),
+        )))
         .collect()
 }
 
