@@ -1,16 +1,5 @@
-use std::ptr::NonNull;
-
 pub struct Utf16String {
     pub data: &'static [u16],
-}
-
-impl Utf16String {
-    /// Safety
-    ///
-    /// Please don't mutate the data :3
-    pub fn as_nonnull(&self) -> NonNull<u16> {
-        unsafe { NonNull::new(self.data.as_ptr() as *mut u16).unwrap_unchecked() }
-    }
 }
 
 pub struct LocationEntry {

@@ -60,7 +60,7 @@ impl LanguageId {
         }
     }
 
-    pub fn to_translation_bank(&self) -> &'static Translation {
+    pub fn get_language_bank(&self) -> &'static Translation {
         match self {
             LanguageId::JpnJP => &generated::JAPANESE,
             LanguageId::EngUS => &generated::ENGLISH,
