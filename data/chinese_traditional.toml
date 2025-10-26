@@ -60,12 +60,10 @@ description = """\
 
 [[goods.entries]]
 id = 4600300
-name = "Phantom Calling Bell"
-info = "Calls phantoms who left their red sign"
+name = "召戰魂鈴"
+info = "召喚留下血色記號的戰魂，展開聯機決鬥"
 description = """\
-Item for online duelist play. \
-Enchanted by incantations of the Golden Order Fundamentalists.
-A powerful bell used to summon those who seek a battle. Summons all available red signs.\
+被賦予黃金律法基本主義的禱告，能喚來嗜戰之士的強大召魂鈴。可召集留下血色記號的待戰者。\
 """
 
 [menu]
@@ -85,6 +83,6 @@ entries = [{ id = 470000, text = "尚餘 30 秒" }]
 
 [system]
 entries = [
-    { id = 103000, text = "Latency Overlay" },
-    { id = 3001, text = "Choose whether to display the latency overlay above the players' names" },
+    { id = 103000, text = "顯示延遲狀況" },
+    { id = 3001, text = "設定是否在玩家名稱上方顯示延遲狀況" },
 ]
