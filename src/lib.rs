@@ -76,8 +76,7 @@ impl LanguageId {
             LanguageId::PorBR => &generated::BRAZILIAN_PORTUGUESE,
             LanguageId::SpaAR => &generated::SPANISH_LATIN,
             LanguageId::ThaTH => &generated::THAI,
-            // No Arabic translation available yet
-            LanguageId::AraAE => &generated::ENGLISH,
+            LanguageId::AraAE => &generated::ARABIC,
         }
     }
 }

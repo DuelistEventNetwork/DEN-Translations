@@ -252,6 +252,7 @@ fn main() {
         ("SPANISH_EU", "data/spanish_eu.toml"),
         ("SPANISH_LATIN", "data/spanish_latin.toml"),
         ("THAI", "data/thai.toml"),
+        ("ARABIC", "data/arabic.toml"),
     ];
     let mut output = TokenStream::new();
 
