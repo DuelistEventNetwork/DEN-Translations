@@ -3,9 +3,16 @@
 version = 4
 
 [[package]]
+name = "ar-reshaper"
+version = "1.5.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "08dae85b57b725df143d5a2eb92c032dd032f062a636826fda1e1a4b21c40c03"
+
+[[package]]
 name = "den_translations"
 version = "0.1.0"
 dependencies = [
+ "ar-reshaper",
  "prettyplease",
  "proc-macro2",
  "quote",

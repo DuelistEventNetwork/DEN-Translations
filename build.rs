@@ -85,7 +85,20 @@ struct Translation {
 }
 
 fn generate_utf16_data(s: &str) -> Vec<LitInt> {
-    s.encode_utf16()
+    use ar_reshaper::reshape_line;
+
+    // Check if string contains Arabic
+    let utf16 = if s.chars().any(|c| ('\u{0600}'..='\u{06FF}').contains(&c)) {
+        reshape_line(s)
+            .to_string()
+            .encode_utf16()
+            .collect::<Vec<u16>>()
+    } else {
+        s.to_string().encode_utf16().collect::<Vec<u16>>()
+    };
+
+    utf16
+        .iter()
         .map(|u| LitInt::new(&u.to_string(), proc_macro2::Span::call_site()))
         .chain(std::iter::once(LitInt::new(
             "0",
