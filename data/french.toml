@@ -86,6 +86,7 @@ Une puissante cloche utilisée pour invoquer ceux en recherche d'un combat, invo
 entries = [
     { id = 469900, text = "Cartes DEN" },
     { id = 479900, text = "Cartes DEN (2v2)" },
+    { id = 401400, text = "Welcome to the BetterMultiplayer server" },
 ]
 
 [action_buttons]

@@ -87,6 +87,7 @@ Wzywa wszystkie dostępne czerwone znaki.\
 entries = [
     { id = 469900, text = "Mapy DEN" },
     { id = 479900, text = "Mapy DEN 2v2" },
+    { id = 401400, text = "Welcome to the BetterMultiplayer server" },
 ]
 
 [action_buttons]

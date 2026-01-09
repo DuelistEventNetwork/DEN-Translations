@@ -86,6 +86,7 @@ Eine mächtige Glocke, die verwendet wird, um diejenigen herbeizurufen, die eine
 entries = [
     { id = 469900, text = "DEN Karten" },
     { id = 479900, text = "DEN 2v2 Karten" },
+    { id = 401400, text = "Welcome to the BetterMultiplayer server" },
 ]
 
 [action_buttons]

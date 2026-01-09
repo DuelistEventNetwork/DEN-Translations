@@ -79,6 +79,7 @@ description = """\
 entries = [
     { id = 469900, text = "DEN 賽場模組" },
     { id = 479900, text = "DEN 2v2 賽場模組" },
+    { id = 401400, text = "Welcome to the BetterMultiplayer server" },
 ]
 
 [action_buttons]
