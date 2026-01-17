@@ -82,11 +82,46 @@ Enchanted by incantations of the Golden Order Fundamentalists.
 A powerful bell used to summon those who seek a battle. Summons all available red signs.\
 """
 
+[[goods.entries]]
+id = 4602000
+name = "Turtle Tender"
+info = "Currency traded with Miriel, Pastor of Vows"
+description = "Currency traded with Miriel, Pastor of Vows"
+
+[[goods.entries]]
+id = 4602001
+name = "Fingy"
+info = "Currency traded with White Mask Varré"
+description = "Currency traded with White Mask Varré"
+
+[[goods.entries]]
+id = 4602002
+name = "Jarbucks"
+info = "Currency traded with Iron Fist Alexander"
+description = "Currency traded with Iron Fist Alexander"
+
 [menu]
 entries = [
     { id = 469900, text = "DEN Maps" },
     { id = 479900, text = "DEN 2v2 Maps" },
     { id = 401400, text = "Welcome to the BetterMultiplayer server" },
+    { id = 239000, text = "Turtle shop" },
+    { id = 239001, text = "Bloody shop" },
+    { id = 239002, text = "Jar shop" },
+]
+
+[line_help]
+entries = [
+    { id = 239000, text = "Select turtle reward to purchase" },
+    { id = 239001, text = "Select bloody reward to purchase" },
+    { id = 239002, text = "Select jar reward to purchase" },
+]
+
+[dialogues]
+entries = [
+    { id = 239000, text = "Trade in <?demandSoul?> Turle Tenders for <?itemName?>?" },
+    { id = 239001, text = "Trade in <?demandSoul?> Fingies for <?itemName?>?" },
+    { id = 239002, text = "Trade in <?demandSoul?> Jarbucks for <?itemName?>?" },
 ]
 
 [action_buttons]

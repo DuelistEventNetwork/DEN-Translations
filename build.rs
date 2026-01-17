@@ -42,6 +42,28 @@ struct Menu {
 }
 
 #[derive(Deserialize)]
+struct LineHelpEntry {
+    id: u32,
+    text: String,
+}
+
+#[derive(Deserialize)]
+struct LineHelp {
+    entries: Vec<LineHelpEntry>,
+}
+
+#[derive(Deserialize)]
+struct DialoguesEntry {
+    id: u32,
+    text: String,
+}
+
+#[derive(Deserialize)]
+struct Dialogues {
+    entries: Vec<DialoguesEntry>,
+}
+
+#[derive(Deserialize)]
 struct ActionButtonsEntry {
     id: u32,
     text: String,
@@ -79,6 +101,8 @@ struct Translation {
     location: Location,
     goods: Goods,
     menu: Menu,
+    line_help: LineHelp,
+    dialogues: Dialogues,
     action_buttons: ActionButtons,
     event_text: EventText,
     system: System,
@@ -148,6 +172,32 @@ fn generate_menu(menu: &Menu) -> Expr {
     syn::parse2(quote! { Menu { entries: &[ #(#entries),* ] } }).unwrap()
 }
 
+fn generate_line_help(line_help: &LineHelp) -> Expr {
+    let entries = line_help
+        .entries
+        .iter()
+        .map(|entry| {
+            let id = entry.id;
+            let utf16 = generate_utf16_data(&entry.text);
+            quote! { LineHelpEntry { id: #id, text: Utf16String { data: &[ #(#utf16),* ] } } }
+        })
+        .collect::<Vec<_>>();
+    syn::parse2(quote! { LineHelp { entries: &[ #(#entries),* ] } }).unwrap()
+}
+
+fn generate_dialogues(dialogues: &Dialogues) -> Expr {
+    let entries = dialogues
+        .entries
+        .iter()
+        .map(|entry| {
+            let id = entry.id;
+            let utf16 = generate_utf16_data(&entry.text);
+            quote! { DialoguesEntry { id: #id, text: Utf16String { data: &[ #(#utf16),* ] } } }
+        })
+        .collect::<Vec<_>>();
+    syn::parse2(quote! { Dialogues { entries: &[ #(#entries),* ] } }).unwrap()
+}
+
 fn generate_action_buttons(action_buttons: &ActionButtons) -> Expr {
     let entries = action_buttons
         .entries
@@ -191,6 +241,8 @@ fn generate_translation(trans: &Translation) -> Expr {
     let location = generate_location(&trans.location);
     let goods = generate_goods(&trans.goods);
     let menu = generate_menu(&trans.menu);
+    let line_help = generate_line_help(&trans.line_help);
+    let dialogues = generate_dialogues(&trans.dialogues);
     let action_buttons = generate_action_buttons(&trans.action_buttons);
     let event_text = generate_event_text(&trans.event_text);
     let system = generate_system(&trans.system);
@@ -199,6 +251,8 @@ fn generate_translation(trans: &Translation) -> Expr {
             location: #location,
             goods: #goods,
             menu: #menu,
+            line_help: #line_help,
+            dialogues: #dialogues,
             action_buttons: #action_buttons,
             event_text: #event_text,
             system: #system,

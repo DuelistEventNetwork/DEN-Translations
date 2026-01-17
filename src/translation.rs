@@ -19,6 +19,16 @@ pub struct MenuEntry {
     pub text: Utf16String,
 }
 
+pub struct LineHelpEntry {
+    pub id: u32,
+    pub text: Utf16String,
+}
+
+pub struct DialoguesEntry {
+    pub id: u32,
+    pub text: Utf16String,
+}
+
 pub struct ActionButtonsEntry {
     pub id: u32,
     pub text: Utf16String,
@@ -50,6 +60,14 @@ pub struct Menu {
     pub entries: &'static [MenuEntry],
 }
 
+pub struct LineHelp {
+    pub entries: &'static [LineHelpEntry],
+}
+
+pub struct Dialogues {
+    pub entries: &'static [DialoguesEntry],
+}
+
 pub struct Location {
     pub entries: &'static [LocationEntry],
 }
@@ -61,6 +79,8 @@ pub struct Translation {
     pub location: Location,
     pub goods: Goods,
     pub menu: Menu,
+    pub line_help: LineHelp,
+    pub dialogues: Dialogues,
     pub action_buttons: ActionButtons,
     pub event_text: EventText,
     pub system: System,

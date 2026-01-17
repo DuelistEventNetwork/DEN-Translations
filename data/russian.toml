@@ -89,6 +89,12 @@ entries = [
     { id = 401400, text = "Welcome to the BetterMultiplayer server" },
 ]
 
+[line_help]
+entries = []
+
+[dialogues]
+entries = []
+
 [action_buttons]
 entries = [
     { id = 90010, text = "Запустить сигнальную стрелу" },
