@@ -100,6 +100,19 @@ name = "Jarbucks"
 info = "Currency traded with Iron Fist Alexander"
 description = "Currency traded with Iron Fist Alexander"
 
+[[goods.entries]]
+id = 640
+name = "Sleep Pot"
+info = "Uses FP. Throw to cause buildup of sleep."
+description = """\
+Craftable item prepared using a cracked pot.
+Enchanted by the incantations of St. Trina.
+
+Consumes FP. Throw at enemies to cause buildup of eternal sleep.
+
+Like a lullaby, or a quagmire, its light-purple haze irresistibly draws its victims down into sleep. Sweet dreams.\
+"""
+
 [menu]
 entries = [
     { id = 469900, text = "DEN Maps" },
