@@ -82,6 +82,26 @@ description = """\
 جرس قوي يُستخدم لاستدعاء من يسعون للقتال. يستدعي جميع العلامات الحمراء المتاحة.\
 """
 
+[[goods.entries]]
+id = 4602001
+name = "Tarnished's Severed Finger"
+info = "Exchange through White Mask Varré for items useful in invasion multiplayer."
+description = """\
+A tarnished's furled finger, mutilated and only recognizable by its trace resonance with other worlds.
+Used as proof of one's contribution to oncoming Mohgwyn dynasty, the spilling of noble blood.
+
+Pureblood knights, or those who strive to be anointed as one, exchange these for equipment that may be effective in future spilling.\
+"""
+
+[[goods.entries]]
+id = 4602002
+name = "Jar Coin"
+info = "Exchange at the roundtable jar shop for items useful in cooperative multiplayer."
+description = """\
+Taking after the culture of jars, tarnished gift these coins to their companions to show appreciation for their cooperation in battle.
+At the roundtable, a jar accepts these coins in exchange for items cooperators might find useful, especially for warding off invaders. \
+"""
+
 [menu]
 entries = [
     { id = 469900, text = "خرائط الوكر" },

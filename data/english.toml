@@ -82,23 +82,31 @@ Enchanted by incantations of the Golden Order Fundamentalists.
 A powerful bell used to summon those who seek a battle. Summons all available red signs.\
 """
 
-[[goods.entries]]
-id = 4602000
-name = "Turtle Tender"
-info = "Currency traded with Miriel, Pastor of Vows"
-description = "Currency traded with Miriel, Pastor of Vows"
+# [[goods.entries]]
+# id = 4602000
+# name = "Turtle Tender"
+# info = "Currency traded with Miriel, Pastor of Vows"
+# description = "Currency traded with Miriel, Pastor of Vows"
 
 [[goods.entries]]
 id = 4602001
-name = "Fingy"
-info = "Currency traded with White Mask Varré"
-description = "Currency traded with White Mask Varré"
+name = "Tarnished's Severed Finger"
+info = "Exchange through White Mask Varré for items useful in invasion multiplayer."
+description = """\
+A tarnished's furled finger, mutilated and only recognizable by its trace resonance with other worlds.
+Used as proof of one's contribution to oncoming Mohgwyn dynasty, the spilling of noble blood.
+
+Pureblood knights, or those who strive to be anointed as one, exchange these for equipment that may be effective in future spilling.\
+"""
 
 [[goods.entries]]
 id = 4602002
-name = "Jarbucks"
-info = "Currency traded with Iron Fist Alexander"
-description = "Currency traded with Iron Fist Alexander"
+name = "Jar Coin"
+info = "Exchange at the roundtable jar shop for items useful in cooperative multiplayer."
+description = """\
+Taking after the culture of jars, tarnished gift these coins to their companions to show appreciation for their cooperation in battle.
+At the roundtable, a jar accepts these coins in exchange for items cooperators might find useful, especially for warding off invaders. \
+"""
 
 [[goods.entries]]
 id = 640
