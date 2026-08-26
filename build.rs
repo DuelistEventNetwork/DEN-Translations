@@ -4,7 +4,7 @@ use quote::quote;
 use serde::Deserialize;
 use std::fs;
 use std::path::Path;
-use syn::{Expr, LitInt};
+use syn::Expr;
 
 #[derive(Deserialize)]
 struct LocationEntry {
@@ -86,6 +86,16 @@ struct EventText {
 }
 
 #[derive(Deserialize)]
+struct TalkEventText {
+    entries: Vec<EventTextEntry>,
+}
+
+#[derive(Deserialize)]
+struct TutorialBody {
+    entries: Vec<EventTextEntry>,
+}
+
+#[derive(Deserialize)]
 struct SystemEntry {
     id: u32,
     text: String,
@@ -97,6 +107,26 @@ struct System {
 }
 
 #[derive(Deserialize)]
+struct CustomEntry {
+    key: String,
+    text: String,
+}
+
+#[derive(Deserialize)]
+struct Custom {
+    entries: Vec<CustomEntry>,
+}
+
+impl Custom {
+    fn field_idents(&self) -> Vec<syn::Ident> {
+        self.entries
+            .iter()
+            .map(|entry| syn::Ident::new(&entry.key, proc_macro2::Span::call_site()))
+            .collect()
+    }
+}
+
+#[derive(Deserialize)]
 struct Translation {
     location: Location,
     goods: Goods,
@@ -105,30 +135,30 @@ struct Translation {
     dialogues: Dialogues,
     action_buttons: ActionButtons,
     event_text: EventText,
+    talk_event_text: TalkEventText,
+    tutorial_body: TutorialBody,
     system: System,
+    custom: Custom,
 }
 
-fn generate_utf16_data(s: &str) -> Vec<LitInt> {
+fn reshape(s: &str) -> String {
     use ar_reshaper::reshape_line;
 
-    // Check if string contains Arabic
-    let utf16 = if s.chars().any(|c| ('\u{0600}'..='\u{06FF}').contains(&c)) {
-        reshape_line(s)
-            .to_string()
-            .encode_utf16()
-            .collect::<Vec<u16>>()
+    if s.chars().any(|c| ('\u{0600}'..='\u{06FF}').contains(&c)) {
+        reshape_line(s).to_string()
     } else {
-        s.to_string().encode_utf16().collect::<Vec<u16>>()
-    };
+        s.to_string()
+    }
+}
 
-    utf16
-        .iter()
-        .map(|u| LitInt::new(&u.to_string(), proc_macro2::Span::call_site()))
-        .chain(std::iter::once(LitInt::new(
-            "0",
-            proc_macro2::Span::call_site(),
-        )))
-        .collect()
+fn generate_utf16_data(s: &str) -> TokenStream {
+    let reshaped = reshape(s);
+    quote! { ::widestring::u16cstr!(#reshaped).as_slice_with_nul() }
+}
+
+fn generate_utf16_data_raw(s: &str) -> TokenStream {
+    let reshaped = reshape(s);
+    quote! { ::widestring::u16str!(#reshaped).as_slice() }
 }
 
 fn generate_location(location: &Location) -> Expr {
@@ -138,7 +168,7 @@ fn generate_location(location: &Location) -> Expr {
         .map(|entry| {
             let id = entry.id;
             let utf16 = generate_utf16_data(&entry.text);
-            quote! { LocationEntry { id: #id, text: Utf16String { data: &[ #(#utf16),* ] } } }
+            quote! { LocationEntry { id: #id, text: Utf16String { data: #utf16 } } }
         })
         .collect::<Vec<_>>();
     syn::parse2(quote! { Location { entries: &[ #(#entries),* ] } }).unwrap()
@@ -153,7 +183,7 @@ fn generate_goods(goods: &Goods) -> Expr {
             let name_utf16 = generate_utf16_data(&entry.name);
             let info_utf16 = generate_utf16_data(&entry.info);
             let description_utf16 = generate_utf16_data(&entry.description);
-            quote! { GoodsEntry { id: #id, name: Utf16String { data: &[ #(#name_utf16),* ] }, info: Utf16String { data: &[ #(#info_utf16),* ] }, description: Utf16String { data: &[ #(#description_utf16),* ] } } }
+            quote! { GoodsEntry { id: #id, name: Utf16String { data: #name_utf16 }, info: Utf16String { data: #info_utf16 }, description: Utf16String { data: #description_utf16 } } }
         })
         .collect::<Vec<_>>();
     syn::parse2(quote! { Goods { entries: &[ #(#entries),* ] } }).unwrap()
@@ -166,7 +196,7 @@ fn generate_menu(menu: &Menu) -> Expr {
         .map(|entry| {
             let id = entry.id;
             let utf16 = generate_utf16_data(&entry.text);
-            quote! { MenuEntry { id: #id, text: Utf16String { data: &[ #(#utf16),* ] } } }
+            quote! { MenuEntry { id: #id, text: Utf16String { data: #utf16 } } }
         })
         .collect::<Vec<_>>();
     syn::parse2(quote! { Menu { entries: &[ #(#entries),* ] } }).unwrap()
@@ -179,7 +209,7 @@ fn generate_line_help(line_help: &LineHelp) -> Expr {
         .map(|entry| {
             let id = entry.id;
             let utf16 = generate_utf16_data(&entry.text);
-            quote! { LineHelpEntry { id: #id, text: Utf16String { data: &[ #(#utf16),* ] } } }
+            quote! { LineHelpEntry { id: #id, text: Utf16String { data: #utf16 } } }
         })
         .collect::<Vec<_>>();
     syn::parse2(quote! { LineHelp { entries: &[ #(#entries),* ] } }).unwrap()
@@ -192,7 +222,7 @@ fn generate_dialogues(dialogues: &Dialogues) -> Expr {
         .map(|entry| {
             let id = entry.id;
             let utf16 = generate_utf16_data(&entry.text);
-            quote! { DialoguesEntry { id: #id, text: Utf16String { data: &[ #(#utf16),* ] } } }
+            quote! { DialoguesEntry { id: #id, text: Utf16String { data: #utf16 } } }
         })
         .collect::<Vec<_>>();
     syn::parse2(quote! { Dialogues { entries: &[ #(#entries),* ] } }).unwrap()
@@ -205,7 +235,7 @@ fn generate_action_buttons(action_buttons: &ActionButtons) -> Expr {
         .map(|entry| {
             let id = entry.id;
             let utf16 = generate_utf16_data(&entry.text);
-            quote! { ActionButtonsEntry { id: #id, text: Utf16String { data: &[ #(#utf16),* ] } } }
+            quote! { ActionButtonsEntry { id: #id, text: Utf16String { data: #utf16 } } }
         })
         .collect::<Vec<_>>();
     syn::parse2(quote! { ActionButtons { entries: &[ #(#entries),* ] } }).unwrap()
@@ -218,10 +248,36 @@ fn generate_event_text(event_text: &EventText) -> Expr {
         .map(|entry| {
             let id = entry.id;
             let utf16 = generate_utf16_data(&entry.text);
-            quote! { EventTextEntry { id: #id, text: Utf16String { data: &[ #(#utf16),* ] } } }
+            quote! { EventTextEntry { id: #id, text: Utf16String { data: #utf16 } } }
         })
         .collect::<Vec<_>>();
     syn::parse2(quote! { EventText { entries: &[ #(#entries),* ] } }).unwrap()
+}
+
+fn generate_talk_event_text(talk_event_text: &TalkEventText) -> Expr {
+    let entries = talk_event_text
+        .entries
+        .iter()
+        .map(|entry| {
+            let id = entry.id;
+            let utf16 = generate_utf16_data(&entry.text);
+            quote! { EventTextEntry { id: #id, text: Utf16String { data: #utf16 } } }
+        })
+        .collect::<Vec<_>>();
+    syn::parse2(quote! { TalkEventText { entries: &[ #(#entries),* ] } }).unwrap()
+}
+
+fn generate_tutorial_body(tutorial_body: &TutorialBody) -> Expr {
+    let entries = tutorial_body
+        .entries
+        .iter()
+        .map(|entry| {
+            let id = entry.id;
+            let utf16 = generate_utf16_data(&entry.text);
+            quote! { EventTextEntry { id: #id, text: Utf16String { data: #utf16 } } }
+        })
+        .collect::<Vec<_>>();
+    syn::parse2(quote! { TutorialBody { entries: &[ #(#entries),* ] } }).unwrap()
 }
 
 fn generate_system(system: &System) -> Expr {
@@ -231,10 +287,62 @@ fn generate_system(system: &System) -> Expr {
         .map(|entry| {
             let id = entry.id;
             let utf16 = generate_utf16_data(&entry.text);
-            quote! { SystemEntry { id: #id, text: Utf16String { data: &[ #(#utf16),* ] } } }
+            quote! { SystemEntry { id: #id, text: Utf16String { data: #utf16 } } }
         })
         .collect::<Vec<_>>();
     syn::parse2(quote! { System { entries: &[ #(#entries),* ] } }).unwrap()
+}
+
+fn split_segments(text: &str) -> Option<TokenStream> {
+    if !text.contains('{') {
+        return None;
+    }
+
+    let mut segments = Vec::new();
+    let mut literal_start = 0;
+    let bytes = text.as_bytes();
+    let mut i = 0;
+    while i < bytes.len() {
+        if bytes[i] == b'{'
+            && let Some(close) = text[i..].find('}')
+            && let Ok(index) = text[i + 1..i + close].parse::<usize>()
+        {
+            if literal_start < i {
+                let utf16 = generate_utf16_data_raw(&text[literal_start..i]);
+                segments.push(quote! { CustomSegment::Literal(#utf16) });
+            }
+            segments.push(quote! { CustomSegment::Arg(#index) });
+            i += close + 1;
+            literal_start = i;
+            continue;
+        }
+        i += 1;
+    }
+    if literal_start < text.len() {
+        let utf16 = generate_utf16_data_raw(&text[literal_start..]);
+        segments.push(quote! { CustomSegment::Literal(#utf16) });
+    }
+
+    Some(quote! { &[ #(#segments),* ] })
+}
+
+fn generate_custom_struct_def(english_custom: &Custom) -> TokenStream {
+    let fields = english_custom.field_idents();
+    quote! {
+        pub struct Custom {
+            #( pub #fields: CustomEntry, )*
+        }
+    }
+}
+
+fn generate_custom(custom: &Custom) -> Expr {
+    let fields = custom.field_idents();
+    let values = custom.entries.iter().map(|entry| {
+        let text_utf16 = generate_utf16_data_raw(&entry.text);
+        let segments = split_segments(&entry.text).unwrap_or_else(|| quote! { &[] });
+        quote! { CustomEntry { text: #text_utf16, segments: #segments } }
+    });
+    syn::parse2(quote! { Custom { #( #fields: #values, )* } }).unwrap()
 }
 
 fn generate_translation(trans: &Translation) -> Expr {
@@ -245,7 +353,10 @@ fn generate_translation(trans: &Translation) -> Expr {
     let dialogues = generate_dialogues(&trans.dialogues);
     let action_buttons = generate_action_buttons(&trans.action_buttons);
     let event_text = generate_event_text(&trans.event_text);
+    let talk_event_text = generate_talk_event_text(&trans.talk_event_text);
+    let tutorial_body = generate_tutorial_body(&trans.tutorial_body);
     let system = generate_system(&trans.system);
+    let custom = generate_custom(&trans.custom);
     syn::parse2(quote! {
         Translation {
             location: #location,
@@ -255,7 +366,10 @@ fn generate_translation(trans: &Translation) -> Expr {
             dialogues: #dialogues,
             action_buttons: #action_buttons,
             event_text: #event_text,
+            talk_event_text: #talk_event_text,
+            tutorial_body: #tutorial_body,
             system: #system,
+            custom: #custom,
         }
     })
     .unwrap()
@@ -327,6 +441,11 @@ fn main() {
         use crate::translation::*;
     };
     output.extend(header);
+
+    let english_content = fs::read_to_string("data/english.toml").unwrap();
+    let english_trans: Translation = toml::from_str(&english_content).unwrap();
+    output.extend(generate_custom_struct_def(&english_trans.custom));
+
     for (name, file) in languages {
         let content = fs::read_to_string(file).unwrap();
         let trans: Translation = toml::from_str(&content).unwrap();

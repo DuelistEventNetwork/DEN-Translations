@@ -120,8 +120,40 @@ entries = [
 [event_text]
 entries = [{ id = 470000, text = "30 seconds remaining" }]
 
+[talk_event_text]
+entries = [
+    { id = 470010, text = "이 빌드를 가져올까요? 현재 장비가 교체됩니다." },
+    { id = 470011, text = "이 빌드를 가져올까요? 현재 장비는 유지됩니다." },
+]
+
+[tutorial_body]
+entries = [
+    { id = 4600400, text = "빌드를 빌드 플래너에 업로드했습니다." },
+    { id = 4600401, text = "빌드를 가져왔습니다." },
+]
+
 [system]
 entries = [
     { id = 103000, text = "Latency Overlay" },
     { id = 3001, text = "Choose whether to display the latency overlay above the players' names" },
+]
+
+[custom]
+entries = [
+    { key = "already_uploading", text = "이미 빌드를 업로드하는 중입니다. 완료될 때까지 기다려 주세요." },
+    { key = "could_not_read_equipment", text = "현재 장비를 읽어올 수 없습니다." },
+    { key = "failed_to_connect", text = "빌드 플래너에 연결하지 못했습니다." },
+    { key = "failed_to_encode_build", text = "빌드 데이터를 인코딩하지 못했습니다." },
+    { key = "failed_to_upload_build", text = "빌드를 업로드하지 못했습니다." },
+    { key = "build_planner_outdated", text = "빌드 플래너가 업데이트되었습니다. 웹사이트에서 다시 시도해 주세요." },
+    { key = "already_importing", text = "이미 빌드를 가져오는 중입니다. 완료될 때까지 기다려 주세요." },
+    { key = "failed_to_fetch_build", text = "빌드를 가져오지 못했습니다." },
+    { key = "failed_to_parse_build", text = "빌드 데이터를 분석하지 못했습니다." },
+    { key = "multiplayer_import_warning", text = "멀티플레이어 세션 중에는 빌드 가져오기 기능을 사용할 수 없습니다." },
+    { key = "build_has_no_items", text = "이 빌드에는 게임이 인식하는 아이템이 없어 가져올 항목이 없습니다." },
+    { key = "not_enough_key_slots", text = "중요 아이템 슬롯이 부족합니다. 필요 {0}개, 보유 {1}개." },
+    { key = "not_enough_inventory_slots", text = "인벤토리 슬롯이 부족합니다. 필요 {0}개, 보유 {1}개." },
+    { key = "not_enough_item_slots", text = "아이템 슬롯이 부족합니다. 필요 {0}개, 보유 {1}개." },
+    { key = "upload_rejected", text = "업로드가 거부되었습니다. 빌드 {0}의 링크가 만료되었을 수 있으니 웹사이트에서 다시 시도해 주세요." },
+    { key = "build_planner_status_error", text = "빌드 플래너가 상태 {0}을(를) 반환했습니다." },
 ]

@@ -124,8 +124,40 @@ entries = [
 [event_text]
 entries = [{ id = 470000, text = "30 secondes restantes" }]
 
+[talk_event_text]
+entries = [
+    { id = 470010, text = "Importer ce build ? Votre équipement actuel sera remplacé." },
+    { id = 470011, text = "Importer ce build ? Votre équipement actuel sera conservé." },
+]
+
+[tutorial_body]
+entries = [
+    { id = 4600400, text = "Build envoyé au Build Planner." },
+    { id = 4600401, text = "Build importé." },
+]
+
 [system]
 entries = [
     { id = 103000, text = "Affichage de la latence" },
     { id = 3001, text = "Choisir quand afficher la latence au-dessus du nom du personnage" },
+]
+
+[custom]
+entries = [
+    { key = "already_uploading", text = "Un build est déjà en cours d'envoi. Merci d'attendre la fin de l'opération." },
+    { key = "could_not_read_equipment", text = "Impossible de lire l'équipement actuel." },
+    { key = "failed_to_connect", text = "La connexion au Build Planner a échoué." },
+    { key = "failed_to_encode_build", text = "L'encodage des données du build a échoué." },
+    { key = "failed_to_upload_build", text = "L'envoi du build a échoué." },
+    { key = "build_planner_outdated", text = "Le Build Planner a été mis à jour. Merci de réessayer depuis le site web." },
+    { key = "already_importing", text = "Un build est déjà en cours d'importation. Merci d'attendre la fin de l'opération." },
+    { key = "failed_to_fetch_build", text = "La récupération du build a échoué." },
+    { key = "failed_to_parse_build", text = "L'analyse des données du build a échoué." },
+    { key = "multiplayer_import_warning", text = "L'import de build n'est pas disponible en session multijoueur." },
+    { key = "build_has_no_items", text = "Ce build ne contient aucun objet reconnu par le jeu, il n'y a rien à importer." },
+    { key = "not_enough_key_slots", text = "Pas assez d'emplacements d'objets clés. Il en faut {0}, il n'y en a que {1}." },
+    { key = "not_enough_inventory_slots", text = "Pas assez d'emplacements d'inventaire. Il en faut {0}, il n'y en a que {1}." },
+    { key = "not_enough_item_slots", text = "Pas assez d'emplacements d'objets. Il en faut {0}, il n'y en a que {1}." },
+    { key = "upload_rejected", text = "Envoi refusé. Le lien du build {0} a peut-être expiré, réessayez depuis le site web." },
+    { key = "build_planner_status_error", text = "Le Build Planner a renvoyé le statut {0}." },
 ]

@@ -124,8 +124,40 @@ entries = [
 [event_text]
 entries = [{ id = 470000, text = "เหลือเวลาอีก 30 วินาที" }]
 
+[talk_event_text]
+entries = [
+    { id = 470010, text = "นำเข้าบิลด์นี้หรือไม่? อุปกรณ์ปัจจุบันของคุณจะถูกแทนที่" },
+    { id = 470011, text = "นำเข้าบิลด์นี้หรือไม่? อุปกรณ์ปัจจุบันของคุณจะถูกเก็บไว้" },
+]
+
+[tutorial_body]
+entries = [
+    { id = 4600400, text = "อัปโหลดบิลด์ไปยัง Build Planner แล้ว" },
+    { id = 4600401, text = "นำเข้าบิลด์แล้ว" },
+]
+
 [system]
 entries = [
     { id = 103000, text = "Latency Overlay" },
     { id = 3001, text = "Choose whether to display the latency overlay above the players' names" },
+]
+
+[custom]
+entries = [
+    { key = "already_uploading", text = "กำลังอัปโหลดบิลด์อยู่ กรุณารอสักครู่" },
+    { key = "could_not_read_equipment", text = "อ่านข้อมูลอุปกรณ์ปัจจุบันไม่ได้" },
+    { key = "failed_to_connect", text = "เชื่อมต่อกับ Build Planner ไม่สำเร็จ" },
+    { key = "failed_to_encode_build", text = "เข้ารหัสข้อมูลบิลด์ไม่สำเร็จ" },
+    { key = "failed_to_upload_build", text = "อัปโหลดบิลด์ไม่สำเร็จ" },
+    { key = "build_planner_outdated", text = "Build Planner มีการอัปเดตใหม่ กรุณาลองอีกครั้งจากเว็บไซต์" },
+    { key = "already_importing", text = "กำลังนำเข้าบิลด์อยู่ กรุณารอสักครู่" },
+    { key = "failed_to_fetch_build", text = "ดึงข้อมูลบิลด์ไม่สำเร็จ" },
+    { key = "failed_to_parse_build", text = "อ่านข้อมูลบิลด์ไม่สำเร็จ" },
+    { key = "multiplayer_import_warning", text = "ไม่สามารถนำเข้าบิลด์ระหว่างเล่นผู้เล่นหลายคนได้" },
+    { key = "build_has_no_items", text = "บิลด์นี้ไม่มีไอเทมที่เกมรู้จักเลย จึงไม่มีอะไรให้นำเข้า" },
+    { key = "not_enough_key_slots", text = "ช่องไอเทมสำคัญไม่พอ ต้องใช้ {0} ช่อง แต่มีอยู่ {1} ช่อง" },
+    { key = "not_enough_inventory_slots", text = "ช่องเก็บของไม่พอ ต้องใช้ {0} ช่อง แต่มีอยู่ {1} ช่อง" },
+    { key = "not_enough_item_slots", text = "ช่องไอเทมไม่พอ ต้องใช้ {0} ช่อง แต่มีอยู่ {1} ช่อง" },
+    { key = "upload_rejected", text = "การอัปโหลดถูกปฏิเสธ ลิงก์ของบิลด์ {0} อาจหมดอายุแล้ว ลองใหม่อีกครั้งจากเว็บไซต์" },
+    { key = "build_planner_status_error", text = "Build Planner ส่งสถานะ {0} กลับมา" },
 ]

@@ -124,8 +124,40 @@ entries = [
 [event_text]
 entries = [{ id = 470000, text = "Quedan 30 segundos" }]
 
+[talk_event_text]
+entries = [
+    { id = 470010, text = "¿Importar este build? Tu equipo actual será reemplazado." },
+    { id = 470011, text = "¿Importar este build? Tu equipo actual se conservará." },
+]
+
+[tutorial_body]
+entries = [
+    { id = 4600400, text = "Build subido al Build Planner." },
+    { id = 4600401, text = "Build importado." },
+]
+
 [system]
 entries = [
     { id = 103000, text = "Ver Latencia" },
     { id = 3001, text = "Elija si desea ver la latencia sobre los nombres de los jugadores" },
+]
+
+[custom]
+entries = [
+    { key = "already_uploading", text = "Ya se está subiendo un build. Por favor espera a que termine el proceso." },
+    { key = "could_not_read_equipment", text = "No se pudo leer el equipo actual." },
+    { key = "failed_to_connect", text = "Error al conectar con el Build Planner." },
+    { key = "failed_to_encode_build", text = "Error al codificar los datos del build." },
+    { key = "failed_to_upload_build", text = "Error al subir el build." },
+    { key = "build_planner_outdated", text = "El Build Planner se actualizó. Por favor intenta de nuevo desde el sitio web." },
+    { key = "already_importing", text = "Ya se está importando un build. Por favor espera a que termine el proceso." },
+    { key = "failed_to_fetch_build", text = "Error al obtener el build." },
+    { key = "failed_to_parse_build", text = "Error al procesar los datos del build." },
+    { key = "multiplayer_import_warning", text = "No se puede importar un build durante una sesión multijugador." },
+    { key = "build_has_no_items", text = "Este build no tiene objetos que el juego reconozca, así que no hay nada que importar." },
+    { key = "not_enough_key_slots", text = "No hay suficientes espacios de objetos clave: se necesitan {0} y hay {1}." },
+    { key = "not_enough_inventory_slots", text = "No hay suficientes espacios de inventario: se necesitan {0} y hay {1}." },
+    { key = "not_enough_item_slots", text = "No hay suficientes espacios de objetos: se necesitan {0} y hay {1}." },
+    { key = "upload_rejected", text = "Carga rechazada. Es posible que el enlace del build {0} haya expirado, intenta de nuevo desde la página web." },
+    { key = "build_planner_status_error", text = "El Build Planner devolvió el estado {0}." },
 ]

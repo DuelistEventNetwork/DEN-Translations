@@ -154,8 +154,40 @@ entries = [
 [event_text]
 entries = [{ id = 470000, text = "30 seconds remaining" }]
 
+[talk_event_text]
+entries = [
+    { id = 470010, text = "Import this build? Your current equipment will be replaced." },
+    { id = 470011, text = "Import this build? Your current equipment will be kept." },
+]
+
+[tutorial_body]
+entries = [
+    { id = 4600400, text = "Build uploaded to the planner." },
+    { id = 4600401, text = "Build imported." },
+]
+
 [system]
 entries = [
     { id = 103000, text = "Latency Overlay" },
     { id = 3001, text = "Choose whether to display the latency overlay above the players' names" },
+]
+
+[custom]
+entries = [
+    { key = "already_uploading", text = "Already uploading a build. Please wait for it to finish." },
+    { key = "could_not_read_equipment", text = "Could not read current equipment." },
+    { key = "failed_to_connect", text = "Failed to connect to the build planner." },
+    { key = "failed_to_encode_build", text = "Failed to encode build data." },
+    { key = "failed_to_upload_build", text = "Failed to upload build." },
+    { key = "build_planner_outdated", text = "The build planner has updated. Please try again from the website." },
+    { key = "already_importing", text = "Already importing a build. Please wait for it to finish." },
+    { key = "failed_to_fetch_build", text = "Failed to fetch build." },
+    { key = "failed_to_parse_build", text = "Failed to parse build data." },
+    { key = "multiplayer_import_warning", text = "Build import can't be used during multiplayer." },
+    { key = "build_has_no_items", text = "This build has no items the game recognizes. Nothing to import." },
+    { key = "not_enough_key_slots", text = "Not enough key item slots. Need {0}, have {1}." },
+    { key = "not_enough_inventory_slots", text = "Not enough inventory slots. Need {0}, have {1}." },
+    { key = "not_enough_item_slots", text = "Not enough item slots. Need {0}, have {1}." },
+    { key = "upload_rejected", text = "Upload rejected. The link for build {0} may have expired. Try again from the website." },
+    { key = "build_planner_status_error", text = "The build planner returned status {0}." },
 ]

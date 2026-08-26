@@ -124,8 +124,40 @@ entries = [
 [event_text]
 entries = [{ id = 470000, text = "30 seconds remaining" }]
 
+[talk_event_text]
+entries = [
+    { id = 470010, text = "Importar esta build? Seu equipamento atual será substituído." },
+    { id = 470011, text = "Importar esta build? Seu equipamento atual será mantido." },
+]
+
+[tutorial_body]
+entries = [
+    { id = 4600400, text = "Build enviada ao Build Planner." },
+    { id = 4600401, text = "Build importada." },
+]
+
 [system]
 entries = [
     { id = 103000, text = "Latency Overlay" },
     { id = 3001, text = "Choose whether to display the latency overlay above the players' names" },
+]
+
+[custom]
+entries = [
+    { key = "already_uploading", text = "Já há um build sendo enviado. Aguarde a conclusão." },
+    { key = "could_not_read_equipment", text = "Não foi possível ler o equipamento atual." },
+    { key = "failed_to_connect", text = "Falha ao conectar ao Build Planner." },
+    { key = "failed_to_encode_build", text = "Falha ao codificar os dados do build." },
+    { key = "failed_to_upload_build", text = "Falha ao enviar o build." },
+    { key = "build_planner_outdated", text = "O Build Planner foi atualizado. Tente novamente pelo site." },
+    { key = "already_importing", text = "Já há um build sendo importado. Aguarde a conclusão." },
+    { key = "failed_to_fetch_build", text = "Falha ao buscar o build." },
+    { key = "failed_to_parse_build", text = "Falha ao interpretar os dados do build." },
+    { key = "multiplayer_import_warning", text = "Não é possível importar um build durante uma sessão multiplayer." },
+    { key = "build_has_no_items", text = "Este build não tem itens que o jogo reconheça. Não há nada para importar." },
+    { key = "not_enough_key_slots", text = "Espaços de itens-chave insuficientes. Necessário: {0}, disponível: {1}." },
+    { key = "not_enough_inventory_slots", text = "Espaços de inventário insuficientes. Necessário: {0}, disponível: {1}." },
+    { key = "not_enough_item_slots", text = "Espaços de itens insuficientes. Necessário: {0}, disponível: {1}." },
+    { key = "upload_rejected", text = "Envio rejeitado. O link do build {0} pode ter expirado. Tente novamente pelo site." },
+    { key = "build_planner_status_error", text = "O Build Planner retornou o status {0}." },
 ]

@@ -124,8 +124,40 @@ entries = [
 [event_text]
 entries = [{ id = 470000, text = "تبقّت 30 ثانية" }]
 
+[talk_event_text]
+entries = [
+    { id = 470010, text = "هل تريد استيراد هذا البيلد؟ سيتم استبدال معداتك الحالية." },
+    { id = 470011, text = "هل تريد استيراد هذا البيلد؟ سيتم الاحتفاظ بمعداتك الحالية." },
+]
+
+[tutorial_body]
+entries = [
+    { id = 4600400, text = "تم رفع البيلد إلى مخطط البيلد." },
+    { id = 4600401, text = "تم استيراد البيلد." },
+]
+
 [system]
 entries = [
     { id = 103000, text = "طبقة عرض زمن الاستجابة" },
     { id = 3001, text = "اختر ما إذا كنت تريد عرض طبقة زمن الاستجابة فوق أسماء اللاعبين" },
+]
+
+[custom]
+entries = [
+    { key = "already_uploading", text = "هناك بيلد قيد الرفع بالفعل، يرجى الانتظار حتى ينتهي." },
+    { key = "could_not_read_equipment", text = "تعذّرت قراءة التجهيزات الحالية." },
+    { key = "failed_to_connect", text = "تعذّر الاتصال بمخطط البيلد." },
+    { key = "failed_to_encode_build", text = "تعذّر ترميز بيانات البيلد." },
+    { key = "failed_to_upload_build", text = "تعذّر رفع البيلد." },
+    { key = "build_planner_outdated", text = "تم تحديث مخطط البيلد، يرجى المحاولة مجددًا من الموقع." },
+    { key = "already_importing", text = "هناك بيلد قيد الاستيراد بالفعل، يرجى الانتظار حتى ينتهي." },
+    { key = "failed_to_fetch_build", text = "تعذّر جلب البيلد." },
+    { key = "failed_to_parse_build", text = "تعذّر تحليل بيانات البيلد." },
+    { key = "multiplayer_import_warning", text = "لا يمكن استخدام استيراد البيلد أثناء اللعب الجماعي." },
+    { key = "build_has_no_items", text = "هذا البيلد لا يحتوي على أي عناصر تتعرف عليها اللعبة، فلا شيء لاستيراده." },
+    { key = "not_enough_key_slots", text = "خانات العناصر الرئيسية غير كافية، المطلوب {0} والمتوفر {1} فقط." },
+    { key = "not_enough_inventory_slots", text = "خانات الحقيبة غير كافية، المطلوب {0} والمتوفر {1} فقط." },
+    { key = "not_enough_item_slots", text = "خانات العناصر غير كافية، المطلوب {0} والمتوفر {1} فقط." },
+    { key = "upload_rejected", text = "تم رفض الرفع، ربما انتهت صلاحية رابط البيلد {0}. حاول مرة أخرى من الموقع." },
+    { key = "build_planner_status_error", text = "أعاد مخطط البيلد الحالة {0}." },
 ]

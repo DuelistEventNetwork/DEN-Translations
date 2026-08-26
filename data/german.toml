@@ -124,8 +124,40 @@ entries = [
 [event_text]
 entries = [{ id = 470000, text = "30 Sekunden verbleibend" }]
 
+[talk_event_text]
+entries = [
+    { id = 470010, text = "Dieses Build importieren? Deine aktuelle Ausrüstung wird ersetzt." },
+    { id = 470011, text = "Dieses Build importieren? Deine aktuelle Ausrüstung bleibt erhalten." },
+]
+
+[tutorial_body]
+entries = [
+    { id = 4600400, text = "Build zum Build Planner hochgeladen." },
+    { id = 4600401, text = "Build importiert." },
+]
+
 [system]
 entries = [
     { id = 103000, text = "Latenz-Overlay" },
     { id = 3001, text = "Wählen, ob die Latenz-Overlay über den Spielernamen angezeigt werden soll" },
+]
+
+[custom]
+entries = [
+    { key = "already_uploading", text = "Ein Build wird bereits hochgeladen. Bitte warte, bis der Vorgang abgeschlossen ist." },
+    { key = "could_not_read_equipment", text = "Aktuelle Ausrüstung konnte nicht gelesen werden." },
+    { key = "failed_to_connect", text = "Verbindung zum Build Planner fehlgeschlagen." },
+    { key = "failed_to_encode_build", text = "Build-Daten konnten nicht kodiert werden." },
+    { key = "failed_to_upload_build", text = "Build-Upload fehlgeschlagen." },
+    { key = "build_planner_outdated", text = "Der Build Planner wurde aktualisiert. Bitte versuche es erneut über die Website." },
+    { key = "already_importing", text = "Ein Build wird bereits importiert. Bitte warte, bis der Vorgang abgeschlossen ist." },
+    { key = "failed_to_fetch_build", text = "Build konnte nicht abgerufen werden." },
+    { key = "failed_to_parse_build", text = "Build-Daten konnten nicht gelesen werden." },
+    { key = "multiplayer_import_warning", text = "Der Build-Import kann nicht im Mehrspielermodus verwendet werden." },
+    { key = "build_has_no_items", text = "Dieser Build enthält keine Gegenstände, die das Spiel erkennt. Es gibt nichts zu importieren." },
+    { key = "not_enough_key_slots", text = "Nicht genug Plätze für Schlüsselgegenstände. Benötigt: {0}, vorhanden: {1}." },
+    { key = "not_enough_inventory_slots", text = "Nicht genug Inventarplätze. Benötigt: {0}, vorhanden: {1}." },
+    { key = "not_enough_item_slots", text = "Nicht genug Gegenstandsplätze. Benötigt: {0}, vorhanden: {1}." },
+    { key = "upload_rejected", text = "Upload abgelehnt. Der Link für Build {0} ist möglicherweise abgelaufen. Versuche es erneut über die Website." },
+    { key = "build_planner_status_error", text = "Der Build Planner hat mit Status {0} geantwortet." },
 ]

@@ -125,8 +125,40 @@ entries = [
 [event_text]
 entries = [{ id = 470000, text = "Zostało 30 sekund" }]
 
+[talk_event_text]
+entries = [
+    { id = 470010, text = "Zaimportować ten build? Obecne wyposażenie zostanie zastąpione." },
+    { id = 470011, text = "Zaimportować ten build? Obecne wyposażenie zostanie zachowane." },
+]
+
+[tutorial_body]
+entries = [
+    { id = 4600400, text = "Build wysłany do planera buildów." },
+    { id = 4600401, text = "Build zaimportowany." },
+]
+
 [system]
 entries = [
     { id = 103000, text = "Nakładka opóźnienia" },
     { id = 3001, text = "Wybierz, czy chcesz wyświetlać opóźnienie sieciowe nad nazwami graczy" },
+]
+
+[custom]
+entries = [
+    { key = "already_uploading", text = "Build jest już przesyłany. Poczekaj, aż się zakończy." },
+    { key = "could_not_read_equipment", text = "Nie udało się odczytać aktualnego ekwipunku." },
+    { key = "failed_to_connect", text = "Nie udało się połączyć z planerem buildów." },
+    { key = "failed_to_encode_build", text = "Nie udało się zakodować danych builda." },
+    { key = "failed_to_upload_build", text = "Nie udało się przesłać builda." },
+    { key = "build_planner_outdated", text = "Planer buildów został zaktualizowany. Spróbuj ponownie ze strony." },
+    { key = "already_importing", text = "Build jest już importowany. Poczekaj, aż się zakończy." },
+    { key = "failed_to_fetch_build", text = "Nie udało się pobrać builda." },
+    { key = "failed_to_parse_build", text = "Nie udało się przetworzyć danych builda." },
+    { key = "multiplayer_import_warning", text = "Importowanie builda jest niedostępne podczas sesji multiplayer." },
+    { key = "build_has_no_items", text = "Ten build nie zawiera żadnych przedmiotów rozpoznawanych przez grę. Nie ma czego importować." },
+    { key = "not_enough_key_slots", text = "Za mało miejsc na przedmioty kluczowe. Potrzeba {0}, dostępnych {1}." },
+    { key = "not_enough_inventory_slots", text = "Za mało miejsc w ekwipunku. Potrzeba {0}, dostępnych {1}." },
+    { key = "not_enough_item_slots", text = "Za mało miejsc na przedmioty. Potrzeba {0}, dostępnych {1}." },
+    { key = "upload_rejected", text = "Przesyłanie odrzucone. Link do builda {0} mógł wygasnąć, spróbuj ponownie ze strony." },
+    { key = "build_planner_status_error", text = "Planer buildów zwrócił status {0}." },
 ]

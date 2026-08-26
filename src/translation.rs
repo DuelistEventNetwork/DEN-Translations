@@ -47,6 +47,16 @@ pub struct EventText {
     pub entries: &'static [EventTextEntry],
 }
 
+pub struct TalkEventText {
+    pub entries: &'static [EventTextEntry],
+}
+
+/// `TutorialBody`, the text a tutorial toast shows. Keyed by the
+/// `TUTORIAL_PARAM_ST` row's `textId`.
+pub struct TutorialBody {
+    pub entries: &'static [EventTextEntry],
+}
+
 pub struct SystemEntry {
     pub id: u32,
     pub text: Utf16String,
@@ -75,6 +85,16 @@ pub struct Goods {
     pub entries: &'static [GoodsEntry],
 }
 
+pub enum CustomSegment {
+    Literal(&'static [u16]),
+    Arg(usize),
+}
+
+pub struct CustomEntry {
+    pub text: &'static [u16],
+    pub segments: &'static [CustomSegment],
+}
+
 pub struct Translation {
     pub location: Location,
     pub goods: Goods,
@@ -83,5 +103,8 @@ pub struct Translation {
     pub dialogues: Dialogues,
     pub action_buttons: ActionButtons,
     pub event_text: EventText,
+    pub talk_event_text: TalkEventText,
+    pub tutorial_body: TutorialBody,
     pub system: System,
+    pub custom: crate::generated::Custom,
 }

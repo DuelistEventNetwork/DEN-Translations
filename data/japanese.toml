@@ -121,8 +121,40 @@ entries = [{ id = 90010, text = "始まりの火矢" }, { id = 90011, text = "�
 [event_text]
 entries = [{ id = 470000, text = "残り 30 秒" }]
 
+[talk_event_text]
+entries = [
+    { id = 470010, text = "このビルドをインポートしますか？現在の装備は置き換えられます。" },
+    { id = 470011, text = "このビルドをインポートしますか？現在の装備は保持されます。" },
+]
+
+[tutorial_body]
+entries = [
+    { id = 4600400, text = "ビルドをビルドプランナーにアップロードしました。" },
+    { id = 4600401, text = "ビルドをインポートしました。" },
+]
+
 [system]
 entries = [
     { id = 103000, text = "レイテンシ　オーバーレイ" },
     { id = 3001, text = "プレイヤー達の名前の上にレイテンシオーバーレイを表示するかどうかを選択する" },
+]
+
+[custom]
+entries = [
+    { key = "already_uploading", text = "ビルドをアップロード中です。完了するまでお待ちください。" },
+    { key = "could_not_read_equipment", text = "現在の装備を読み取れませんでした。" },
+    { key = "failed_to_connect", text = "ビルドプランナーに接続できませんでした。" },
+    { key = "failed_to_encode_build", text = "ビルドデータのエンコードに失敗しました。" },
+    { key = "failed_to_upload_build", text = "ビルドをアップロードできませんでした。" },
+    { key = "build_planner_outdated", text = "ビルドプランナーが更新されています。ウェブサイトからやり直してください。" },
+    { key = "already_importing", text = "ビルドをインポート中です。完了するまでお待ちください。" },
+    { key = "failed_to_fetch_build", text = "ビルドを取得できませんでした。" },
+    { key = "failed_to_parse_build", text = "ビルドデータを解析できませんでした。" },
+    { key = "multiplayer_import_warning", text = "マルチプレイヤーセッション中はビルドのインポート機能を使用できません。" },
+    { key = "build_has_no_items", text = "このビルドにはゲームが認識できるアイテムがなく、インポートできません。" },
+    { key = "not_enough_key_slots", text = "貴重品の枠が足りません（必要数 {0}、所持数 {1}）。" },
+    { key = "not_enough_inventory_slots", text = "所持品の枠が足りません（必要数 {0}、所持数 {1}）。" },
+    { key = "not_enough_item_slots", text = "アイテム枠が足りません（必要数 {0}、所持数 {1}）。" },
+    { key = "upload_rejected", text = "アップロードが拒否されました。ビルド {0} のリンクの期限が切れている可能性があります。ウェブサイトからやり直してください。" },
+    { key = "build_planner_status_error", text = "ビルドプランナーがステータス {0} を返しました。" },
 ]

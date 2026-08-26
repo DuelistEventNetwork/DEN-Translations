@@ -116,8 +116,40 @@ entries = [{ id = 90010, text = "响起号角" }, { id = 90011, text = "瞬移�
 [event_text]
 entries = [{ id = 470000, text = "尚余 30 秒" }]
 
+[talk_event_text]
+entries = [
+    { id = 470010, text = "导入此构建？您当前的装备将被替换。" },
+    { id = 470011, text = "导入此构建？您当前的装备将被保留。" },
+]
+
+[tutorial_body]
+entries = [
+    { id = 4600400, text = "构建已上传至构建规划器。" },
+    { id = 4600401, text = "构建已导入。" },
+]
+
 [system]
 entries = [
     { id = 103000, text = "显示延迟状况" },
     { id = 3001, text = "设定是否在玩家名称上方显示延迟状况" },
+]
+
+[custom]
+entries = [
+    { key = "already_uploading", text = "已经在上传构建了，请稍候。" },
+    { key = "could_not_read_equipment", text = "无法读取当前装备。" },
+    { key = "failed_to_connect", text = "无法连接构建规划器。" },
+    { key = "failed_to_encode_build", text = "构建数据编码失败。" },
+    { key = "failed_to_upload_build", text = "构建上传失败。" },
+    { key = "build_planner_outdated", text = "构建规划器已更新，请前往网站重试。" },
+    { key = "already_importing", text = "已经在导入构建了，请稍候。" },
+    { key = "failed_to_fetch_build", text = "构建获取失败。" },
+    { key = "failed_to_parse_build", text = "构建数据解析失败。" },
+    { key = "multiplayer_import_warning", text = "多人游戏期间无法使用构建导入功能。" },
+    { key = "build_has_no_items", text = "这个构建里没有游戏能识别的物品，没有可导入的内容。" },
+    { key = "not_enough_key_slots", text = "关键道具栏位不够，需要 {0} 个，目前只有 {1} 个。" },
+    { key = "not_enough_inventory_slots", text = "背包栏位不够，需要 {0} 个，目前只有 {1} 个。" },
+    { key = "not_enough_item_slots", text = "道具栏位不够，需要 {0} 个，目前只有 {1} 个。" },
+    { key = "upload_rejected", text = "上传被拒绝，构建 {0} 的链接可能已过期，请前往网站重试。" },
+    { key = "build_planner_status_error", text = "构建规划器返回了状态码 {0}。" },
 ]

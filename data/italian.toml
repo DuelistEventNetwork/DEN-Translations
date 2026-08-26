@@ -124,8 +124,40 @@ entries = [
 [event_text]
 entries = [{ id = 470000, text = "30 seconds remaining" }]
 
+[talk_event_text]
+entries = [
+    { id = 470010, text = "Importare questa build? Il tuo equipaggiamento attuale verrà sostituito." },
+    { id = 470011, text = "Importare questa build? Il tuo equipaggiamento attuale verrà mantenuto." },
+]
+
+[tutorial_body]
+entries = [
+    { id = 4600400, text = "Build caricata sul Build Planner." },
+    { id = 4600401, text = "Build importata." },
+]
+
 [system]
 entries = [
     { id = 103000, text = "Latency Overlay" },
     { id = 3001, text = "Choose whether to display the latency overlay above the players' names" },
+]
+
+[custom]
+entries = [
+    { key = "already_uploading", text = "È già in corso il caricamento di un build. Attendi il completamento dell'operazione." },
+    { key = "could_not_read_equipment", text = "Impossibile leggere l'equipaggiamento attuale." },
+    { key = "failed_to_connect", text = "Connessione al Build Planner non riuscita." },
+    { key = "failed_to_encode_build", text = "Codifica dei dati del build non riuscita." },
+    { key = "failed_to_upload_build", text = "Caricamento del build non riuscito." },
+    { key = "build_planner_outdated", text = "Il Build Planner è stato aggiornato. Riprova dal sito web." },
+    { key = "already_importing", text = "È già in corso l'importazione di un build. Attendi il completamento dell'operazione." },
+    { key = "failed_to_fetch_build", text = "Recupero del build non riuscito." },
+    { key = "failed_to_parse_build", text = "Analisi dei dati del build non riuscita." },
+    { key = "multiplayer_import_warning", text = "Non è possibile importare un build durante una sessione multigiocatore." },
+    { key = "build_has_no_items", text = "Questo build non contiene oggetti riconosciuti dal gioco, quindi non c'è nulla da importare." },
+    { key = "not_enough_key_slots", text = "Slot per oggetti chiave insufficienti: ne servono {0}, ne hai {1}." },
+    { key = "not_enough_inventory_slots", text = "Slot d'inventario insufficienti: ne servono {0}, ne hai {1}." },
+    { key = "not_enough_item_slots", text = "Slot per oggetti insufficienti: ne servono {0}, ne hai {1}." },
+    { key = "upload_rejected", text = "Caricamento rifiutato. Il link del build {0} potrebbe essere scaduto: riprova dal sito web." },
+    { key = "build_planner_status_error", text = "Il Build Planner ha restituito lo stato {0}." },
 ]

@@ -114,8 +114,40 @@ entries = [{ id = 90010, text = "響起號角" }, { id = 90011, text = "瞬移�
 [event_text]
 entries = [{ id = 470000, text = "尚餘 30 秒" }]
 
+[talk_event_text]
+entries = [
+    { id = 470010, text = "匯入此構建？您目前的裝備將被取代。" },
+    { id = 470011, text = "匯入此構建？您目前的裝備將被保留。" },
+]
+
+[tutorial_body]
+entries = [
+    { id = 4600400, text = "構建已上傳至構建規劃器。" },
+    { id = 4600401, text = "構建已匯入。" },
+]
+
 [system]
 entries = [
     { id = 103000, text = "顯示延遲狀況" },
     { id = 3001, text = "設定是否在玩家名稱上方顯示延遲狀況" },
+]
+
+[custom]
+entries = [
+    { key = "already_uploading", text = "已經在上傳構建了，請稍候。" },
+    { key = "could_not_read_equipment", text = "無法讀取目前裝備。" },
+    { key = "failed_to_connect", text = "無法連線至構建規劃器。" },
+    { key = "failed_to_encode_build", text = "構建資料編碼失敗。" },
+    { key = "failed_to_upload_build", text = "構建上傳失敗。" },
+    { key = "build_planner_outdated", text = "構建規劃器已更新，請到網站重新嘗試。" },
+    { key = "already_importing", text = "已經在匯入構建了，請稍候。" },
+    { key = "failed_to_fetch_build", text = "構建取得失敗。" },
+    { key = "failed_to_parse_build", text = "構建資料解析失敗。" },
+    { key = "multiplayer_import_warning", text = "在多人遊戲連線期間無法使用構建匯入功能。" },
+    { key = "build_has_no_items", text = "這個構建裡沒有遊戲能辨識的物品，沒有可匯入的內容。" },
+    { key = "not_enough_key_slots", text = "關鍵道具欄位不足，需要 {0} 個，目前只有 {1} 個。" },
+    { key = "not_enough_inventory_slots", text = "背包欄位不足，需要 {0} 個，目前只有 {1} 個。" },
+    { key = "not_enough_item_slots", text = "道具欄位不足，需要 {0} 個，目前只有 {1} 個。" },
+    { key = "upload_rejected", text = "上傳被拒絕，構建 {0} 的連結可能已過期，請到網站重試。" },
+    { key = "build_planner_status_error", text = "構建規劃器回傳了狀態碼 {0}。" },
 ]
