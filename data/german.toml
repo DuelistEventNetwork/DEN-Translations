@@ -128,6 +128,8 @@ entries = [{ id = 470000, text = "30 Sekunden verbleibend" }]
 entries = [
     { id = 470010, text = "Dieses Build importieren? Deine aktuelle Ausrüstung wird ersetzt." },
     { id = 470011, text = "Dieses Build importieren? Deine aktuelle Ausrüstung bleibt erhalten." },
+    { id = 470012, text = "„<?lineHelp?>“ importieren?\nDeine aktuelle Ausrüstung wird ersetzt." },
+    { id = 470013, text = "„<?lineHelp?>“ importieren?\nDeine aktuelle Ausrüstung bleibt erhalten." },
 ]
 
 [tutorial_body]

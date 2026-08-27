@@ -158,6 +158,8 @@ entries = [{ id = 470000, text = "30 seconds remaining" }]
 entries = [
     { id = 470010, text = "Import this build? Your current equipment will be replaced." },
     { id = 470011, text = "Import this build? Your current equipment will be kept." },
+    { id = 470012, text = "Import \"<?lineHelp?>\"?\nYour current equipment will be replaced." },
+    { id = 470013, text = "Import \"<?lineHelp?>\"?\nYour current equipment will be kept." },
 ]
 
 [tutorial_body]

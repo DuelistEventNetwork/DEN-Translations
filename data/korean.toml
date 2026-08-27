@@ -124,6 +124,8 @@ entries = [{ id = 470000, text = "30 seconds remaining" }]
 entries = [
     { id = 470010, text = "이 빌드를 가져올까요? 현재 장비가 교체됩니다." },
     { id = 470011, text = "이 빌드를 가져올까요? 현재 장비는 유지됩니다." },
+    { id = 470012, text = "「<?lineHelp?>」를 가져올까요?\n현재 장비가 교체됩니다." },
+    { id = 470013, text = "「<?lineHelp?>」를 가져올까요?\n현재 장비는 유지됩니다." },
 ]
 
 [tutorial_body]
