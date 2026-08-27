@@ -139,7 +139,7 @@ entries = [
     { id = 4600404, text = "Phantom Calling Bell aktiv. Duellanten mit einem roten Rufzeichen werden automatisch gerufen." },
     { id = 4600405, text = "Phantom Calling Bell inaktiv." },
     { id = 4600406, text = "Keine freien Plätze für weitere Phantome." },
-    { id = 4600407, text = "Zuschauermodus. <?kgL1?> <?kgR1?> zum Wechseln der beobachteten Person." },
+    { id = 4600407, text = "Zuschauermodus. <?keyicon@24?>/<?keyicon@22?> zum Wechseln der beobachteten Person." },
     { id = 4600408, text = "Deine Gegner wurden besiegt. Rückkehr in deinen Körper." },
 ]
 

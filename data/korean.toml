@@ -135,7 +135,7 @@ entries = [
     { id = 4600404, text = "Phantom Calling Bell 활성화. 붉은 소환 사인을 작성한 투사를 자동으로 소환한다." },
     { id = 4600405, text = "Phantom Calling Bell 비활성화." },
     { id = 4600406, text = "더 이상 팬텀을 받을 자리가 없다." },
-    { id = 4600407, text = "관전 중. <?kgL1?> <?kgR1?>로 관전 대상을 변경한다." },
+    { id = 4600407, text = "관전 중. <?keyicon@24?>/<?keyicon@22?>로 관전 대상을 변경한다." },
     { id = 4600408, text = "적을 모두 물리쳤다. 육체로 돌아간다." },
 ]
 

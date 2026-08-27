@@ -139,7 +139,7 @@ entries = [
     { id = 4600404, text = "Phantom Calling Bell ativa. Duelistas que escreveram um sinal de invocação vermelho serão invocados automaticamente." },
     { id = 4600405, text = "Phantom Calling Bell inativa." },
     { id = 4600406, text = "Sem espaço para mais fantasmas." },
-    { id = 4600407, text = "Modo espectador. <?kgL1?> <?kgR1?> para mudar quem você observa." },
+    { id = 4600407, text = "Modo espectador. <?keyicon@24?>/<?keyicon@22?> para mudar quem você observa." },
     { id = 4600408, text = "Seus inimigos foram derrotados. Retornando ao seu corpo." },
 ]
 

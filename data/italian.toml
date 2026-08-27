@@ -139,7 +139,7 @@ entries = [
     { id = 4600404, text = "Phantom Calling Bell attiva. I duellanti che hanno lasciato un segno di evocazione rosso verranno evocati automaticamente." },
     { id = 4600405, text = "Phantom Calling Bell inattiva." },
     { id = 4600406, text = "Nessuno spazio libero per altri fantasmi." },
-    { id = 4600407, text = "Modalità spettatore. <?kgL1?> <?kgR1?> per cambiare chi stai guardando." },
+    { id = 4600407, text = "Modalità spettatore. <?keyicon@24?>/<?keyicon@22?> per cambiare chi stai guardando." },
     { id = 4600408, text = "I tuoi nemici sono stati sconfitti. Ritorno al tuo corpo." },
 ]
 

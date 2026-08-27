@@ -169,7 +169,7 @@ entries = [
     { id = 4600404, text = "Phantom Calling Bell active. Duelists who left a red summon sign will be summoned automatically." },
     { id = 4600405, text = "Phantom Calling Bell inactive." },
     { id = 4600406, text = "No free slots for more phantoms." },
-    { id = 4600407, text = "Spectating. <?kgL1?> <?kgR1?> to change who you are watching." },
+    { id = 4600407, text = "Spectating. <?keyicon@24?>/<?keyicon@22?> to change who you are watching." },
     { id = 4600408, text = "Your foes have been defeated. Returning to your body." },
 ]
 

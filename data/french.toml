@@ -139,7 +139,7 @@ entries = [
     { id = 4600404, text = "Cloche d'appel des esprits active. Les Duellistes ayant inscrit une marque d'invocation rouge sont invoqués automatiquement." },
     { id = 4600405, text = "Cloche d'appel des esprits inactive." },
     { id = 4600406, text = "Plus de place pour d'autres esprits." },
-    { id = 4600407, text = "Mode spectateur. <?kgL1?> <?kgR1?> pour changer de joueur observé." },
+    { id = 4600407, text = "Mode spectateur. <?keyicon@24?>/<?keyicon@22?> pour changer de joueur observé." },
     { id = 4600408, text = "Vos adversaires ont été vaincus. Retour à votre corps." },
 ]
 

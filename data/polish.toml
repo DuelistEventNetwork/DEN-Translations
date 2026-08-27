@@ -140,7 +140,7 @@ entries = [
     { id = 4600404, text = "Dzwonek przyzywania duchów aktywny. Pojedynkowicze, którzy zapisali czerwony znak przyzwania, będą przyzywani automatycznie." },
     { id = 4600405, text = "Dzwonek przyzywania duchów nieaktywny." },
     { id = 4600406, text = "Brak miejsca na kolejne duchy." },
-    { id = 4600407, text = "Tryb obserwatora. <?kgL1?> <?kgR1?>, aby zmienić obserwowaną osobę." },
+    { id = 4600407, text = "Tryb obserwatora. <?keyicon@24?>/<?keyicon@22?>, aby zmienić obserwowaną osobę." },
     { id = 4600408, text = "Twoi wrogowie zostali pokonani. Powrót do ciała." },
 ]
 

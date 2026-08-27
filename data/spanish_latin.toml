@@ -139,7 +139,7 @@ entries = [
     { id = 4600404, text = "Campana llamadora de fantasmas activa. Se invocarán automáticamente los duelistas que dejaron una señal de invocación roja." },
     { id = 4600405, text = "Campana llamadora de fantasmas inactiva." },
     { id = 4600406, text = "No hay espacio para más fantasmas." },
-    { id = 4600407, text = "Modo espectador. <?kgL1?> <?kgR1?> para cambiar a quién observas." },
+    { id = 4600407, text = "Modo espectador. <?keyicon@24?>/<?keyicon@22?> para cambiar a quién observas." },
     { id = 4600408, text = "Tus enemigos han sido derrotados. Volviendo a tu cuerpo." },
 ]
 
