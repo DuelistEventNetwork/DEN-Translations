@@ -134,6 +134,13 @@ entries = [
 entries = [
     { id = 4600400, text = "Build caricata sul Build Planner." },
     { id = 4600401, text = "Build importata." },
+    { id = 4600402, text = "Treccia di Marika attiva. Se muori, tornerai in vita nel luogo della tua morte." },
+    { id = 4600403, text = "Treccia di Marika inattiva. Non tornerai più in vita." },
+    { id = 4600404, text = "Phantom Calling Bell attiva. I duellanti che hanno lasciato un segno di evocazione rosso verranno evocati automaticamente." },
+    { id = 4600405, text = "Phantom Calling Bell inattiva." },
+    { id = 4600406, text = "Nessuno spazio libero per altri fantasmi." },
+    { id = 4600407, text = "Modalità spettatore. <?kgL1?> <?kgR1?> per cambiare chi stai guardando." },
+    { id = 4600408, text = "I tuoi nemici sono stati sconfitti. Ritorno al tuo corpo." },
 ]
 
 [system]

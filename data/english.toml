@@ -164,6 +164,13 @@ entries = [
 entries = [
     { id = 4600400, text = "Build uploaded to the planner." },
     { id = 4600401, text = "Build imported." },
+    { id = 4600402, text = "Braid of Marika active. Upon dying, you will be revived where you fell." },
+    { id = 4600403, text = "Braid of Marika inactive. You will no longer be revived upon dying." },
+    { id = 4600404, text = "Phantom Calling Bell active. Duelists who left a red summon sign will be summoned automatically." },
+    { id = 4600405, text = "Phantom Calling Bell inactive." },
+    { id = 4600406, text = "No free slots for more phantoms." },
+    { id = 4600407, text = "Spectating. <?kgL1?> <?kgR1?> to change who you are watching." },
+    { id = 4600408, text = "Your foes have been defeated. Returning to your body." },
 ]
 
 [system]

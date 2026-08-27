@@ -134,6 +134,13 @@ entries = [
 entries = [
     { id = 4600400, text = "Build enviada ao Build Planner." },
     { id = 4600401, text = "Build importada." },
+    { id = 4600402, text = "Trança de Marika ativa. Ao morrer, você reviverá no local onde morreu." },
+    { id = 4600403, text = "Trança de Marika inativa. Você não reviverá mais ao morrer." },
+    { id = 4600404, text = "Phantom Calling Bell ativa. Duelistas que escreveram um sinal de invocação vermelho serão invocados automaticamente." },
+    { id = 4600405, text = "Phantom Calling Bell inativa." },
+    { id = 4600406, text = "Sem espaço para mais fantasmas." },
+    { id = 4600407, text = "Modo espectador. <?kgL1?> <?kgR1?> para mudar quem você observa." },
+    { id = 4600408, text = "Seus inimigos foram derrotados. Retornando ao seu corpo." },
 ]
 
 [system]
