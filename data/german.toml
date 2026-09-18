@@ -138,7 +138,7 @@ entries = [
     { id = 4600401, text = "Build importiert." },
     { id = 4600402, text = "Marikas geflochtener Zopf aktiv. Wenn Ihr sterbt, werdet Ihr am Ort Eures Todes wiederbelebt." },
     { id = 4600403, text = "Marikas geflochtener Zopf inaktiv. Ihr werdet nicht mehr wiederbelebt." },
-    { id = 4600404, text = "Phantom Calling Bell aktiv. Duellanten mit einem roten Rufzeichen werden automatisch gerufen." },
+    { id = 4600404, text = "Phantom Calling Bell aktiv." },
     { id = 4600405, text = "Phantom Calling Bell inaktiv." },
     { id = 4600406, text = "Keine freien Plätze für weitere Phantome." },
     { id = 4600407, text = "Zuschauermodus. <?kgAttackL?>/<?kgAttackR?> zum Wechseln der beobachteten Person." },

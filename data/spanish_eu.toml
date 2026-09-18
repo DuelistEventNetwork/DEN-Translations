@@ -138,7 +138,7 @@ entries = [
     { id = 4600401, text = "Build importado." },
     { id = 4600402, text = "Trenza de Marika activa. Al morir, revivirás en el lugar de tu muerte." },
     { id = 4600403, text = "Trenza de Marika inactiva. Ya no revivirás al morir." },
-    { id = 4600404, text = "Phantom Calling Bell activa. Se invocarán automáticamente los Duelistas que hayan dibujado un símbolo de invocación rojo." },
+    { id = 4600404, text = "Phantom Calling Bell activa." },
     { id = 4600405, text = "Phantom Calling Bell inactiva." },
     { id = 4600406, text = "No hay espacio para más fantasmas." },
     { id = 4600407, text = "Modo espectador. <?kgAttackL?>/<?kgAttackR?> para cambiar a quién observas." },

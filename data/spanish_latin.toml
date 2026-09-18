@@ -138,7 +138,7 @@ entries = [
     { id = 4600401, text = "Build importada." },
     { id = 4600402, text = "Trenza de Marika activa. Tras morir, revivirás en el lugar de tu muerte." },
     { id = 4600403, text = "Trenza de Marika inactiva. Ya no revivirás tras morir." },
-    { id = 4600404, text = "Campana llamadora de fantasmas activa. Se invocarán automáticamente los duelistas que dejaron una señal de invocación roja." },
+    { id = 4600404, text = "Campana llamadora de fantasmas activa." },
     { id = 4600405, text = "Campana llamadora de fantasmas inactiva." },
     { id = 4600406, text = "No hay espacio para más fantasmas." },
     { id = 4600407, text = "Modo espectador. <?kgAttackL?>/<?kgAttackR?> para cambiar a quién observas." },

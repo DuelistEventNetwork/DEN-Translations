@@ -138,7 +138,7 @@ entries = [
     { id = 4600401, text = "Build importé." },
     { id = 4600402, text = "Tresse de Marika active. Lorsque vous mourez, vous revenez à la vie sur le lieu de votre mort." },
     { id = 4600403, text = "Tresse de Marika inactive. Vous ne revenez plus à la vie." },
-    { id = 4600404, text = "Cloche d'appel des esprits active. Les Duellistes ayant inscrit une marque d'invocation rouge sont invoqués automatiquement." },
+    { id = 4600404, text = "Cloche d'appel des esprits active." },
     { id = 4600405, text = "Cloche d'appel des esprits inactive." },
     { id = 4600406, text = "Plus de place pour d'autres esprits." },
     { id = 4600407, text = "Mode spectateur. <?kgAttackL?>/<?kgAttackR?> pour changer de joueur observé." },
