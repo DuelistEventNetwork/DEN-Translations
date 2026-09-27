@@ -32,19 +32,6 @@ entries = [
 ]
 
 [[goods.entries]]
-id = 4600000
-name = "ضفيرة ماريكا"
-info = "يُعيد الإحياء عند الموت ويستعيد حالة الشخصية بالكامل"
-description = """\
-غرض للعب المبارزين عبر الإنترنت.
-مُسحور بتعويذات أتباع النظام الذهبي الأصولي.
-
-يُستخدم لإعادة المبارز من حافة الموت عند هزيمته، وإعادته إلى حالته الطبيعية.
-
-عند الموت، يستعيد نقاط الحياة والقدرة السحرية بالكامل، ويستعيد التوازن، ويزيل جميع العلل ويفسخ كل التأثيرات الخاصة\
-"""
-
-[[goods.entries]]
 id = 4600100
 name = "شحوم الاسترجاع"
 info = "يعيد حالة الشخصية بالكامل"
@@ -55,20 +42,6 @@ description = """\
 يُستخدم لاستعادة حالة المبارزين بسرعة إلى وضعهم الطبيعي قبل القتال.
 
 يعيد نقاط الحياة والقدرة السحرية بالكامل، ويستعيد التوازن، ويزيل جميع العلل ويفسخ كل التأثيرات الخاصة.\
-"""
-
-[[goods.entries]]
-id = 4600200
-name = "جرّة الوفرة"
-info = "تمنح مخزونًا غير محدود من أي غرض بحوزتك"
-description = """\
-غرض للعب المبارزين عبر الإنترنت.
-مُسحور بتعويذات أتباع النظام الذهبي الأصولي.
-
-يُستخدم لتخزين والاحتفاظ بإمدادٍ غير محدود من الأغراض.
-أي عنصر يُستخدم سيحتفظ بكمّيته الحالية.
-
-جرّة بلا قاع عجيبة. أصولها مجهولة. ويعدّها البعض رمزًا للجشع غير المقيّد.\
 """
 
 [[goods.entries]]
@@ -84,22 +57,22 @@ description = """\
 
 [[goods.entries]]
 id = 4602001
-name = "Tarnished's Severed Finger"
-info = "Exchange through White Mask Varré for items useful in invasion multiplayer."
+name = "إصبع المشوه المقطوعة"
+info = "يُقايَض لدى فاري ذي القناع الأبيض بأغراض مفيدة في الغزو ضمن اللعب الجماعي."
 description = """\
-A tarnished's furled finger, mutilated and only recognizable by its trace resonance with other worlds.
-Used as proof of one's contribution to oncoming Mohgwyn dynasty, the spilling of noble blood.
+إصبع مشوهٍ ملفوفة، مُمثَّلٌ بها لا تُعرف إلا من أثر رنينها الخافت مع العوالم الأخرى.
+يُستخدم دليلًا على مساهمة المرء في سلالة موغوين القادمة، أي سفك الدم النبيل.
 
-Pureblood knights, or those who strive to be anointed as one, exchange these for equipment that may be effective in future spilling.\
+يقايض فرسان الدم النقي، أو من يسعون إلى أن يُمسَحوا فرسانًا منهم، هذه الأصابع بعتادٍ قد يكون فعّالًا في سفك الدماء مستقبلًا.\
 """
 
 [[goods.entries]]
 id = 4602002
-name = "Jar Coin"
-info = "Exchange at the roundtable jar shop for items useful in cooperative multiplayer."
+name = "عملة الجرّة"
+info = "تُقايَض في متجر الجرّة في قلعة الطاولة المستديرة بأغراض مفيدة في اللعب الجماعي التعاوني."
 description = """\
-Taking after the culture of jars, tarnished gift these coins to their companions to show appreciation for their cooperation in battle.
-At the roundtable, a jar accepts these coins in exchange for items cooperators might find useful, especially for warding off invaders. \
+اقتداءً بثقافة الجرار، يُهدي المشوهون هذه العملات لرفاقهم تعبيرًا عن تقديرهم لتعاونهم في القتال.
+في قلعة الطاولة المستديرة، تقبل جرّةٌ هذه العملات مقابل أغراض قد يجدها المتعاونون مفيدة، لا سيما لصدّ الغزاة.\
 """
 
 [menu]
@@ -107,13 +80,21 @@ entries = [
     { id = 469900, text = "خرائط الوكر" },
     { id = 479900, text = "خرائط الوكر (2 ضد 2)" },
     { id = 401400, text = "Welcome to the BetterMultiplayer server" },
+    { id = 239001, text = "المتجر الدموي" },
+    { id = 239002, text = "متجر الجرّة" },
 ]
 
 [line_help]
-entries = []
+entries = [
+    { id = 239001, text = "اختر مكافأة دموية لشرائها" },
+    { id = 239002, text = "اختر مكافأة الجرّة لشرائها" },
+]
 
 [dialogues]
-entries = []
+entries = [
+    { id = 239001, text = "هل تريد مقايضة <?demandSoul?> من أصابع المشوهين المقطوعة مقابل <?itemName?>؟" },
+    { id = 239002, text = "هل تريد مقايضة <?demandSoul?> من عملات الجرّة مقابل <?itemName?>؟" },
+]
 
 [action_buttons]
 entries = [
@@ -137,8 +118,6 @@ entries = [
 entries = [
     { id = 4600400, text = "تم رفع البيلد إلى مخطط البيلد." },
     { id = 4600401, text = "تم استيراد البيلد." },
-    { id = 4600402, text = "ضفيرة ماريكا مفعّلة. عند الموت سيتم إنعاشك في مكان موتك." },
-    { id = 4600403, text = "ضفيرة ماريكا معطّلة. لن يتم إنعاشك عند الموت." },
     { id = 4600404, text = "جرس استدعاء الأطياف مفعّل." },
     { id = 4600405, text = "جرس استدعاء الأطياف معطّل." },
     { id = 4600406, text = "لا توجد أماكن شاغرة لمزيد من الأطياف." },

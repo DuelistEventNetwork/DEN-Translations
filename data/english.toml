@@ -32,19 +32,6 @@ entries = [
 ]
 
 [[goods.entries]]
-id = 4600000
-name = "Braid of Marika"
-info = "Revives on death, fully restores character"
-description = """\
-Item for online duelist play.
-Enchanted by incantations of the Golden Order Fundamentalists.
-
-Used to bring back a duelist from the brink of death upon their defeat, and restore them to their natural state.
-
-On death, fully heals HP, FP, restores poise, removes all ailments and dispels all special effects.\
-"""
-
-[[goods.entries]]
 id = 4600100
 name = "Regressive Grease"
 info = "Fully restores character"
@@ -58,20 +45,6 @@ Fully heals HP, FP, restores poise, removes all ailments and dispels all special
 """
 
 [[goods.entries]]
-id = 4600200
-name = "O'Jar of Plenty"
-info = "Grants an infinite supply of any currently held good"
-description = """\
-Item for online duelist play.
-Enchanted by incantations of the Golden Order Fundamentalists.
-
-Used to store and retain an infinite supply of goods.
-Any items used will retain their current quantity.
-
-A peculiar bottomless jar. Its origins are unknown. Some deride it as a symbol of unbridled avarice.\
-"""
-
-[[goods.entries]]
 id = 4600300
 name = "Phantom Calling Bell"
 info = "Calls phantoms who left their red sign"
@@ -81,12 +54,6 @@ Enchanted by incantations of the Golden Order Fundamentalists.
 
 A powerful bell used to summon those who seek a battle. Summons all available red signs.\
 """
-
-# [[goods.entries]]
-# id = 4602000
-# name = "Turtle Tender"
-# info = "Currency traded with Miriel, Pastor of Vows"
-# description = "Currency traded with Miriel, Pastor of Vows"
 
 [[goods.entries]]
 id = 4602001
@@ -126,23 +93,20 @@ entries = [
     { id = 469900, text = "DEN Maps" },
     { id = 479900, text = "DEN 2v2 Maps" },
     { id = 401400, text = "Welcome to the BetterMultiplayer server" },
-    { id = 239000, text = "Turtle shop" },
     { id = 239001, text = "Bloody shop" },
     { id = 239002, text = "Jar shop" },
 ]
 
 [line_help]
 entries = [
-    { id = 239000, text = "Select turtle reward to purchase" },
     { id = 239001, text = "Select bloody reward to purchase" },
     { id = 239002, text = "Select jar reward to purchase" },
 ]
 
 [dialogues]
 entries = [
-    { id = 239000, text = "Trade in <?demandSoul?> Turle Tenders for <?itemName?>?" },
-    { id = 239001, text = "Trade in <?demandSoul?> Fingies for <?itemName?>?" },
-    { id = 239002, text = "Trade in <?demandSoul?> Jarbucks for <?itemName?>?" },
+    { id = 239001, text = "Trade in <?demandSoul?> Tarnished's Severed Fingers for <?itemName?>?" },
+    { id = 239002, text = "Trade in <?demandSoul?> Jar Coins for <?itemName?>?" },
 ]
 
 [action_buttons]
@@ -167,8 +131,6 @@ entries = [
 entries = [
     { id = 4600400, text = "Build uploaded to the planner." },
     { id = 4600401, text = "Build imported." },
-    { id = 4600402, text = "Braid of Marika active. Upon dying, you will be revived where you fell." },
-    { id = 4600403, text = "Braid of Marika inactive. You will no longer be revived upon dying." },
     { id = 4600404, text = "Phantom Calling Bell active." },
     { id = 4600405, text = "Phantom Calling Bell inactive." },
     { id = 4600406, text = "No free slots for more phantoms." },

@@ -14,7 +14,7 @@ entries = [
     { id = 460300, text = "Piazza dei duelli" },
     { id = 460400, text = "Accampamento innevato" },
     { id = 460500, text = "Isole fluttuanti in rovina" },
-    { id = 460600, text = "Lago cristiallino" },
+    { id = 460600, text = "Lago cristallino" },
     { id = 460700, text = "Cortile della Città Eterna" },
     { id = 460800, text = "Rovine forestali" },
     { id = 460900, text = "Libreria antica" },
@@ -24,25 +24,12 @@ entries = [
     { id = 470300, text = "Piazza dei duelli (2v2)" },
     { id = 470400, text = "Accampamento innevato (2v2)" },
     { id = 470500, text = "Isole fluttuanti in rovina (2v2)" },
-    { id = 470600, text = "Lago cristiallino (2v2)" },
+    { id = 470600, text = "Lago cristallino (2v2)" },
     { id = 470700, text = "Cortile della Città Eterna (2v2)" },
     { id = 470800, text = "Rovine forestali (2v2)" },
     { id = 470900, text = "Libreria antica (2v2)" },
     { id = 471000, text = "Colosseo dimenticato (2v2)" },
 ]
-
-[[goods.entries]]
-id = 4600000
-name = "Treccia di Marika"
-info = "Rianima dalla morte ripristinando completamente il personaggio."
-description = """\
-Oggetto per Duellare Online.
-Incantato dalle preghiere dei Fondamentalisti della Legge Dorata.
-
-Usato per rinvigorire un duellante sconfitto. Subito dopo la sua morte, viene ripristinato al suo stato prima della battaglia.
-
-Cura completamente HP, FP, ripristina la Poise, rimuove tutti gli status alterati ed effetti speciali.\
-"""
 
 [[goods.entries]]
 id = 4600100
@@ -58,62 +45,56 @@ Cura completamente HP, FP, ripristina la Poise, rimuove tutti gli status alterat
 """
 
 [[goods.entries]]
-id = 4600200
-name = "O'vas Turgido"
-info = "Garantisce un ammontare infinito di qualsiasi oggetto in possesso"
+id = 4600300
+name = "Campana di richiamo dei fantasmi"
+info = "Richiama i fantasmi che hanno lasciato il loro segno rosso"
 description = """\
 Oggetto per Duellare Online.
 Incantato dalle preghiere dei Fondamentalisti della Legge Dorata.
 
-Usato per immagazzinare e possedere quantità infinite di consumabili.
-Ogni oggetto utilizzato manterrà la sua quantità attuale.
-
-Un vaso senza fondo peculiare a dir poco. Le sue origini sono sconosciute. Alcuni lo deridono come simbolo di un' avarizia senza briglie.\
-"""
-
-[[goods.entries]]
-id = 4600300
-name = "Phantom Calling Bell"
-info = "Calls phantoms who left their red sign"
-description = """\
-Item for online duelist play.
-Enchanted by incantations of the Golden Order Fundamentalists.
-
-A powerful bell used to summon those who seek a battle. Summons all available red signs.\
+Una potente campana usata per evocare coloro che cercano battaglia. Evoca tutti i segni rossi disponibili.\
 """
 
 [[goods.entries]]
 id = 4602001
-name = "Tarnished's Severed Finger"
-info = "Exchange through White Mask Varré for items useful in invasion multiplayer."
+name = "Dito mozzato di Senzaluce"
+info = "Da scambiare con Viso bianco Varré per oggetti utili nelle invasioni in multigiocatore."
 description = """\
-A tarnished's furled finger, mutilated and only recognizable by its trace resonance with other worlds.
-Used as proof of one's contribution to oncoming Mohgwyn dynasty, the spilling of noble blood.
+Il dito torto di un Senzaluce, mutilato e riconoscibile solo dalla sua flebile risonanza con altri mondi.
+Usato come prova del proprio contributo all'imminente dinastia Mohgwyn: lo spargimento di sangue nobile.
 
-Pureblood knights, or those who strive to be anointed as one, exchange these for equipment that may be effective in future spilling.\
+I cavalieri Sanguepuro, o coloro che aspirano a esserne unti, li scambiano con equipaggiamento che potrebbe rivelarsi efficace nei futuri spargimenti di sangue.\
 """
 
 [[goods.entries]]
 id = 4602002
-name = "Jar Coin"
-info = "Exchange at the roundtable jar shop for items useful in cooperative multiplayer."
+name = "Moneta giara"
+info = "Da scambiare al negozio della giara della Rocca della Tavola rotonda per oggetti utili nel multigiocatore cooperativo."
 description = """\
-Taking after the culture of jars, tarnished gift these coins to their companions to show appreciation for their cooperation in battle.
-At the roundtable, a jar accepts these coins in exchange for items cooperators might find useful, especially for warding off invaders. \
+Seguendo la cultura delle giare, i Senzaluce donano queste monete ai compagni per mostrare gratitudine per la cooperazione in battaglia.
+Alla Rocca della Tavola rotonda, una giara accetta queste monete in cambio di oggetti che i cooperatori potrebbero trovare utili, soprattutto per respingere gli invasori.\
 """
 
 [menu]
 entries = [
-    { id = 469900, text = "DEN Maps" },
-    { id = 479900, text = "DEN Maps 2v2" },
+    { id = 469900, text = "Mappe DEN" },
+    { id = 479900, text = "Mappe DEN 2v2" },
     { id = 401400, text = "Welcome to the BetterMultiplayer server" },
+    { id = 239001, text = "Negozio del sangue" },
+    { id = 239002, text = "Negozio della giara" },
 ]
 
 [line_help]
-entries = []
+entries = [
+    { id = 239001, text = "Seleziona la ricompensa di sangue da acquistare" },
+    { id = 239002, text = "Seleziona la ricompensa della giara da acquistare" },
+]
 
 [dialogues]
-entries = []
+entries = [
+    { id = 239001, text = "Scambiare <?demandSoul?> dita mozzate di Senzaluce per <?itemName?>?" },
+    { id = 239002, text = "Scambiare <?demandSoul?> monete giara per <?itemName?>?" },
+]
 
 [action_buttons]
 entries = [
@@ -122,7 +103,7 @@ entries = [
 ]
 
 [event_text]
-entries = [{ id = 470000, text = "30 seconds remaining" }]
+entries = [{ id = 470000, text = "30 secondi rimanenti" }]
 
 [talk_event_text]
 entries = [
@@ -137,10 +118,8 @@ entries = [
 entries = [
     { id = 4600400, text = "Build caricata sul Build Planner." },
     { id = 4600401, text = "Build importata." },
-    { id = 4600402, text = "Treccia di Marika attiva. Se muori, tornerai in vita nel luogo della tua morte." },
-    { id = 4600403, text = "Treccia di Marika inattiva. Non tornerai più in vita." },
-    { id = 4600404, text = "Phantom Calling Bell attiva." },
-    { id = 4600405, text = "Phantom Calling Bell inattiva." },
+    { id = 4600404, text = "Campana di richiamo dei fantasmi attiva." },
+    { id = 4600405, text = "Campana di richiamo dei fantasmi inattiva." },
     { id = 4600406, text = "Nessuno spazio libero per altri fantasmi." },
     { id = 4600407, text = "Modalità spettatore. <?kgAttackL?>/<?kgAttackR?> per cambiare chi stai guardando." },
     { id = 4600408, text = "I tuoi nemici sono stati sconfitti. Ritorno al tuo corpo." },
@@ -148,8 +127,8 @@ entries = [
 
 [system]
 entries = [
-    { id = 103000, text = "Latency Overlay" },
-    { id = 3001, text = "Choose whether to display the latency overlay above the players' names" },
+    { id = 103000, text = "Overlay della latenza" },
+    { id = 3001, text = "Scegli se mostrare l'overlay della latenza sopra i nomi dei giocatori" },
 ]
 
 [custom]

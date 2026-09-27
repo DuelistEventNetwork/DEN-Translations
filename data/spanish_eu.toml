@@ -32,19 +32,6 @@ entries = [
 ]
 
 [[goods.entries]]
-id = 4600000
-name = "Trenza de Marika"
-info = "Revive al morir, restaura al personaje"
-description = """\
-Objeto para duelos en multijugador en línea.
-Hechizado con encantaciones de Fundamentalistas del Orden Dorado.
-
-Se usa para rescatar a un duelista de las puertas de la muerte al ser derrotado, y restaurarles a su estado normal.
-
-Al morir, cura los PV, PC, el equilibrio, elimina toda aflicción y efecto especial.\
-"""
-
-[[goods.entries]]
 id = 4600100
 name = "Grasa Regresiva"
 info = "Restaura completamente al personaje"
@@ -58,48 +45,34 @@ Cura los PV, PC, el equilibrio, elimina toda aflicción y efecto especial.\
 """
 
 [[goods.entries]]
-id = 4600200
-name = "Tarro de la Abundancia"
-info = "Otorga un suministro ilimitado de cualquier bien actualmente sujetado"
+id = 4600300
+name = "Campana llamadora de fantasmas"
+info = "Llama a los fantasmas que dejaron su señal roja"
 description = """\
 Objeto para duelos en multijugador en línea.
 Hechizado con encantaciones de Fundamentalistas del Orden Dorado.
 
-Se usa para almacenar y retener un suministro infinito de bienes.
-Cualquier objeto usado mantendrá su cantidad actual.
-
-Un peculiar tarro sin fondo. Sus orígenes son desconocidos. Algunos lo ridiculizan como un símbolo de avaricia sin límites.\
-"""
-
-[[goods.entries]]
-id = 4600300
-name = "Phantom Calling Bell"
-info = "Calls phantoms who left their red sign"
-description = """\
-Item for online duelist play.
-Enchanted by incantations of the Golden Order Fundamentalists.
-
-A powerful bell used to summon those who seek a battle. Summons all available red signs.\
+Una poderosa campana que se usa para invocar a quienes buscan batalla. Invoca todas las señales rojas disponibles.\
 """
 
 [[goods.entries]]
 id = 4602001
-name = "Tarnished's Severed Finger"
-info = "Exchange through White Mask Varré for items useful in invasion multiplayer."
+name = "Dedo cercenado de Sinluz"
+info = "Se intercambia con Varré, el Rostro Alabastrado, por objetos útiles para las invasiones en multijugador."
 description = """\
-A tarnished's furled finger, mutilated and only recognizable by its trace resonance with other worlds.
-Used as proof of one's contribution to oncoming Mohgwyn dynasty, the spilling of noble blood.
+El dedo doblado de un Sinluz, mutilado y reconocible solo por su tenue resonancia con otros mundos.
+Sirve como prueba de la contribución propia a la inminente dinastía Mohgwyn: el derramamiento de sangre noble.
 
-Pureblood knights, or those who strive to be anointed as one, exchange these for equipment that may be effective in future spilling.\
+Los caballeros de sangre pura, o quienes aspiran a ser ungidos como tales, los intercambian por equipo que podría resultar eficaz en futuros derramamientos de sangre.\
 """
 
 [[goods.entries]]
 id = 4602002
-name = "Jar Coin"
-info = "Exchange at the roundtable jar shop for items useful in cooperative multiplayer."
+name = "Moneda de tinaja"
+info = "Se intercambia en la tienda de la tinaja de la Mesa Redonda por objetos útiles en multijugador cooperativo."
 description = """\
-Taking after the culture of jars, tarnished gift these coins to their companions to show appreciation for their cooperation in battle.
-At the roundtable, a jar accepts these coins in exchange for items cooperators might find useful, especially for warding off invaders. \
+Siguiendo la cultura de las tinajas, los Sinluz regalan estas monedas a sus compañeros para mostrar su gratitud por la cooperación en combate.
+En la Mesa Redonda, una tinaja acepta estas monedas a cambio de objetos que los cooperadores podrían encontrar útiles, sobre todo para repeler a los invasores.\
 """
 
 [menu]
@@ -107,13 +80,21 @@ entries = [
     { id = 469900, text = "Mapas DEN" },
     { id = 479900, text = "Mapas 2v2 DEN" },
     { id = 401400, text = "Welcome to the BetterMultiplayer server" },
+    { id = 239001, text = "Tienda sangrienta" },
+    { id = 239002, text = "Tienda de la tinaja" },
 ]
 
 [line_help]
-entries = []
+entries = [
+    { id = 239001, text = "Selecciona la recompensa sangrienta que quieres comprar" },
+    { id = 239002, text = "Selecciona la recompensa de la tinaja que quieres comprar" },
+]
 
 [dialogues]
-entries = []
+entries = [
+    { id = 239001, text = "¿Intercambiar <?demandSoul?> dedos cercenados de Sinluz por <?itemName?>?" },
+    { id = 239002, text = "¿Intercambiar <?demandSoul?> monedas de tinaja por <?itemName?>?" },
+]
 
 [action_buttons]
 entries = [
@@ -137,10 +118,8 @@ entries = [
 entries = [
     { id = 4600400, text = "Build subido al Build Planner." },
     { id = 4600401, text = "Build importado." },
-    { id = 4600402, text = "Trenza de Marika activa. Al morir, revivirás en el lugar de tu muerte." },
-    { id = 4600403, text = "Trenza de Marika inactiva. Ya no revivirás al morir." },
-    { id = 4600404, text = "Phantom Calling Bell activa." },
-    { id = 4600405, text = "Phantom Calling Bell inactiva." },
+    { id = 4600404, text = "Campana llamadora de fantasmas activa." },
+    { id = 4600405, text = "Campana llamadora de fantasmas inactiva." },
     { id = 4600406, text = "No hay espacio para más fantasmas." },
     { id = 4600407, text = "Modo espectador. <?kgAttackL?>/<?kgAttackR?> para cambiar a quién observas." },
     { id = 4600408, text = "Tus enemigos han sido derrotados. Volviendo a tu cuerpo." },
@@ -148,8 +127,8 @@ entries = [
 
 [system]
 entries = [
-    { id = 103000, text = "Latency Overlay" },
-    { id = 3001, text = "Choose whether to display the latency overlay above the players' names" },
+    { id = 103000, text = "Indicador de latencia" },
+    { id = 3001, text = "Elige si quieres mostrar el indicador de latencia sobre los nombres de los jugadores" },
 ]
 
 [custom]

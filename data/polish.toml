@@ -16,7 +16,7 @@ entries = [
     { id = 460500, text = "Rozpadająca się wyspa" },
     { id = 460600, text = "Kryształowe Jezioro" },
     { id = 460700, text = "Dziedziniec Wiecznego Miasta" },
-    { id = 460800, text = "Ruiny  w lesie" },
+    { id = 460800, text = "Ruiny w lesie" },
     { id = 460900, text = "Wielka Biblioteka" },
     { id = 470000, text = "Arena nad wybrzeżem (2v2)" },
     { id = 470100, text = "Most nad lawą (2v2)" },
@@ -26,23 +26,10 @@ entries = [
     { id = 470500, text = "Rozpadająca się wyspa (2v2)" },
     { id = 470600, text = "Kryształowe Jezioro (2v2)" },
     { id = 470700, text = "Dziedziniec Wiecznego Miasta (2v2)" },
-    { id = 470800, text = "Ruiny  w lesie (2v2)" },
+    { id = 470800, text = "Ruiny w lesie (2v2)" },
     { id = 470900, text = "Wielka Biblioteka (2v2)" },
     { id = 471000, text = "Zapomniane koloseum (2v2)" },
 ]
-
-[[goods.entries]]
-id = 4600000
-name = "Warkocz Mariki"
-info = "Odradza w momencie śmierci, całkowicie przywraca postać"
-description = """\
-Przedmiot do gry online.
-Zaczarowany przez Fundamentalistów z grupy Złotego Porządku.
-
-Używany przez pojedynkujących się zawodników by tuż przed śmiercią przywrócić pokonanego do stanu pełnego zdrowia.
-
-Po śmierci przywraca HP, FP, poise (równowagę), usuwa wszystkie dolegliwości efekty specjalne.\
-"""
 
 [[goods.entries]]
 id = 4600100
@@ -55,19 +42,6 @@ Zaczarowany przez Fundamentalistów z grupy Złotego Porządku.
 Używany przez pojedynkujących się zawodników by przygotować swoje ciała do walki tuż przed pojedynkiem.
 
 Przywraca HP, FP, poise (równowagę), usuwa wszystkie dolegliwości i efekty specjalne.\
-"""
-
-[[goods.entries]]
-id = 4600200
-name = "Słoik obfitości"
-info = "Sprawia, że twoje zapasy nigdy się nie skończą"
-description = """\
-Przedmiot do gry online.
-Używany do przechowywania i utrzymania nieskończonej ilości zasobów.
-
-Specyficzny słój bez dna. Jego pochodzenie jest nieznane.
-
-Niektórzy mawiają, że jest to symbol niepohamowanej chciwości.\
 """
 
 [[goods.entries]]
@@ -85,22 +59,22 @@ Wzywa wszystkie dostępne czerwone znaki.\
 
 [[goods.entries]]
 id = 4602001
-name = "Tarnished's Severed Finger"
-info = "Exchange through White Mask Varré for items useful in invasion multiplayer."
+name = "Odcięty palec zmatowieńca"
+info = "Wymień u Białolicego Varrégo na przedmioty przydatne podczas inwazji w trybie wieloosobowym."
 description = """\
-A tarnished's furled finger, mutilated and only recognizable by its trace resonance with other worlds.
-Used as proof of one's contribution to oncoming Mohgwyn dynasty, the spilling of noble blood.
+Zgięty palec zmatowieńca, okaleczony i rozpoznawalny jedynie po słabym rezonansie z innymi światami.
+Służy jako dowód wkładu w nadchodzącą dynastię Mohgwynów – przelewanie szlachetnej krwi.
 
-Pureblood knights, or those who strive to be anointed as one, exchange these for equipment that may be effective in future spilling.\
+Rycerze czystej krwi lub ci, którzy pragną zostać na nich namaszczeni, wymieniają je na wyposażenie, które może okazać się skuteczne przy przyszłym przelewaniu krwi.\
 """
 
 [[goods.entries]]
 id = 4602002
-name = "Jar Coin"
-info = "Exchange at the roundtable jar shop for items useful in cooperative multiplayer."
+name = "Dzbanowa moneta"
+info = "Wymień w dzbanowym sklepie w Twierdzy Okrągłego Stołu na przedmioty przydatne w kooperacyjnym trybie wieloosobowym."
 description = """\
-Taking after the culture of jars, tarnished gift these coins to their companions to show appreciation for their cooperation in battle.
-At the roundtable, a jar accepts these coins in exchange for items cooperators might find useful, especially for warding off invaders. \
+Idąc za kulturą dzbanów, zmatowieńcy ofiarowują te monety swoim towarzyszom, by okazać wdzięczność za współpracę w walce.
+W Twierdzy Okrągłego Stołu pewien dzban przyjmuje te monety w zamian za przedmioty, które mogą się przydać współpracownikom, zwłaszcza do odpierania najeźdźców.\
 """
 
 [menu]
@@ -108,13 +82,21 @@ entries = [
     { id = 469900, text = "Mapy DEN" },
     { id = 479900, text = "Mapy DEN 2v2" },
     { id = 401400, text = "Welcome to the BetterMultiplayer server" },
+    { id = 239001, text = "Krwawy sklep" },
+    { id = 239002, text = "Dzbanowy sklep" },
 ]
 
 [line_help]
-entries = []
+entries = [
+    { id = 239001, text = "Wybierz krwawą nagrodę do zakupu" },
+    { id = 239002, text = "Wybierz dzbanową nagrodę do zakupu" },
+]
 
 [dialogues]
-entries = []
+entries = [
+    { id = 239001, text = "Wymienić odcięte palce zmatowieńców (<?demandSoul?> szt.) na <?itemName?>?" },
+    { id = 239002, text = "Wymienić dzbanowe monety (<?demandSoul?> szt.) na <?itemName?>?" },
+]
 
 [action_buttons]
 entries = [
@@ -138,8 +120,6 @@ entries = [
 entries = [
     { id = 4600400, text = "Build wysłany do planera buildów." },
     { id = 4600401, text = "Build zaimportowany." },
-    { id = 4600402, text = "Warkocz Mariki aktywny. Po śmierci czeka cię wskrzeszenie w miejscu twojej śmierci." },
-    { id = 4600403, text = "Warkocz Mariki nieaktywny. Wskrzeszenie po śmierci wyłączone." },
     { id = 4600404, text = "Dzwonek przyzywania duchów aktywny." },
     { id = 4600405, text = "Dzwonek przyzywania duchów nieaktywny." },
     { id = 4600406, text = "Brak miejsca na kolejne duchy." },

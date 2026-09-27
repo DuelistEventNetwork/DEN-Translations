@@ -32,19 +32,6 @@ entries = [
 ]
 
 [[goods.entries]]
-id = 4600000
-name = "Marikas geflochtener Zopf"
-info = "Belebt bei Tod wieder, stellt den Charakter vollständig wieder her"
-description = """\
-Gegenstand für Duellanten.
-Verzaubert von den Anrufungen der Fundamentalisten der goldenen Ordnung.
-
-Wird verwendet, um einen Duellanten vom Rande des Todes zurückzubringen und ihn in seinen natürlichen Zustand zu versetzen.
-
-Beim Tod heilt es vollständig HP, FP, stellt das Gleichgewicht wieder her, entfernt alle Leiden und hebt alle Spezialeffekte auf.\
-"""
-
-[[goods.entries]]
 id = 4600100
 name = "Fett der Wiederherstellung"
 info = "Stellt den Charakter vollständig wieder her."
@@ -58,22 +45,8 @@ Heilt vollständig HP, FP, stellt das Gleichgewicht wieder her, entfernt alle Le
 """
 
 [[goods.entries]]
-id = 4600200
-name = "O'Gefäß der Fülle"
-info = "Bewirkt, dass Verbrauchsgegenstände beim Einsatz nicht mehr verbraucht werden."
-description = """\
-Gegenstand für Duellanten.
-Verzaubert von den Anrufungen der Fundamentalisten der goldenen Ordnung.
-
-Wird verwendet, um einen unendlichen Vorrat an Gegenständen zu speichern und zu erhalten.
-Alle verwendeten Gegenstände behalten ihre aktuelle Menge.
-
-Ein merkwürdiges bodenloses Gefäß. Seine Herkunft ist unbekannt. Manche verspotten es als Symbol ungezügelter Gier.\
-"""
-
-[[goods.entries]]
 id = 4600300
-name = "Phantom Calling Bell"
+name = "Phantomrufglocke"
 info = "Ruft Phantome, die ihr rotes Zeichen hinterlassen haben"
 description = """\
 Gegenstand für Duellanten.
@@ -84,22 +57,22 @@ Eine mächtige Glocke, die verwendet wird, um diejenigen herbeizurufen, die eine
 
 [[goods.entries]]
 id = 4602001
-name = "Tarnished's Severed Finger"
-info = "Exchange through White Mask Varré for items useful in invasion multiplayer."
+name = "Abgetrennter Finger eines Befleckten"
+info = "Beim Weißgesichtigen Varré gegen Gegenstände eintauschen, die bei Invasionen im Mehrspielermodus nützlich sind."
 description = """\
-A tarnished's furled finger, mutilated and only recognizable by its trace resonance with other worlds.
-Used as proof of one's contribution to oncoming Mohgwyn dynasty, the spilling of noble blood.
+Der Krummfinger eines Befleckten, verstümmelt und nur noch an seiner schwachen Resonanz mit anderen Welten zu erkennen.
+Dient als Beweis für den eigenen Beitrag zur kommenden Mohgwyn-Dynastie: das Vergießen edlen Blutes.
 
-Pureblood knights, or those who strive to be anointed as one, exchange these for equipment that may be effective in future spilling.\
+Reinblut-Ritter und jene, die danach streben, zu einem solchen gesalbt zu werden, tauschen sie gegen Ausrüstung ein, die beim künftigen Blutvergießen von Nutzen sein könnte.\
 """
 
 [[goods.entries]]
 id = 4602002
-name = "Jar Coin"
-info = "Exchange at the roundtable jar shop for items useful in cooperative multiplayer."
+name = "Krugmünze"
+info = "Im Krugladen der Tafelrundfeste gegen Gegenstände eintauschen, die im kooperativen Mehrspielermodus nützlich sind."
 description = """\
-Taking after the culture of jars, tarnished gift these coins to their companions to show appreciation for their cooperation in battle.
-At the roundtable, a jar accepts these coins in exchange for items cooperators might find useful, especially for warding off invaders. \
+Der Kultur der Krüge folgend schenken Befleckte diese Münzen ihren Gefährten, um ihre Wertschätzung für die Zusammenarbeit im Kampf zu zeigen.
+In der Tafelrundfeste nimmt ein Krug diese Münzen im Tausch gegen Gegenstände an, die Mitstreitern nützlich sein könnten – vor allem, um Eindringlinge abzuwehren.\
 """
 
 [menu]
@@ -107,13 +80,21 @@ entries = [
     { id = 469900, text = "DEN Karten" },
     { id = 479900, text = "DEN 2v2 Karten" },
     { id = 401400, text = "Welcome to the BetterMultiplayer server" },
+    { id = 239001, text = "Blutladen" },
+    { id = 239002, text = "Krugladen" },
 ]
 
 [line_help]
-entries = []
+entries = [
+    { id = 239001, text = "Blutige Belohnung zum Kauf auswählen" },
+    { id = 239002, text = "Krug-Belohnung zum Kauf auswählen" },
+]
 
 [dialogues]
-entries = []
+entries = [
+    { id = 239001, text = "<?demandSoul?> abgetrennte Finger von Befleckten gegen <?itemName?> eintauschen?" },
+    { id = 239002, text = "<?demandSoul?> Krugmünzen gegen <?itemName?> eintauschen?" },
+]
 
 [action_buttons]
 entries = [
@@ -137,10 +118,8 @@ entries = [
 entries = [
     { id = 4600400, text = "Build zum Build Planner hochgeladen." },
     { id = 4600401, text = "Build importiert." },
-    { id = 4600402, text = "Marikas geflochtener Zopf aktiv. Wenn Ihr sterbt, werdet Ihr am Ort Eures Todes wiederbelebt." },
-    { id = 4600403, text = "Marikas geflochtener Zopf inaktiv. Ihr werdet nicht mehr wiederbelebt." },
-    { id = 4600404, text = "Phantom Calling Bell aktiv." },
-    { id = 4600405, text = "Phantom Calling Bell inaktiv." },
+    { id = 4600404, text = "Phantomrufglocke aktiv." },
+    { id = 4600405, text = "Phantomrufglocke inaktiv." },
     { id = 4600406, text = "Keine freien Plätze für weitere Phantome." },
     { id = 4600407, text = "Zuschauermodus. <?kgAttackL?>/<?kgAttackR?> zum Wechseln der beobachteten Person." },
     { id = 4600408, text = "Deine Gegner wurden besiegt. Rückkehr in deinen Körper." },
@@ -149,7 +128,7 @@ entries = [
 [system]
 entries = [
     { id = 103000, text = "Latenz-Overlay" },
-    { id = 3001, text = "Wählen, ob die Latenz-Overlay über den Spielernamen angezeigt werden soll" },
+    { id = 3001, text = "Wählen, ob das Latenz-Overlay über den Spielernamen angezeigt werden soll" },
 ]
 
 [custom]

@@ -32,19 +32,6 @@ entries = [
 ]
 
 [[goods.entries]]
-id = 4600000
-name = "マリカの三つ編み"
-info = "死亡時に復活し、キャラクターを完全に回復させる"
-description = """\
-オンライン決闘者専用アイテム。
-黄金律原理主義の祈祷を付与する。
-
-闘技者を瀕死状態から復活させ、自然な状態に戻すために使用される。
-
-死亡時、HPとFPを全回復し、強靭を回復し、あらゆる状態異常と特殊な効果を消し去る。\
-"""
-
-[[goods.entries]]
 id = 4600100
 name = "回帰脂"
 info = "キャラクターを完全に回復させる"
@@ -55,20 +42,6 @@ description = """\
 決闘前に決闘者を素早く自然な状態に戻すために使用する。
 
 HPとFPを全回復し、強靭を回復し、あらゆる状態異常と、特殊な効果を消し去る。\
-"""
-
-[[goods.entries]]
-id = 4600200
-name = "底なしの壺"
-info = "現在保持しているあらゆるアイテムを無限に供給する"
-description = """\
-オンライン決闘者専用アイテム。
-黄金律原理主義の祈祷を付与する。
-
-無限に供給されるアイテムを保管し、保持するために使用される。
-使用されたアイテムは、現在の量を保持する。
-
-奇妙な底なしの壺。その紀元は不明。抑えられない欲望の象徴として嘲笑する人もいる。\
 """
 
 [[goods.entries]]
@@ -84,22 +57,22 @@ description = """\
 
 [[goods.entries]]
 id = 4602001
-name = "Tarnished's Severed Finger"
-info = "Exchange through White Mask Varré for items useful in invasion multiplayer."
+name = "褪せ人の切り落とされた指"
+info = "白面のヴァレーを通じて、侵入マルチプレイに役立つアイテムと交換できる"
 description = """\
-A tarnished's furled finger, mutilated and only recognizable by its trace resonance with other worlds.
-Used as proof of one's contribution to oncoming Mohgwyn dynasty, the spilling of noble blood.
+切り落とされた褪せ人の鉤指。無惨に損なわれ、他世界とのかすかな共鳴によってのみ、それと判別できる。
+来たるモーグウィン王朝への貢献、すなわち高貴なる血を流したことの証とされる。
 
-Pureblood knights, or those who strive to be anointed as one, exchange these for equipment that may be effective in future spilling.\
+純血騎士、あるいはそう聖別されることを望む者たちは、これを来たる流血で役立つであろう装備と交換する。\
 """
 
 [[goods.entries]]
 id = 4602002
-name = "Jar Coin"
-info = "Exchange at the roundtable jar shop for items useful in cooperative multiplayer."
+name = "壺コイン"
+info = "円卓の壺の店で、協力マルチプレイに役立つアイテムと交換できる"
 description = """\
-Taking after the culture of jars, tarnished gift these coins to their companions to show appreciation for their cooperation in battle.
-At the roundtable, a jar accepts these coins in exchange for items cooperators might find useful, especially for warding off invaders. \
+壺の文化に倣い、褪せ人たちは戦いでの協力への感謝を示すため、仲間にこの硬貨を贈る。
+円卓では、ある壺がこの硬貨を受け取り、協力者に役立つであろうアイテム、とりわけ侵入者を退けるためのものと交換してくれる。\
 """
 
 [menu]
@@ -107,13 +80,21 @@ entries = [
     { id = 469900, text = "DENマップ" },
     { id = 479900, text = "DENマップ 2vs2" },
     { id = 401400, text = "Welcome to the BetterMultiplayer server" },
+    { id = 239001, text = "血の店" },
+    { id = 239002, text = "壺の店" },
 ]
 
 [line_help]
-entries = []
+entries = [
+    { id = 239001, text = "購入する血の報酬を選択してください" },
+    { id = 239002, text = "購入する壺の報酬を選択してください" },
+]
 
 [dialogues]
-entries = []
+entries = [
+    { id = 239001, text = "褪せ人の切り落とされた指<?demandSoul?>本を<?itemName?>と交換しますか？" },
+    { id = 239002, text = "壺コイン<?demandSoul?>枚を<?itemName?>と交換しますか？" },
+]
 
 [action_buttons]
 entries = [{ id = 90010, text = "始まりの火矢" }, { id = 90011, text = "開始位置にワープ" }]
@@ -134,8 +115,6 @@ entries = [
 entries = [
     { id = 4600400, text = "ビルドをビルドプランナーにアップロードしました。" },
     { id = 4600401, text = "ビルドをインポートしました。" },
-    { id = 4600402, text = "マリカの三つ編みが有効。死亡すると、その場で復活する" },
-    { id = 4600403, text = "マリカの三つ編みが無効。死亡しても復活しない" },
     { id = 4600404, text = "霊呼びの鈴が有効" },
     { id = 4600405, text = "霊呼びの鈴が無効" },
     { id = 4600406, text = "これ以上ファントムを迎える空きがない" },

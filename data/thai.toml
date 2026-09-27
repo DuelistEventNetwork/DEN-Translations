@@ -32,19 +32,6 @@ entries = [
 ]
 
 [[goods.entries]]
-id = 4600000
-name = "ถักเปียของมาริกา"
-info = "คืนชีพเมื่อสูญสิ้น ฟื้นฟูตัวละครอย่างเต็มตัว"
-description = """\
-ไอเทมสำหรับนักดวลออนไลน์.
-ร่ายมนตร์ด้วยคาถาของผู้เคร่งครัดแห่งบัญญัติทอง.
-
-ใช้เรียกนักดวลที่ใกล้สิ้นลมหายใจกลับมาและคืนสภาพตามปกติของตนเอง.
-
-เมื่อผู้ใช้ตาย จะฟื้นฟู HP, FP คืนความมั่นคง ขจัดสภาวะผิดปกติทั้งหมดและลบล้างเอฟเฟกต์พิเศษทั้งหมด.\
-"""
-
-[[goods.entries]]
 id = 4600100
 name = "ไขมันแห่งการย้อนกลับ"
 info = "ฟื้นฟูตัวละครอย่างเต็มตัว"
@@ -58,48 +45,34 @@ description = """\
 """
 
 [[goods.entries]]
-id = 4600200
-name = "โอ'ไหแห่งความมากมาย"
-info = "ให้ของที่มีอยู่อย่างไม่มีที่สิ้นสุด"
+id = 4600300
+name = "ระฆังเรียกแฟนทอม"
+info = "เรียกแฟนทอมที่ทิ้งสัญลักษณ์สีแดงไว้"
 description = """\
 ไอเทมสำหรับนักดวลออนไลน์.
 ร่ายมนตร์ด้วยคาถาของผู้เคร่งครัดแห่งบัญญัติทอง.
 
-ใช้เพื่อเก็บรักษาและให้ปริมาณของใช้ที่ไม่มีที่สิ้นสุด.
-ไอเทมที่ใช้จะคงจำนวนในปัจจุบันไว้.
-
-ไหไร้ก้นลักษณะพิสดาร ต้นกำเนิดไม่เป็นที่รู้จัก บางคนเยาะเย้ยมันว่าเป็นสัญลักษณ์ของความโลภที่ไร้ขอบเขต.\
-"""
-
-[[goods.entries]]
-id = 4600300
-name = "Phantom Calling Bell"
-info = "Calls phantoms who left their red sign"
-description = """\
-Item for online duelist play.
-Enchanted by incantations of the Golden Order Fundamentalists.
-
-A powerful bell used to summon those who seek a battle. Summons all available red signs.\
+ระฆังทรงพลังที่ใช้อัญเชิญผู้ที่แสวงหาการต่อสู้ อัญเชิญสัญลักษณ์สีแดงทั้งหมดที่มีอยู่.\
 """
 
 [[goods.entries]]
 id = 4602001
-name = "Tarnished's Severed Finger"
-info = "Exchange through White Mask Varré for items useful in invasion multiplayer."
+name = "นิ้วที่ถูกตัดของผู้มัวหมอง"
+info = "นำไปแลกกับวาเล่ หน้ากากขาวเพื่อรับไอเทมที่มีประโยชน์ในการบุกรุกแบบผู้เล่นหลายคน"
 description = """\
-A tarnished's furled finger, mutilated and only recognizable by its trace resonance with other worlds.
-Used as proof of one's contribution to oncoming Mohgwyn dynasty, the spilling of noble blood.
+นิ้วงอของผู้มัวหมองที่ถูกทำลายจนจำแทบไม่ได้ เหลือเพียงร่องรอยการสั่นพ้องกับโลกอื่น.
+ใช้เป็นหลักฐานแสดงการมีส่วนร่วมต่อราชวงศ์ม็อควินที่กำลังจะมาถึง นั่นคือการหลั่งโลหิตอันสูงศักดิ์.
 
-Pureblood knights, or those who strive to be anointed as one, exchange these for equipment that may be effective in future spilling.\
+อัศวินเลือดบริสุทธิ์ หรือผู้ที่ปรารถนาจะได้รับการเจิมเป็นหนึ่งในนั้น จะนำสิ่งนี้ไปแลกกับอุปกรณ์ที่อาจมีประสิทธิภาพในการหลั่งเลือดครั้งต่อไป.\
 """
 
 [[goods.entries]]
 id = 4602002
-name = "Jar Coin"
-info = "Exchange at the roundtable jar shop for items useful in cooperative multiplayer."
+name = "เหรียญโถ"
+info = "นำไปแลกที่ร้านโถแห่งโต๊ะกลมเพื่อรับไอเทมที่มีประโยชน์ในการเล่นแบบร่วมมือ"
 description = """\
-Taking after the culture of jars, tarnished gift these coins to their companions to show appreciation for their cooperation in battle.
-At the roundtable, a jar accepts these coins in exchange for items cooperators might find useful, especially for warding off invaders. \
+ผู้มัวหมองสืบทอดวัฒนธรรมของโถ จึงมอบเหรียญเหล่านี้ให้แก่สหายเพื่อแสดงความขอบคุณที่ร่วมมือกันในการต่อสู้.
+ที่โต๊ะกลม มีโถใบหนึ่งรับเหรียญเหล่านี้เพื่อแลกกับไอเทมที่ผู้ร่วมมืออาจเห็นว่ามีประโยชน์ โดยเฉพาะสำหรับขับไล่ผู้บุกรุก.\
 """
 
 [menu]
@@ -107,13 +80,21 @@ entries = [
     { id = 469900, text = "เดนแมพส์" },
     { id = 479900, text = "เดน 2v2 แมพส์" },
     { id = 401400, text = "Welcome to the BetterMultiplayer server" },
+    { id = 239001, text = "ร้านโลหิต" },
+    { id = 239002, text = "ร้านโถ" },
 ]
 
 [line_help]
-entries = []
+entries = [
+    { id = 239001, text = "เลือกรางวัลโลหิตที่ต้องการซื้อ" },
+    { id = 239002, text = "เลือกรางวัลโถที่ต้องการซื้อ" },
+]
 
 [dialogues]
-entries = []
+entries = [
+    { id = 239001, text = "แลกนิ้วที่ถูกตัดของผู้มัวหมอง <?demandSoul?> นิ้ว กับ <?itemName?> หรือไม่?" },
+    { id = 239002, text = "แลกเหรียญโถ <?demandSoul?> เหรียญ กับ <?itemName?> หรือไม่?" },
+]
 
 [action_buttons]
 entries = [
@@ -137,10 +118,8 @@ entries = [
 entries = [
     { id = 4600400, text = "อัปโหลดบิลด์ไปยัง Build Planner แล้ว" },
     { id = 4600401, text = "นำเข้าบิลด์แล้ว" },
-    { id = 4600402, text = "ถักเปียของมาริกาทำงานอยู่ เมื่อสิ้นชีพ จะฟื้นคืนชีพ ณ จุดที่สิ้นชีพ" },
-    { id = 4600403, text = "ถักเปียของมาริกาหยุดทำงาน เมื่อสิ้นชีพจะไม่ฟื้นคืนชีพ" },
-    { id = 4600404, text = "Phantom Calling Bell ทำงานอยู่" },
-    { id = 4600405, text = "Phantom Calling Bell หยุดทำงาน" },
+    { id = 4600404, text = "ระฆังเรียกแฟนทอมทำงานอยู่" },
+    { id = 4600405, text = "ระฆังเรียกแฟนทอมหยุดทำงาน" },
     { id = 4600406, text = "ไม่มีที่ว่างสำหรับแฟนทอมเพิ่มเติม" },
     { id = 4600407, text = "กำลังรับชม กด <?kgAttackL?>/<?kgAttackR?> เพื่อเปลี่ยนผู้เล่นที่รับชม" },
     { id = 4600408, text = "ศัตรูของคุณพ่ายแพ้แล้ว กำลังกลับสู่ร่างของคุณ" },
@@ -148,8 +127,8 @@ entries = [
 
 [system]
 entries = [
-    { id = 103000, text = "Latency Overlay" },
-    { id = 3001, text = "Choose whether to display the latency overlay above the players' names" },
+    { id = 103000, text = "แสดงค่าความหน่วง" },
+    { id = 3001, text = "เลือกว่าจะแสดงค่าความหน่วงเหนือชื่อผู้เล่นหรือไม่" },
 ]
 
 [custom]

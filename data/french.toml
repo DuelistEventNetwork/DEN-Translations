@@ -18,7 +18,7 @@ entries = [
     { id = 460700, text = "Cour de la Cité Eternelle" },
     { id = 460800, text = "Ruines Forestières" },
     { id = 460900, text = "Grande Bibliothèque" },
-    { id = 470000, text = "Arène du Bord de Mer" },
+    { id = 470000, text = "Arène du Bord de Mer (2v2)" },
     { id = 470100, text = "Pont de Lave (2v2)" },
     { id = 470200, text = "Observatoire (2v2)" },
     { id = 470300, text = "Court de Duel (2v2)" },
@@ -30,19 +30,6 @@ entries = [
     { id = 470900, text = "Grande Bibliothèque (2v2)" },
     { id = 471000, text = "Colisée Perdu (2v2)" },
 ]
-
-[[goods.entries]]
-id = 4600000
-name = "Tresse de Marika"
-info = "Ressuscite après la mort, rétablis entièrement le personnage "
-description = """\
-Un objet destiné pour les duellistes.
-Enchanté par les incantations des Fondamentalistes de l'Ordre d'Or.
-
-Utilisé dans le but de ramener à la vie un duelliste déchu, en le rétablissant entièrement.
-
-Vous ramène à la vie après votre mort, soigne complètement les PV, les PC, rétablis l'équilibre, puis retire tous les effets positifs et négatifs du duelliste.\
-"""
 
 [[goods.entries]]
 id = 4600100
@@ -58,20 +45,6 @@ Soigne complètement les PV, les PC, rétablis l'équilibre, puis retire tous le
 """
 
 [[goods.entries]]
-id = 4600200
-name = "Pot d'Abondance"
-info = "Confère un stock illimité de tous les objets possédés"
-description = """\
-Un objet destiné pour les duellistes.
-Enchanté par les incantations des Fondamentalistes de l'Ordre d'Or.
-
-Utilisé pour stocker et maintenir une quantité d'objets illimitée.
-Tous les objets utilisés conserveront leur quantité actuelle.
-
-Un pot sans fond peu ordinaire. Ses origines demeurent inconnues. Certains s'amusent à en faire le symbole d'une avarice éffrénée.\
-"""
-
-[[goods.entries]]
 id = 4600300
 name = "Cloche d'appel des esprits"
 info = "Appelle les esprits ayant laissé leurs marques rouges"
@@ -84,22 +57,22 @@ Une puissante cloche utilisée pour invoquer ceux en recherche d'un combat, invo
 
 [[goods.entries]]
 id = 4602001
-name = "Tarnished's Severed Finger"
-info = "Exchange through White Mask Varré for items useful in invasion multiplayer."
+name = "Doigt tranché de Sans-éclat"
+info = "À échanger auprès de Varré le Blême contre des objets utiles pour les invasions en multijoueur."
 description = """\
-A tarnished's furled finger, mutilated and only recognizable by its trace resonance with other worlds.
-Used as proof of one's contribution to oncoming Mohgwyn dynasty, the spilling of noble blood.
+Le doigt crochu d'un Sans-éclat, mutilé et reconnaissable uniquement à sa faible résonance avec d'autres mondes.
+Sert de preuve de sa contribution à l'avènement de la dynastie Mohgwyn : le versement du sang noble.
 
-Pureblood knights, or those who strive to be anointed as one, exchange these for equipment that may be effective in future spilling.\
+Les chevaliers au sang pur, ou ceux qui aspirent à être oints comme tels, les échangent contre de l'équipement qui pourrait se révéler efficace lors de futures effusions de sang.\
 """
 
 [[goods.entries]]
 id = 4602002
-name = "Jar Coin"
-info = "Exchange at the roundtable jar shop for items useful in cooperative multiplayer."
+name = "Pièce de jarre"
+info = "À échanger à la boutique de la jarre du Bastion de la Table ronde contre des objets utiles en multijoueur coopératif."
 description = """\
-Taking after the culture of jars, tarnished gift these coins to their companions to show appreciation for their cooperation in battle.
-At the roundtable, a jar accepts these coins in exchange for items cooperators might find useful, especially for warding off invaders. \
+Inspirés par la culture des jarres, les Sans-éclat offrent ces pièces à leurs compagnons pour les remercier de leur coopération au combat.
+Au Bastion de la Table ronde, une jarre accepte ces pièces en échange d'objets utiles aux coopérateurs, notamment pour repousser les envahisseurs.\
 """
 
 [menu]
@@ -107,13 +80,21 @@ entries = [
     { id = 469900, text = "Cartes DEN" },
     { id = 479900, text = "Cartes DEN (2v2)" },
     { id = 401400, text = "Welcome to the BetterMultiplayer server" },
+    { id = 239001, text = "Boutique sanglante" },
+    { id = 239002, text = "Boutique de la jarre" },
 ]
 
 [line_help]
-entries = []
+entries = [
+    { id = 239001, text = "Choisissez une récompense sanglante à acheter" },
+    { id = 239002, text = "Choisissez une récompense de la jarre à acheter" },
+]
 
 [dialogues]
-entries = []
+entries = [
+    { id = 239001, text = "Échanger <?demandSoul?> doigts tranchés de Sans-éclat contre <?itemName?> ?" },
+    { id = 239002, text = "Échanger <?demandSoul?> pièces de jarre contre <?itemName?> ?" },
+]
 
 [action_buttons]
 entries = [
@@ -137,8 +118,6 @@ entries = [
 entries = [
     { id = 4600400, text = "Build envoyé au Build Planner." },
     { id = 4600401, text = "Build importé." },
-    { id = 4600402, text = "Tresse de Marika active. Lorsque vous mourez, vous revenez à la vie sur le lieu de votre mort." },
-    { id = 4600403, text = "Tresse de Marika inactive. Vous ne revenez plus à la vie." },
     { id = 4600404, text = "Cloche d'appel des esprits active." },
     { id = 4600405, text = "Cloche d'appel des esprits inactive." },
     { id = 4600406, text = "Plus de place pour d'autres esprits." },

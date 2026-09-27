@@ -32,19 +32,6 @@ entries = [
 ]
 
 [[goods.entries]]
-id = 4600000
-name = "Trenza de Marika"
-info = "Revive al morir, restaura el personaje completamente"
-description = """\
-Objeto para juego de duelo en línea.
-Encantado por los encantamientos de los fundamentalistas de la Orden Dorada.
-
-Revivirá el personaje al morir, recuperándolo a su estado natural.
-
-Al morir, restaura completamente el PV, PC, recupera aplomo, cura todos los estados y disipa todos los efectos especiales.\
-"""
-
-[[goods.entries]]
 id = 4600100
 name = "Grasa Regresiva"
 info = "Restaura completamente el personaje"
@@ -55,20 +42,6 @@ Encantado por los encantamientos de los fundamentalistas de la Orden Dorada.
 Usado para recuperar rápidamente el personaje a su estado natural antes de una batalla.
 
 Restaura completamente el PV, PC, recupera aplomo, cura todos los estados y disipa todos los efectos especiales.\
-"""
-
-[[goods.entries]]
-id = 4600200
-name = "O'Jarra de Abundancia"
-info = "Otorga suministros infinitos de cualquier bien en posesión"
-description = """\
-Objeto para juego de duelo en línea.
-Encantado por los encantamientos de los fundamentalistas de la Orden Dorada.
-
-Usado para guardar y retener un suministro infinito de bienes.
-Cualquier objeto usado va a conservar su cantidad actual.
-
-Una jarra sin fondo peculiar. Sus orígenes son desconocidos. Algunos lo caricaturizan como un símbolo de avaricia desenfrenada.\
 """
 
 [[goods.entries]]
@@ -84,22 +57,22 @@ Una campana poderosa que se usa para invocar a quienes buscan batalla. Invoca to
 
 [[goods.entries]]
 id = 4602001
-name = "Tarnished's Severed Finger"
-info = "Exchange through White Mask Varré for items useful in invasion multiplayer."
+name = "Dedo cercenado de Tiznado"
+info = "Canjéalo con Varré, la Máscara Blanca, por objetos útiles para invasiones en multijugador."
 description = """\
-A tarnished's furled finger, mutilated and only recognizable by its trace resonance with other worlds.
-Used as proof of one's contribution to oncoming Mohgwyn dynasty, the spilling of noble blood.
+El dedo doblado de un Tiznado, mutilado y reconocible solo por su tenue resonancia con otros mundos.
+Se usa como prueba de la contribución propia a la inminente dinastía Mohgwyn: el derramamiento de sangre noble.
 
-Pureblood knights, or those who strive to be anointed as one, exchange these for equipment that may be effective in future spilling.\
+Los caballeros de sangre pura, o quienes aspiran a ser ungidos como tales, los canjean por equipo que podría ser efectivo en futuros derramamientos de sangre.\
 """
 
 [[goods.entries]]
 id = 4602002
-name = "Jar Coin"
-info = "Exchange at the roundtable jar shop for items useful in cooperative multiplayer."
+name = "Moneda de tinaja"
+info = "Canjéala en la tienda de la tinaja de la Mesa Redonda por objetos útiles en multijugador cooperativo."
 description = """\
-Taking after the culture of jars, tarnished gift these coins to their companions to show appreciation for their cooperation in battle.
-At the roundtable, a jar accepts these coins in exchange for items cooperators might find useful, especially for warding off invaders. \
+Siguiendo la cultura de las tinajas, los Tiznados regalan estas monedas a sus compañeros para mostrar su agradecimiento por la cooperación en batalla.
+En la Mesa Redonda, una tinaja acepta estas monedas a cambio de objetos que los cooperadores podrían encontrar útiles, especialmente para repeler a los invasores.\
 """
 
 [menu]
@@ -107,13 +80,21 @@ entries = [
     { id = 469900, text = "Mapas DEN" },
     { id = 479900, text = "Mapas 2v2 DEN" },
     { id = 401400, text = "Welcome to the BetterMultiplayer server" },
+    { id = 239001, text = "Tienda sangrienta" },
+    { id = 239002, text = "Tienda de la tinaja" },
 ]
 
 [line_help]
-entries = []
+entries = [
+    { id = 239001, text = "Selecciona la recompensa sangrienta a comprar" },
+    { id = 239002, text = "Selecciona la recompensa de la tinaja a comprar" },
+]
 
 [dialogues]
-entries = []
+entries = [
+    { id = 239001, text = "¿Canjear <?demandSoul?> dedos cercenados de Tiznado por <?itemName?>?" },
+    { id = 239002, text = "¿Canjear <?demandSoul?> monedas de tinaja por <?itemName?>?" },
+]
 
 [action_buttons]
 entries = [
@@ -137,8 +118,6 @@ entries = [
 entries = [
     { id = 4600400, text = "Build subida al Build Planner." },
     { id = 4600401, text = "Build importada." },
-    { id = 4600402, text = "Trenza de Marika activa. Tras morir, revivirás en el lugar de tu muerte." },
-    { id = 4600403, text = "Trenza de Marika inactiva. Ya no revivirás tras morir." },
     { id = 4600404, text = "Campana llamadora de fantasmas activa." },
     { id = 4600405, text = "Campana llamadora de fantasmas inactiva." },
     { id = 4600406, text = "No hay espacio para más fantasmas." },

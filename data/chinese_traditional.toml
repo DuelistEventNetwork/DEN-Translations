@@ -32,17 +32,6 @@ entries = [
 ]
 
 [[goods.entries]]
-id = 4600000
-name = "瑪莉卡的髮辮"
-info = "使角色死而復生，完好如初"
-description = """\
-聯機決鬥的道具。
-被賦予黃金律法基本主義的禱告，使戰敗而亡的鬥士起死回生，恢復至原來狀態。
-
-於死亡之際，完全恢復HP、FP及強韌度，徹底治癒後遺症，並解除所有特殊狀態。
-"""
-
-[[goods.entries]]
 id = 4600100
 name = "逆溯油脂"
 info = "使角色完好如初"
@@ -51,17 +40,6 @@ description = """\
 被賦予黃金律法基本主義的禱告，使鬥士於作戰前瞬間恢復至原來狀態。
 
 完全恢復HP、FP及強韌度，徹底治癒後遺症，並解除所有特殊狀態。\
-"""
-
-[[goods.entries]]
-id = 4600200
-name = "盈滿之壺"
-info = "提供無限所持有的道具"
-description = """\
-聯機決鬥的道具。
-蘊藏著無窮無盡的內容物，讓所有使用過的道具數量不變。
-
-來歷不詳，是奇特的無底之壺。 一些人視之為貪婪恣肆的象徵。\
 """
 
 [[goods.entries]]
@@ -77,22 +55,22 @@ description = """\
 
 [[goods.entries]]
 id = 4602001
-name = "Tarnished's Severed Finger"
-info = "Exchange through White Mask Varré for items useful in invasion multiplayer."
+name = "褪色者的斷指"
+info = "可透過「白面具」梵雷兌換適用於入侵聯機的道具。"
 description = """\
-A tarnished's furled finger, mutilated and only recognizable by its trace resonance with other worlds.
-Used as proof of one's contribution to oncoming Mohgwyn dynasty, the spilling of noble blood.
+褪色者的勾指，已遭殘損，只能憑藉與其他世界殘存的共鳴辨認出來。
+被用作為即將到來的蒙格溫王朝作出貢獻——即流淌高貴之血——的證明。
 
-Pureblood knights, or those who strive to be anointed as one, exchange these for equipment that may be effective in future spilling.\
+純血騎士，或渴望受膏成為其中一員的人，會用它交換或許能在日後的流血中派上用場的裝備。\
 """
 
 [[goods.entries]]
 id = 4602002
-name = "Jar Coin"
-info = "Exchange at the roundtable jar shop for items useful in cooperative multiplayer."
+name = "壺幣"
+info = "可在圓桌廳堂的壺商店兌換適用於合作聯機的道具。"
 description = """\
-Taking after the culture of jars, tarnished gift these coins to their companions to show appreciation for their cooperation in battle.
-At the roundtable, a jar accepts these coins in exchange for items cooperators might find useful, especially for warding off invaders. \
+效仿壺的文化，褪色者會將這些硬幣贈予同伴，以感謝他們在戰鬥中的協助。
+在圓桌廳堂，有一只壺會收下這些硬幣，交換協助者可能用得上的道具，尤其是用於擊退入侵者的道具。\
 """
 
 [menu]
@@ -100,13 +78,21 @@ entries = [
     { id = 469900, text = "DEN 賽場模組" },
     { id = 479900, text = "DEN 2v2 賽場模組" },
     { id = 401400, text = "Welcome to the BetterMultiplayer server" },
+    { id = 239001, text = "鮮血商店" },
+    { id = 239002, text = "壺商店" },
 ]
 
 [line_help]
-entries = []
+entries = [
+    { id = 239001, text = "選擇要購買的鮮血獎勵" },
+    { id = 239002, text = "選擇要購買的壺獎勵" },
+]
 
 [dialogues]
-entries = []
+entries = [
+    { id = 239001, text = "用<?demandSoul?>根褪色者的斷指交換<?itemName?>？" },
+    { id = 239002, text = "用<?demandSoul?>枚壺幣交換<?itemName?>？" },
+]
 
 [action_buttons]
 entries = [{ id = 90010, text = "響起號角" }, { id = 90011, text = "瞬移至起點" }]
@@ -127,8 +113,6 @@ entries = [
 entries = [
     { id = 4600400, text = "構建已上傳至構建規劃器。" },
     { id = 4600401, text = "構建已匯入。" },
-    { id = 4600402, text = "瑪莉卡的髮辮已啟用。死亡之後，會在原地復活。" },
-    { id = 4600403, text = "瑪莉卡的髮辮已停用。死亡之後不會復活。" },
     { id = 4600404, text = "召戰魂鈴已啟用。" },
     { id = 4600405, text = "召戰魂鈴已停用。" },
     { id = 4600406, text = "沒有空位容納更多戰魂。" },
