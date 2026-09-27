@@ -160,6 +160,7 @@ entries = [
     { id = 470011, text = "Import this build? Your current equipment will be kept." },
     { id = 470012, text = "Import \"<?lineHelp?>\"?\nYour current equipment will be replaced." },
     { id = 470013, text = "Import \"<?lineHelp?>\"?\nYour current equipment will be kept." },
+    { id = 470014, text = "Enable player rotation? (Disables respawns when session is full)" },
 ]
 
 [tutorial_body]

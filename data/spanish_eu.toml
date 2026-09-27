@@ -130,6 +130,7 @@ entries = [
     { id = 470011, text = "¿Importar este build? Tu equipo actual se conservará." },
     { id = 470012, text = "¿Importar «<?lineHelp?>»?\nTu equipo actual será reemplazado." },
     { id = 470013, text = "¿Importar «<?lineHelp?>»?\nTu equipo actual se conservará." },
+    { id = 470014, text = "¿Activar la rotación de jugadores? (Desactiva la reanimación cuando la sesión esté llena)" },
 ]
 
 [tutorial_body]

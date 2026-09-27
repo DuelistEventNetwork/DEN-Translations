@@ -130,6 +130,7 @@ entries = [
     { id = 470011, text = "Importer ce build ? Votre équipement actuel sera conservé." },
     { id = 470012, text = "Importer « <?lineHelp?> » ?\nVotre équipement actuel sera remplacé." },
     { id = 470013, text = "Importer « <?lineHelp?> » ?\nVotre équipement actuel sera conservé." },
+    { id = 470014, text = "Activer le roulement des joueurs ? (Désactive la résurrection quand la session est pleine)" },
 ]
 
 [tutorial_body]

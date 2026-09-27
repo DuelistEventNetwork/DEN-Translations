@@ -130,6 +130,7 @@ entries = [
     { id = 470011, text = "Dieses Build importieren? Deine aktuelle Ausrüstung bleibt erhalten." },
     { id = 470012, text = "„<?lineHelp?>“ importieren?\nDeine aktuelle Ausrüstung wird ersetzt." },
     { id = 470013, text = "„<?lineHelp?>“ importieren?\nDeine aktuelle Ausrüstung bleibt erhalten." },
+    { id = 470014, text = "Spielerwechsel aktivieren? (Deaktiviert Wiederbelebung, wenn die Sitzung voll ist)" },
 ]
 
 [tutorial_body]
