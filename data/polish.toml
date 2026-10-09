@@ -79,6 +79,9 @@ W Twierdzy Okrągłego Stołu pewien dzban przyjmuje te monety w zamian za przed
 
 [menu]
 entries = [
+    { id = 460000, text = "Głośność czatu głosowego" },
+    { id = 460010, text = "Głośność: <?codenamePCName?>" },
+    { id = 460020, text = "Nakładka opóźnienia" },
     { id = 469900, text = "Mapy DEN" },
     { id = 479900, text = "Mapy DEN 2v2" },
     { id = 401400, text = "Welcome to the BetterMultiplayer server" },
@@ -88,6 +91,9 @@ entries = [
 
 [line_help]
 entries = [
+    { id = 460001, text = "Dostosowuje głośność czatu głosowego innych graczy." },
+    { id = 460011, text = "Dostosowuje głośność czatu głosowego tego gracza." },
+    { id = 460021, text = "Wybierz, czy chcesz wyświetlać opóźnienie sieciowe nad nazwami graczy" },
     { id = 239001, text = "Wybierz krwawą nagrodę do zakupu" },
     { id = 239002, text = "Wybierz dzbanową nagrodę do zakupu" },
 ]

@@ -77,6 +77,9 @@ En la Mesa Redonda, una tinaja acepta estas monedas a cambio de objetos que los 
 
 [menu]
 entries = [
+    { id = 460000, text = "Volumen del chat de voz" },
+    { id = 460010, text = "Volumen de <?codenamePCName?>" },
+    { id = 460020, text = "Indicador de latencia" },
     { id = 469900, text = "Mapas DEN" },
     { id = 479900, text = "Mapas 2v2 DEN" },
     { id = 401400, text = "Welcome to the BetterMultiplayer server" },
@@ -86,6 +89,9 @@ entries = [
 
 [line_help]
 entries = [
+    { id = 460001, text = "Ajusta el volumen del chat de voz de los demás jugadores." },
+    { id = 460011, text = "Ajusta el volumen del chat de voz de este jugador." },
+    { id = 460021, text = "Elige si quieres mostrar el indicador de latencia sobre los nombres de los jugadores" },
     { id = 239001, text = "Selecciona la recompensa sangrienta que quieres comprar" },
     { id = 239002, text = "Selecciona la recompensa de la tinaja que quieres comprar" },
 ]

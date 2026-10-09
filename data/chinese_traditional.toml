@@ -75,6 +75,9 @@ description = """\
 
 [menu]
 entries = [
+    { id = 460000, text = "語音聊天音量" },
+    { id = 460010, text = "<?codenamePCName?>的音量" },
+    { id = 460020, text = "顯示延遲狀況" },
     { id = 469900, text = "DEN 賽場模組" },
     { id = 479900, text = "DEN 2v2 賽場模組" },
     { id = 401400, text = "Welcome to the BetterMultiplayer server" },
@@ -84,6 +87,9 @@ entries = [
 
 [line_help]
 entries = [
+    { id = 460001, text = "調整其他玩家語音聊天的音量。" },
+    { id = 460011, text = "調整該玩家語音聊天的音量。" },
+    { id = 460021, text = "設定是否在玩家名稱上方顯示延遲狀況" },
     { id = 239001, text = "選擇要購買的鮮血獎勵" },
     { id = 239002, text = "選擇要購買的壺獎勵" },
 ]

@@ -77,6 +77,9 @@ description = """\
 
 [menu]
 entries = [
+    { id = 460000, text = "ボイスチャットの音量" },
+    { id = 460010, text = "<?codenamePCName?>の音量" },
+    { id = 460020, text = "レイテンシ　オーバーレイ" },
     { id = 469900, text = "DENマップ" },
     { id = 479900, text = "DENマップ 2vs2" },
     { id = 401400, text = "Welcome to the BetterMultiplayer server" },
@@ -86,6 +89,9 @@ entries = [
 
 [line_help]
 entries = [
+    { id = 460001, text = "他のプレイヤーのボイスチャットの音量を調整する" },
+    { id = 460011, text = "このプレイヤーのボイスチャットの音量を調整する" },
+    { id = 460021, text = "プレイヤー達の名前の上にレイテンシオーバーレイを表示するかどうかを選択する" },
     { id = 239001, text = "購入する血の報酬を選択してください" },
     { id = 239002, text = "購入する壺の報酬を選択してください" },
 ]

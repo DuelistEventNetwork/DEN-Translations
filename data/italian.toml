@@ -77,6 +77,9 @@ Alla Rocca della Tavola rotonda, una giara accetta queste monete in cambio di og
 
 [menu]
 entries = [
+    { id = 460000, text = "Volume della chat vocale" },
+    { id = 460010, text = "Volume di <?codenamePCName?>" },
+    { id = 460020, text = "Overlay della latenza" },
     { id = 469900, text = "Mappe DEN" },
     { id = 479900, text = "Mappe DEN 2v2" },
     { id = 401400, text = "Welcome to the BetterMultiplayer server" },
@@ -86,6 +89,9 @@ entries = [
 
 [line_help]
 entries = [
+    { id = 460001, text = "Regola il volume della chat vocale degli altri giocatori." },
+    { id = 460011, text = "Regola il volume della chat vocale di questo giocatore." },
+    { id = 460021, text = "Scegli se mostrare l'overlay della latenza sopra i nomi dei giocatori" },
     { id = 239001, text = "Seleziona la ricompensa di sangue da acquistare" },
     { id = 239002, text = "Seleziona la ricompensa della giara da acquistare" },
 ]

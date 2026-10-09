@@ -90,6 +90,9 @@ Like a lullaby, or a quagmire, its light-purple haze irresistibly draws its vict
 
 [menu]
 entries = [
+    { id = 460000, text = "Voice Chat Volume" },
+    { id = 460010, text = "<?codenamePCName?>'s Volume" },
+    { id = 460020, text = "Latency Overlay" },
     { id = 469900, text = "DEN Maps" },
     { id = 479900, text = "DEN 2v2 Maps" },
     { id = 401400, text = "Welcome to the BetterMultiplayer server" },
@@ -99,6 +102,9 @@ entries = [
 
 [line_help]
 entries = [
+    { id = 460001, text = "Adjusts how loud other players' voice chat is." },
+    { id = 460011, text = "Adjusts how loud this player's voice chat is." },
+    { id = 460021, text = "Choose whether to display the latency overlay above the players' names" },
     { id = 239001, text = "Select bloody reward to purchase" },
     { id = 239002, text = "Select jar reward to purchase" },
 ]
