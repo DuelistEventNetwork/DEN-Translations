@@ -80,6 +80,7 @@ entries = [
     { id = 460000, text = "Громкость голосового чата" },
     { id = 460010, text = "Громкость: <?codenamePCName?>" },
     { id = 460020, text = "Отображение задержки сети" },
+    { id = 460030, text = "Только дружественные" },
     { id = 469900, text = "Карты DEN" },
     { id = 479900, text = "Карты DEN 2v2" },
     { id = 401400, text = "Welcome to the BetterMultiplayer server" },

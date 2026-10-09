@@ -80,6 +80,7 @@ entries = [
     { id = 460000, text = "Sprachchat-Lautstärke" },
     { id = 460010, text = "Lautstärke von <?codenamePCName?>" },
     { id = 460020, text = "Latenz-Overlay" },
+    { id = 460030, text = "Nur Freundliche" },
     { id = 469900, text = "DEN Karten" },
     { id = 479900, text = "DEN 2v2 Karten" },
     { id = 401400, text = "Welcome to the BetterMultiplayer server" },

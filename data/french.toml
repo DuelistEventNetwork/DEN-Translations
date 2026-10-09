@@ -80,6 +80,7 @@ entries = [
     { id = 460000, text = "Volume du chat vocal" },
     { id = 460010, text = "Volume de <?codenamePCName?>" },
     { id = 460020, text = "Affichage de la latence" },
+    { id = 460030, text = "Alliés uniquement" },
     { id = 469900, text = "Cartes DEN" },
     { id = 479900, text = "Cartes DEN (2v2)" },
     { id = 401400, text = "Welcome to the BetterMultiplayer server" },

@@ -80,6 +80,7 @@ entries = [
     { id = 460000, text = "مستوى صوت الدردشة الصوتية" },
     { id = 460010, text = "مستوى صوت <?codenamePCName?>" },
     { id = 460020, text = "طبقة عرض زمن الاستجابة" },
+    { id = 460030, text = "الأصدقاء فقط" },
     { id = 469900, text = "خرائط الوكر" },
     { id = 479900, text = "خرائط الوكر (2 ضد 2)" },
     { id = 401400, text = "Welcome to the BetterMultiplayer server" },

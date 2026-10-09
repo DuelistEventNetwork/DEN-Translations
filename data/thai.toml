@@ -80,6 +80,7 @@ entries = [
     { id = 460000, text = "ระดับเสียงแชทด้วยเสียง" },
     { id = 460010, text = "ระดับเสียงของ <?codenamePCName?>" },
     { id = 460020, text = "แสดงค่าความหน่วง" },
+    { id = 460030, text = "เฉพาะฝ่ายเดียวกัน" },
     { id = 469900, text = "เดนแมพส์" },
     { id = 479900, text = "เดน 2v2 แมพส์" },
     { id = 401400, text = "Welcome to the BetterMultiplayer server" },

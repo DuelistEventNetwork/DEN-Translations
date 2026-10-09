@@ -93,6 +93,7 @@ entries = [
     { id = 460000, text = "Voice Chat Volume" },
     { id = 460010, text = "<?codenamePCName?>'s Volume" },
     { id = 460020, text = "Latency Overlay" },
+    { id = 460030, text = "Friendly Only" },
     { id = 469900, text = "DEN Maps" },
     { id = 479900, text = "DEN 2v2 Maps" },
     { id = 401400, text = "Welcome to the BetterMultiplayer server" },
