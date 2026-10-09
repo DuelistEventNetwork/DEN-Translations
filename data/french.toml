@@ -80,6 +80,7 @@ entries = [
     { id = 460000, text = "Volume du chat vocal" },
     { id = 460020, text = "Affichage de la latence" },
     { id = 460030, text = "Alliés uniquement" },
+    { id = 460040, text = "Volume des joueurs" },
     { id = 469900, text = "Cartes DEN" },
     { id = 479900, text = "Cartes DEN (2v2)" },
     { id = 401400, text = "Welcome to the BetterMultiplayer server" },
@@ -91,6 +92,7 @@ entries = [
 entries = [
     { id = 460001, text = "Règle le volume du chat vocal des autres joueurs." },
     { id = 460011, text = "Règle le volume du chat vocal de ce joueur." },
+    { id = 460041, text = "Règle le volume du chat vocal de chaque joueur." },
     { id = 460021, text = "Choisir quand afficher la latence au-dessus du nom du personnage" },
     { id = 239001, text = "Choisissez une récompense sanglante à acheter" },
     { id = 239002, text = "Choisissez une récompense de la jarre à acheter" },

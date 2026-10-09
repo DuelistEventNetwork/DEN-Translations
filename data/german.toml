@@ -80,6 +80,7 @@ entries = [
     { id = 460000, text = "Sprachchat-Lautstärke" },
     { id = 460020, text = "Latenz-Overlay" },
     { id = 460030, text = "Nur Freundliche" },
+    { id = 460040, text = "Spielerlautstärke" },
     { id = 469900, text = "DEN Karten" },
     { id = 479900, text = "DEN 2v2 Karten" },
     { id = 401400, text = "Welcome to the BetterMultiplayer server" },
@@ -91,6 +92,7 @@ entries = [
 entries = [
     { id = 460001, text = "Passt die Lautstärke des Sprachchats anderer Spieler an." },
     { id = 460011, text = "Passt die Lautstärke des Sprachchats dieses Spielers an." },
+    { id = 460041, text = "Passt die Lautstärke des Sprachchats jedes Spielers an." },
     { id = 460021, text = "Wählen, ob das Latenz-Overlay über den Spielernamen angezeigt werden soll" },
     { id = 239001, text = "Blutige Belohnung zum Kauf auswählen" },
     { id = 239002, text = "Krug-Belohnung zum Kauf auswählen" },

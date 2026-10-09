@@ -80,6 +80,7 @@ entries = [
     { id = 460000, text = "Volume della chat vocale" },
     { id = 460020, text = "Overlay della latenza" },
     { id = 460030, text = "Solo alleati" },
+    { id = 460040, text = "Volumi dei giocatori" },
     { id = 469900, text = "Mappe DEN" },
     { id = 479900, text = "Mappe DEN 2v2" },
     { id = 401400, text = "Welcome to the BetterMultiplayer server" },
@@ -91,6 +92,7 @@ entries = [
 entries = [
     { id = 460001, text = "Regola il volume della chat vocale degli altri giocatori." },
     { id = 460011, text = "Regola il volume della chat vocale di questo giocatore." },
+    { id = 460041, text = "Regola il volume della chat vocale di ogni giocatore." },
     { id = 460021, text = "Scegli se mostrare l'overlay della latenza sopra i nomi dei giocatori" },
     { id = 239001, text = "Seleziona la ricompensa di sangue da acquistare" },
     { id = 239002, text = "Seleziona la ricompensa della giara da acquistare" },

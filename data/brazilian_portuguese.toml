@@ -80,6 +80,7 @@ entries = [
     { id = 460000, text = "Volume do chat de voz" },
     { id = 460020, text = "Exibição de latência" },
     { id = 460030, text = "Somente aliados" },
+    { id = 460040, text = "Volume dos jogadores" },
     { id = 469900, text = "Mapas DEN" },
     { id = 479900, text = "Mapas DEN 2v2" },
     { id = 401400, text = "Welcome to the BetterMultiplayer server" },
@@ -91,6 +92,7 @@ entries = [
 entries = [
     { id = 460001, text = "Ajusta o volume do chat de voz dos outros jogadores." },
     { id = 460011, text = "Ajusta o volume do chat de voz deste jogador." },
+    { id = 460041, text = "Ajusta o volume do chat de voz de cada jogador." },
     { id = 460021, text = "Escolha se deseja exibir a latência acima dos nomes dos jogadores" },
     { id = 239001, text = "Selecione a recompensa sangrenta para comprar" },
     { id = 239002, text = "Selecione a recompensa do jarro para comprar" },
