@@ -78,7 +78,6 @@ Na Mesa-Redonda, um jarro aceita estas moedas em troca de itens que cooperadores
 [menu]
 entries = [
     { id = 460000, text = "Volume do chat de voz" },
-    { id = 460010, text = "Volume de <?codenamePCName?>" },
     { id = 460020, text = "Exibição de latência" },
     { id = 460030, text = "Somente aliados" },
     { id = 469900, text = "Mapas DEN" },
@@ -140,6 +139,7 @@ entries = [
 
 [custom]
 entries = [
+    { key = "player_volume", text = "Volume de {0}" },
     { key = "already_uploading", text = "Já há um build sendo enviado. Aguarde a conclusão." },
     { key = "could_not_read_equipment", text = "Não foi possível ler o equipamento atual." },
     { key = "failed_to_connect", text = "Falha ao conectar ao Build Planner." },

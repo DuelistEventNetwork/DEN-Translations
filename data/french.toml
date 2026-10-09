@@ -78,7 +78,6 @@ Au Bastion de la Table ronde, une jarre accepte ces pièces en échange d'objets
 [menu]
 entries = [
     { id = 460000, text = "Volume du chat vocal" },
-    { id = 460010, text = "Volume de <?codenamePCName?>" },
     { id = 460020, text = "Affichage de la latence" },
     { id = 460030, text = "Alliés uniquement" },
     { id = 469900, text = "Cartes DEN" },
@@ -140,6 +139,7 @@ entries = [
 
 [custom]
 entries = [
+    { key = "player_volume", text = "Volume de {0}" },
     { key = "already_uploading", text = "Un build est déjà en cours d'envoi. Merci d'attendre la fin de l'opération." },
     { key = "could_not_read_equipment", text = "Impossible de lire l'équipement actuel." },
     { key = "failed_to_connect", text = "La connexion au Build Planner a échoué." },

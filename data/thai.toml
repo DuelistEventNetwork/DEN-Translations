@@ -78,7 +78,6 @@ description = """\
 [menu]
 entries = [
     { id = 460000, text = "ระดับเสียงแชทด้วยเสียง" },
-    { id = 460010, text = "ระดับเสียงของ <?codenamePCName?>" },
     { id = 460020, text = "แสดงค่าความหน่วง" },
     { id = 460030, text = "เฉพาะฝ่ายเดียวกัน" },
     { id = 469900, text = "เดนแมพส์" },
@@ -140,6 +139,7 @@ entries = [
 
 [custom]
 entries = [
+    { key = "player_volume", text = "ระดับเสียงของ {0}" },
     { key = "already_uploading", text = "กำลังอัปโหลดบิลด์อยู่ กรุณารอสักครู่" },
     { key = "could_not_read_equipment", text = "อ่านข้อมูลอุปกรณ์ปัจจุบันไม่ได้" },
     { key = "failed_to_connect", text = "เชื่อมต่อกับ Build Planner ไม่สำเร็จ" },

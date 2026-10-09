@@ -76,7 +76,6 @@ description = """\
 [menu]
 entries = [
     { id = 460000, text = "음성 채팅 음량" },
-    { id = 460010, text = "<?codenamePCName?>의 음량" },
     { id = 460020, text = "지연 시간 오버레이" },
     { id = 460030, text = "우호적인 플레이어만" },
     { id = 469900, text = "DEN 맵" },
@@ -138,6 +137,7 @@ entries = [
 
 [custom]
 entries = [
+    { key = "player_volume", text = "{0}의 음량" },
     { key = "already_uploading", text = "이미 빌드를 업로드하는 중입니다. 완료될 때까지 기다려 주세요." },
     { key = "could_not_read_equipment", text = "현재 장비를 읽어올 수 없습니다." },
     { key = "failed_to_connect", text = "빌드 플래너에 연결하지 못했습니다." },

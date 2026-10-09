@@ -80,7 +80,6 @@ W Twierdzy Okrągłego Stołu pewien dzban przyjmuje te monety w zamian za przed
 [menu]
 entries = [
     { id = 460000, text = "Głośność czatu głosowego" },
-    { id = 460010, text = "Głośność: <?codenamePCName?>" },
     { id = 460020, text = "Nakładka opóźnienia" },
     { id = 460030, text = "Tylko przyjaźni" },
     { id = 469900, text = "Mapy DEN" },
@@ -142,6 +141,7 @@ entries = [
 
 [custom]
 entries = [
+    { key = "player_volume", text = "Głośność: {0}" },
     { key = "already_uploading", text = "Build jest już przesyłany. Poczekaj, aż się zakończy." },
     { key = "could_not_read_equipment", text = "Nie udało się odczytać aktualnego ekwipunku." },
     { key = "failed_to_connect", text = "Nie udało się połączyć z planerem buildów." },

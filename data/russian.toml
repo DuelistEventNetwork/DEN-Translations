@@ -78,7 +78,6 @@ description = """\
 [menu]
 entries = [
     { id = 460000, text = "Громкость голосового чата" },
-    { id = 460010, text = "Громкость: <?codenamePCName?>" },
     { id = 460020, text = "Отображение задержки сети" },
     { id = 460030, text = "Только дружественные" },
     { id = 469900, text = "Карты DEN" },
@@ -140,6 +139,7 @@ entries = [
 
 [custom]
 entries = [
+    { key = "player_volume", text = "Громкость: {0}" },
     { key = "already_uploading", text = "Билд уже загружается. Дождитесь завершения." },
     { key = "could_not_read_equipment", text = "Не удалось считать текущее снаряжение." },
     { key = "failed_to_connect", text = "Не удалось подключиться к планировщику билдов." },

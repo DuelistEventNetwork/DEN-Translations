@@ -78,7 +78,6 @@ En la Mesa Redonda, una tinaja acepta estas monedas a cambio de objetos que los 
 [menu]
 entries = [
     { id = 460000, text = "Volumen del chat de voz" },
-    { id = 460010, text = "Volumen de <?codenamePCName?>" },
     { id = 460020, text = "Indicador de latencia" },
     { id = 460030, text = "Solo aliados" },
     { id = 469900, text = "Mapas DEN" },
@@ -140,6 +139,7 @@ entries = [
 
 [custom]
 entries = [
+    { key = "player_volume", text = "Volumen de {0}" },
     { key = "already_uploading", text = "Ya se está subiendo un build. Espera a que termine el proceso." },
     { key = "could_not_read_equipment", text = "No se ha podido leer el equipo actual." },
     { key = "failed_to_connect", text = "No se ha podido conectar con el Build Planner." },

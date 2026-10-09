@@ -78,7 +78,6 @@ In der Tafelrundfeste nimmt ein Krug diese Münzen im Tausch gegen Gegenstände 
 [menu]
 entries = [
     { id = 460000, text = "Sprachchat-Lautstärke" },
-    { id = 460010, text = "Lautstärke von <?codenamePCName?>" },
     { id = 460020, text = "Latenz-Overlay" },
     { id = 460030, text = "Nur Freundliche" },
     { id = 469900, text = "DEN Karten" },
@@ -140,6 +139,7 @@ entries = [
 
 [custom]
 entries = [
+    { key = "player_volume", text = "Lautstärke von {0}" },
     { key = "already_uploading", text = "Ein Build wird bereits hochgeladen. Bitte warte, bis der Vorgang abgeschlossen ist." },
     { key = "could_not_read_equipment", text = "Aktuelle Ausrüstung konnte nicht gelesen werden." },
     { key = "failed_to_connect", text = "Verbindung zum Build Planner fehlgeschlagen." },

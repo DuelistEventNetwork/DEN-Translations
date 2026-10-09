@@ -76,7 +76,6 @@ description = """\
 [menu]
 entries = [
     { id = 460000, text = "語音聊天音量" },
-    { id = 460010, text = "<?codenamePCName?>的音量" },
     { id = 460020, text = "顯示延遲狀況" },
     { id = 460030, text = "僅友方" },
     { id = 469900, text = "DEN 賽場模組" },
@@ -135,6 +134,7 @@ entries = [
 
 [custom]
 entries = [
+    { key = "player_volume", text = "{0}的音量" },
     { key = "already_uploading", text = "已經在上傳構建了，請稍候。" },
     { key = "could_not_read_equipment", text = "無法讀取目前裝備。" },
     { key = "failed_to_connect", text = "無法連線至構建規劃器。" },

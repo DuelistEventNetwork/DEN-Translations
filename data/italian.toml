@@ -78,7 +78,6 @@ Alla Rocca della Tavola rotonda, una giara accetta queste monete in cambio di og
 [menu]
 entries = [
     { id = 460000, text = "Volume della chat vocale" },
-    { id = 460010, text = "Volume di <?codenamePCName?>" },
     { id = 460020, text = "Overlay della latenza" },
     { id = 460030, text = "Solo alleati" },
     { id = 469900, text = "Mappe DEN" },
@@ -140,6 +139,7 @@ entries = [
 
 [custom]
 entries = [
+    { key = "player_volume", text = "Volume di {0}" },
     { key = "already_uploading", text = "È già in corso il caricamento di un build. Attendi il completamento dell'operazione." },
     { key = "could_not_read_equipment", text = "Impossibile leggere l'equipaggiamento attuale." },
     { key = "failed_to_connect", text = "Connessione al Build Planner non riuscita." },

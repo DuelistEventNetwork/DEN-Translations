@@ -76,7 +76,6 @@ description = """\
 [menu]
 entries = [
     { id = 460000, text = "语音聊天音量" },
-    { id = 460010, text = "<?codenamePCName?>的音量" },
     { id = 460020, text = "显示延迟状况" },
     { id = 460030, text = "仅友方" },
     { id = 469900, text = "DEN 赛场模组" },
@@ -135,6 +134,7 @@ entries = [
 
 [custom]
 entries = [
+    { key = "player_volume", text = "{0}的音量" },
     { key = "already_uploading", text = "已经在上传构建了，请稍候。" },
     { key = "could_not_read_equipment", text = "无法读取当前装备。" },
     { key = "failed_to_connect", text = "无法连接构建规划器。" },

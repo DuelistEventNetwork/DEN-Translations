@@ -78,7 +78,6 @@ description = """\
 [menu]
 entries = [
     { id = 460000, text = "ボイスチャットの音量" },
-    { id = 460010, text = "<?codenamePCName?>の音量" },
     { id = 460020, text = "レイテンシ　オーバーレイ" },
     { id = 460030, text = "友好的な相手のみ" },
     { id = 469900, text = "DENマップ" },
@@ -137,6 +136,7 @@ entries = [
 
 [custom]
 entries = [
+    { key = "player_volume", text = "{0}の音量" },
     { key = "already_uploading", text = "ビルドをアップロード中です。完了するまでお待ちください。" },
     { key = "could_not_read_equipment", text = "現在の装備を読み取れませんでした。" },
     { key = "failed_to_connect", text = "ビルドプランナーに接続できませんでした。" },
