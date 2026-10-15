@@ -131,8 +131,12 @@ entries = [
     { id = 4600404, text = "Campana llamadora de fantasmas activa." },
     { id = 4600405, text = "Campana llamadora de fantasmas inactiva." },
     { id = 4600406, text = "No hay espacio para más fantasmas." },
-    { id = 4600407, text = "Modo espectador. <?kgAttackL?>/<?kgAttackR?> para cambiar a quién observas." },
+    { id = 4600407, text = "Has muerto. <?kgAttackL?>/<?kgAttackR?> para cambiar a quién observas. 40 segundos para revivir." },
     { id = 4600408, text = "Tus enemigos han sido derrotados. Volviendo a tu cuerpo." },
+    { id = 4600411, text = "Has muerto. <?kgAttackL?>/<?kgAttackR?> para cambiar a quién observas. 2 minutos para revivir." },
+    { id = 4600412, text = "<?lineHelp?> ha muerto. Ve a la gracia para revivir al jugador. Quedan 40 segundos." },
+    { id = 4600413, text = "<?lineHelp?> ha muerto. Ve a la gracia para revivir al jugador. Quedan 2 minutos." },
+    { id = 4600414, text = "10 segundos para morir." },
 ]
 
 [system]

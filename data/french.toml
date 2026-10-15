@@ -131,8 +131,12 @@ entries = [
     { id = 4600404, text = "Cloche d'appel des esprits active." },
     { id = 4600405, text = "Cloche d'appel des esprits inactive." },
     { id = 4600406, text = "Plus de place pour d'autres esprits." },
-    { id = 4600407, text = "Mode spectateur. <?kgAttackL?>/<?kgAttackR?> pour changer de joueur observé." },
+    { id = 4600407, text = "Vous avez succombé. <?kgAttackL?>/<?kgAttackR?> pour changer de joueur observé. 40 secondes pour être réanimé." },
     { id = 4600408, text = "Vos adversaires ont été vaincus. Retour à votre corps." },
+    { id = 4600411, text = "Vous avez succombé. <?kgAttackL?>/<?kgAttackR?> pour changer de joueur observé. 2 minutes pour être réanimé." },
+    { id = 4600412, text = "<?lineHelp?> a succombé. Rejoignez la grâce pour réanimer ce joueur. 40 secondes restantes." },
+    { id = 4600413, text = "<?lineHelp?> a succombé. Rejoignez la grâce pour réanimer ce joueur. 2 minutes restantes." },
+    { id = 4600414, text = "10 secondes avant la mort." },
 ]
 
 [system]
