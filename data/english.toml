@@ -146,10 +146,10 @@ entries = [
     { id = 4600406, text = "No free slots for more phantoms." },
     { id = 4600407, text = "You died. <?kgAttackL?>/<?kgAttackR?> to change who you are watching. 40 seconds to be revived." },
     { id = 4600408, text = "Your foes have been defeated. Returning to your body." },
-    { id = 4600411, text = "You died. <?kgAttackL?>/<?kgAttackR?> to change who you are watching. 2 minutes to be revived." },
-    { id = 4600412, text = "<?lineHelp?> died. Head to the grace to revive them. 40 seconds remaining." },
-    { id = 4600413, text = "<?lineHelp?> died. Head to the grace to revive them. 2 minutes remaining." },
-    { id = 4600414, text = "10 seconds until death." },
+    { id = 4600409, text = "You died. <?kgAttackL?>/<?kgAttackR?> to change who you are watching. 2 minutes to be revived." },
+    { id = 4600410, text = "<?lineHelp?> died. Head to the grace to revive them. 40 seconds remaining." },
+    { id = 4600411, text = "<?lineHelp?> died. Head to the grace to revive them. 2 minutes remaining." },
+    { id = 4600412, text = "10 seconds until death." },
 ]
 
 [system]

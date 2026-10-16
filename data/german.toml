@@ -133,10 +133,10 @@ entries = [
     { id = 4600406, text = "Keine freien Plätze für weitere Phantome." },
     { id = 4600407, text = "Du bist gestorben. <?kgAttackL?>/<?kgAttackR?> zum Wechseln der beobachteten Person. 40 Sekunden bis zur Wiederbelebung." },
     { id = 4600408, text = "Deine Gegner wurden besiegt. Rückkehr in deinen Körper." },
-    { id = 4600411, text = "Du bist gestorben. <?kgAttackL?>/<?kgAttackR?> zum Wechseln der beobachteten Person. 2 Minuten bis zur Wiederbelebung." },
-    { id = 4600412, text = "<?lineHelp?> ist gestorben. Geh zur Gnade, um die Person wiederzubeleben. Noch 40 Sekunden." },
-    { id = 4600413, text = "<?lineHelp?> ist gestorben. Geh zur Gnade, um die Person wiederzubeleben. Noch 2 Minuten." },
-    { id = 4600414, text = "Noch 10 Sekunden bis zum Tod." },
+    { id = 4600409, text = "Du bist gestorben. <?kgAttackL?>/<?kgAttackR?> zum Wechseln der beobachteten Person. 2 Minuten bis zur Wiederbelebung." },
+    { id = 4600410, text = "<?lineHelp?> ist gestorben. Geh zur Gnade, um die Person wiederzubeleben. Noch 40 Sekunden." },
+    { id = 4600411, text = "<?lineHelp?> ist gestorben. Geh zur Gnade, um die Person wiederzubeleben. Noch 2 Minuten." },
+    { id = 4600412, text = "Noch 10 Sekunden bis zum Tod." },
 ]
 
 [system]

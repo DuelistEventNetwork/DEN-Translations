@@ -133,10 +133,10 @@ entries = [
     { id = 4600406, text = "Nessuno spazio libero per altri fantasmi." },
     { id = 4600407, text = "Hai perso la vita. <?kgAttackL?>/<?kgAttackR?> per cambiare chi stai guardando. Rianimazione possibile entro 40 secondi." },
     { id = 4600408, text = "I tuoi nemici sono stati sconfitti. Ritorno al tuo corpo." },
-    { id = 4600411, text = "Hai perso la vita. <?kgAttackL?>/<?kgAttackR?> per cambiare chi stai guardando. Rianimazione possibile entro 2 minuti." },
-    { id = 4600412, text = "<?lineHelp?> ha perso la vita. Raggiungi la grazia per rianimare il giocatore. Restano 40 secondi." },
-    { id = 4600413, text = "<?lineHelp?> ha perso la vita. Raggiungi la grazia per rianimare il giocatore. Restano 2 minuti." },
-    { id = 4600414, text = "10 secondi alla morte." },
+    { id = 4600409, text = "Hai perso la vita. <?kgAttackL?>/<?kgAttackR?> per cambiare chi stai guardando. Rianimazione possibile entro 2 minuti." },
+    { id = 4600410, text = "<?lineHelp?> ha perso la vita. Raggiungi la grazia per rianimare il giocatore. Restano 40 secondi." },
+    { id = 4600411, text = "<?lineHelp?> ha perso la vita. Raggiungi la grazia per rianimare il giocatore. Restano 2 minuti." },
+    { id = 4600412, text = "10 secondi alla morte." },
 ]
 
 [system]

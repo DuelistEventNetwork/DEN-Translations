@@ -133,10 +133,10 @@ entries = [
     { id = 4600406, text = "Sem espaço para mais fantasmas." },
     { id = 4600407, text = "Você morreu. <?kgAttackL?>/<?kgAttackR?> para mudar quem você observa. 40 segundos para reviver." },
     { id = 4600408, text = "Seus inimigos foram derrotados. Retornando ao seu corpo." },
-    { id = 4600411, text = "Você morreu. <?kgAttackL?>/<?kgAttackR?> para mudar quem você observa. 2 minutos para reviver." },
-    { id = 4600412, text = "<?lineHelp?> morreu. Vá até a graça para reviver o jogador. Restam 40 segundos." },
-    { id = 4600413, text = "<?lineHelp?> morreu. Vá até a graça para reviver o jogador. Restam 2 minutos." },
-    { id = 4600414, text = "10 segundos até a morte." },
+    { id = 4600409, text = "Você morreu. <?kgAttackL?>/<?kgAttackR?> para mudar quem você observa. 2 minutos para reviver." },
+    { id = 4600410, text = "<?lineHelp?> morreu. Vá até a graça para reviver o jogador. Restam 40 segundos." },
+    { id = 4600411, text = "<?lineHelp?> morreu. Vá até a graça para reviver o jogador. Restam 2 minutos." },
+    { id = 4600412, text = "10 segundos até a morte." },
 ]
 
 [system]
