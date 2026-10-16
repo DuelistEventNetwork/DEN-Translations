@@ -132,7 +132,7 @@ entries = [
     { id = 4600405, text = "Sino de Chamado de Fantasmas inativo." },
     { id = 4600406, text = "Sem espaço para mais fantasmas." },
     { id = 4600407, text = "Você morreu. <?kgAttackL?>/<?kgAttackR?> para mudar quem você observa. 40 segundos para reviver." },
-    { id = 4600408, text = "Seus inimigos foram derrotados. Retornando ao seu corpo." },
+    { id = 4600408, text = "Seu time reviveu você." },
     { id = 4600409, text = "Você morreu. <?kgAttackL?>/<?kgAttackR?> para mudar quem você observa. 2 minutos para reviver." },
     { id = 4600410, text = "<?lineHelp?> morreu. Vá até a graça para reviver o jogador. Restam 40 segundos." },
     { id = 4600411, text = "<?lineHelp?> morreu. Vá até a graça para reviver o jogador. Restam 2 minutos." },

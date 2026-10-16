@@ -134,7 +134,7 @@ entries = [
     { id = 4600405, text = "Dzwonek przyzywania duchów nieaktywny." },
     { id = 4600406, text = "Brak miejsca na kolejne duchy." },
     { id = 4600407, text = "Nie żyjesz. <?kgAttackL?>/<?kgAttackR?>, aby zmienić obserwowaną osobę. 40 sekund na wskrzeszenie." },
-    { id = 4600408, text = "Twoi wrogowie zostali pokonani. Powrót do ciała." },
+    { id = 4600408, text = "Twoja drużyna cię wskrzesiła." },
     { id = 4600409, text = "Nie żyjesz. <?kgAttackL?>/<?kgAttackR?>, aby zmienić obserwowaną osobę. 2 minuty na wskrzeszenie." },
     { id = 4600410, text = "Gracz <?lineHelp?> nie żyje. Udaj się do łaski, aby wskrzesić gracza. Pozostało 40 sekund." },
     { id = 4600411, text = "Gracz <?lineHelp?> nie żyje. Udaj się do łaski, aby wskrzesić gracza. Pozostały 2 minuty." },
