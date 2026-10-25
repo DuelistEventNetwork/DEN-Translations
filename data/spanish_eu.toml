@@ -131,11 +131,11 @@ entries = [
     { id = 4600404, text = "Campana llamadora de fantasmas activa." },
     { id = 4600405, text = "Campana llamadora de fantasmas inactiva." },
     { id = 4600406, text = "No hay espacio para más fantasmas." },
-    { id = 4600407, text = "Has muerto. <?kgAttackL?>/<?kgAttackR?> para cambiar a quién observas. 40 segundos para revivir." },
+    { id = 4600407, text = "Has muerto. <?kgAttackL?>/<?kgAttackR?> para cambiar a quién observas. Mantén ambos para rendirte. <?Test?> para revivir." },
     { id = 4600408, text = "Tu equipo te ha revivido." },
-    { id = 4600409, text = "Has muerto. <?kgAttackL?>/<?kgAttackR?> para cambiar a quién observas. 2 minutos para revivir." },
-    { id = 4600410, text = "<?lineHelp?> ha muerto. Ve a la gracia para revivir al jugador. Quedan 40 segundos." },
-    { id = 4600411, text = "<?lineHelp?> ha muerto. Ve a la gracia para revivir al jugador. Quedan 2 minutos." },
+    { id = 4600409, text = "Quedan <?Test?> para morir." },
+    { id = 4600410, text = "<?lineHelp?> ha muerto. Ve a la gracia para revivir al jugador. Quedan <?Test?>." },
+    { id = 4600411, text = "<?lineHelp?> tiene <?Test?> restantes. Ve a la gracia para revivir al jugador." },
     { id = 4600412, text = "10 segundos para morir." },
 ]
 

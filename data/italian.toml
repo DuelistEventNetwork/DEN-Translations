@@ -131,11 +131,11 @@ entries = [
     { id = 4600404, text = "Campana di richiamo dei fantasmi attiva." },
     { id = 4600405, text = "Campana di richiamo dei fantasmi inattiva." },
     { id = 4600406, text = "Nessuno spazio libero per altri fantasmi." },
-    { id = 4600407, text = "Hai perso la vita. <?kgAttackL?>/<?kgAttackR?> per cambiare chi stai guardando. Rianimazione possibile entro 40 secondi." },
+    { id = 4600407, text = "Hai perso la vita. <?kgAttackL?>/<?kgAttackR?> per cambiare chi stai guardando. Tieni premuti entrambi per arrenderti. <?Test?> per essere rianimato." },
     { id = 4600408, text = "La tua squadra ti ha fatto tornare in vita." },
-    { id = 4600409, text = "Hai perso la vita. <?kgAttackL?>/<?kgAttackR?> per cambiare chi stai guardando. Rianimazione possibile entro 2 minuti." },
-    { id = 4600410, text = "<?lineHelp?> ha perso la vita. Raggiungi la grazia per rianimare il giocatore. Restano 40 secondi." },
-    { id = 4600411, text = "<?lineHelp?> ha perso la vita. Raggiungi la grazia per rianimare il giocatore. Restano 2 minuti." },
+    { id = 4600409, text = "Restano <?Test?> alla morte." },
+    { id = 4600410, text = "<?lineHelp?> ha perso la vita. Raggiungi la grazia per rianimare il giocatore. Restano <?Test?>." },
+    { id = 4600411, text = "<?lineHelp?> ha ancora <?Test?>. Raggiungi la grazia per rianimare il giocatore." },
     { id = 4600412, text = "10 secondi alla morte." },
 ]
 
